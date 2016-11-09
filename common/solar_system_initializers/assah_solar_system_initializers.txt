@@ -1,0 +1,356 @@
+assah_system_initializer = {
+    name = "Assah"
+    class = "sc_g"
+
+
+    planet = {
+        name = "Assah"
+        class = star
+        size = { min = 20 max = 35 }
+        orbit_distance = 0
+        orbit_angle = 0
+    }
+
+    planet = {
+        name = "Assah I"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 30 max = 40 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Assah II"
+        class = "pc_toxic"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Assah III"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Assah III - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Assah IV"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Assah IV - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Assah V"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Assah V - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah V - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah V - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah V - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah V - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah V - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah V - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah V - Moon 8"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Assah VI"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Assah VI - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VI - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VI - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VI - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VI - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VI - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VI - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Assah VII"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Assah VII - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VII - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VII - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VII - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VII - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VII - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Assah VIII"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Assah VIII - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VIII - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VIII - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VIII - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VIII - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VIII - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah VIII - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Assah IX"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Assah IX - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Assah IX - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+}
+

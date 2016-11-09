@@ -1,0 +1,328 @@
+hahda_system_initializer = {
+    name = "Hahda"
+    class = "sc_m"
+
+
+    planet = {
+        name = "Hahda"
+        class = star
+        size = { min = 20 max = 35 }
+        orbit_distance = 0
+        orbit_angle = 0
+    }
+
+    planet = {
+        name = "Hahda I"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 30 max = 40 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda I - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda II"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda II - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda III"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda III - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda IV"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda IV - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda IV - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda IV - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda IV - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda IV - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda IV - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda V"
+        class = "pc_arid"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda V - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda V - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda V - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda VI"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda VI - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VI - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VI - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VI - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VI - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VI - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VI - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda VII"
+        class = "pc_ocean"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda VII - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda VIII"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda VIII - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VIII - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VIII - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VIII - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda VIII - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hahda IX"
+        class = "pc_arctic"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hahda X"
+        class = "pc_frozen"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hahda X - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hahda X - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+}
+

@@ -1,0 +1,314 @@
+kamokor_system_initializer = {
+    name = "Kamokor"
+    class = "sc_m"
+
+
+    planet = {
+        name = "Kamokor"
+        class = star
+        size = { min = 20 max = 35 }
+        orbit_distance = 0
+        orbit_angle = 0
+    }
+
+    planet = {
+        name = "Kamokor I"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 30 max = 40 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Kamokor II"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Kamokor III"
+        class = "pc_continental"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Kamokor III - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Kamokor IV"
+        class = "pc_arid"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Kamokor IV - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor IV - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor IV - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor IV - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Kamokor V"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Kamokor V - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor V - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor V - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor V - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor V - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor V - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor V - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Kamokor VI"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Kamokor VI - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VI - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VI - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VI - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VI - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VI - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VI - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Kamokor VII"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Kamokor VII - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VII - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VII - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VII - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VII - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Kamokor VIII"
+        class = "pc_frozen"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Kamokor VIII - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VIII - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VIII - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Kamokor VIII - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+}
+

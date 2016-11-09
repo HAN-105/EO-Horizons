@@ -1,0 +1,338 @@
+hysera_system_initializer = {
+    name = "Hysera"
+    class = "sc_f"
+
+
+    planet = {
+        name = "Hysera"
+        class = star
+        size = { min = 20 max = 35 }
+        orbit_distance = 0
+        orbit_angle = 0
+    }
+
+    planet = {
+        name = "Hysera I"
+        class = "pc_toxic"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 30 max = 40 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hysera I - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera I - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hysera II"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hysera II - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera II - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera II - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera II - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera II - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera II - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hysera III"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hysera III - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera III - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera III - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera III - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera III - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera III - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hysera IV"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hysera IV - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera IV - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera IV - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera IV - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera IV - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera IV - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera IV - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hysera V"
+        class = "pc_frozen"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hysera V - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera V - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera V - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera V - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera V - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera V - Moon 6"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera V - Moon 7"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hysera V - Moon 8"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hysera VI"
+        class = "pc_tropical"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hysera VII"
+        class = "pc_toxic"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hysera VIII"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hysera IX"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hysera IX - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+}
+

@@ -1,0 +1,202 @@
+hror_system_initializer = {
+    name = "Hror"
+    class = "sc_g"
+
+
+    planet = {
+        name = "Hror"
+        class = star
+        size = { min = 20 max = 35 }
+        orbit_distance = 0
+        orbit_angle = 0
+    }
+
+    planet = {
+        name = "Hror I"
+        class = "pc_molten"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 30 max = 40 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hror II"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hror III"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hror IV"
+        class = "pc_arctic"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hror IV - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hror V"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hror V - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hror VI"
+        class = "pc_desert"
+        size = { min = 12 max = 30 }
+        orbit_distance = 20
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hror VI - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hror VII"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hror VII - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hror VIII"
+        class = "pc_tundra"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hror IX"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+
+    planet = {
+        name = "Hror X"
+        class = "pc_gas_giant"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hror X - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hror X - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hror X - Moon 3"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hror X - Moon 4"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hror X - Moon 5"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+
+    planet = {
+        name = "Hror XI"
+        class = "pc_tropical"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 25 max = 35 }
+        orbit_angle = { min = 30 max = 270 }
+
+        change_orbit = 10
+
+        moon = {
+            name = "Hror XI - Moon 1"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+
+        moon = {
+            name = "Hror XI - Moon 2"
+            class = random_non_colonizable
+            size = { min = 1 max = 12 }
+            orbit_distance = { min = 2 max = 5 }
+            orbit_angle = { min = 30 max = 270 }
+        }
+    }
+}
+

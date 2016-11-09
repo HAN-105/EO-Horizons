@@ -1,0 +1,50 @@
+ore
+={
+	flags = { ore }
+	flags = { shield_faction }
+	flags = { hybrid_faction }
+	name_list="GAL1"
+	ship_prefix="ORE"
+	species_name="Gallente"
+	species_plural="Gallente"
+	species_class="GAL"
+	species_adjective="Gallente"
+	portrait="gallente"
+	name="Outer Ring Excavations"
+	adjective="ORE"
+	government="plutocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="4C-B7X VI"
+	planet_class="pc_ocean"
+	system_name="4C-B7X"
+	initializer="ore"
+	graphical_culture="gallente_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="eve_online"
+			file="ore.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Yani Sar Arteu"
+		portrait="gallente_male3"
+	}
+	spawn_enabled=no
+	ethic="ethic_materialist"
+	ethic="ethic_pacifist"
+	ethic="ethic_individualist"
+	trait="trait_ore"
+}

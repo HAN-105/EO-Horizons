@@ -1,0 +1,56 @@
+"Servant Sisters of Eve"
+={
+	flags = { sisters_of_eve }
+	flags = { shield_faction }
+	flags = { hybrid_faction }
+	name_list="GAL1"
+	ship_prefix="SOE"
+	species_name="Sisters of EvE"
+	species_plural="Sisters"
+	species_class="GAL"
+	species_adjective="Sisters"
+	species_bio=""
+	portrait="gallente"
+	name="Servant Sisters of Eve"
+	adjective="Sisters"
+	government="peaceful_bureaucracy"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="X-7OMU Prime"
+	planet_class="pc_arid"
+	system_name="X-7OMU"
+	initializer=""
+	graphical_culture="gallente_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="eve_online"
+			file="soe_alternate.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"turquoise"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Santimona Sarpati "
+		portrait="gallente_female2"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="CEO"
+	}
+	spawn_enabled=no
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
+	trait="trait_charismatic"
+	trait="trait_weak"
+	trait="trait_sisters_of_eve"
+}

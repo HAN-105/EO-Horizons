@@ -1,0 +1,44 @@
+# Generated species derive their names from here
+
+AMR = {
+	amarr = {
+		name = "Amarr"
+		plural = "Amarrians"
+		home_planet = "Amarr Prime"
+		home_system = "Amarr"
+		name_list = "AMR1"
+	}
+	
+	
+	khanid = {
+		name = "Khanid"
+		plural = "Khanid"
+		home_planet = "Amarr Prime"
+		home_system = "Amarr"
+		name_list = "AMR1"
+	}
+	
+	udorian = {
+		name = "Udorian"
+		plural = "Udorians"
+		home_planet = "Amarr Prime"
+		home_system = "Amarr"
+		name_list = "AMR1"
+	}
+	
+	ealur = {
+		name = "Ealur"
+		plural = "Ealurians"
+		home_planet = "Ealur Prime"
+		home_system = "Ealur"
+		name_list = "AMR1"
+	}
+	
+	ni_kunni = {
+		name = "Ni-Kunni"
+		plural = "Ni-Kunnis"
+		home_planet = "Mishi Prime"
+		home_system = "Mishi"
+		name_list = "AMR1"
+	}
+}

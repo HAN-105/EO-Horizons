@@ -1,0 +1,257 @@
+@invis_scale = 0.1
+@main_scale = 0.2
+#########################################################################
+#####																#####
+##W##							FRIGATES							##W##
+#####																#####
+#########################################################################
+
+################# SCIENCE ################
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "gallente_01_imicus_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_imicus.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "imicus_hull"
+			index = 0
+			texture_diffuse = "gallente_01_imicus_diffuse.dds"
+			texture_normal = "gallente_01_imicus_normal.dds"
+			texture_specular = "gallente_01_imicus_specular.dds"
+			shader = "PdxMeshShip"
+        }
+    }
+}
+
+################# MILITARY ################
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_incursus_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_incursus.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "incursus_hull"
+			index = 0
+			texture_diffuse = "gallente_01_incursus_diffuse.dds"
+			texture_normal = "gallente_01_incursus_normal.dds"
+			texture_specular = "gallente_01_incursus_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							DESTROYER							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_catalyst_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_catalyst.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "catalyst_hull"
+			index = 0
+			texture_diffuse = "gallente_01_catalyst_diffuse.dds"
+			texture_normal = "gallente_01_catalyst_normal.dds"
+			texture_specular = "gallente_01_catalyst_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_catalyst_BOW_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_catalyst.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "catalyst_hull"
+			index = 0
+			texture_diffuse = "gallente_01_catalyst_diffuse.dds"
+			texture_normal = "gallente_01_catalyst_normal.dds"
+			texture_specular = "gallente_01_catalyst_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_catalyst_STERN_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_catalyst.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "catalyst_hull"
+			index = 0
+			texture_diffuse = "gallente_01_catalyst_diffuse.dds"
+			texture_normal = "gallente_01_catalyst_normal.dds"
+			texture_specular = "gallente_01_catalyst_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							CRUISER								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_thorax_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_thorax.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "thorax_hull"
+			index = 0
+			texture_diffuse = "gallente_01_thorax_diffuse.dds"
+			texture_normal = "gallente_01_thorax_normal.dds"
+			texture_specular = "gallente_01_thorax_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_thorax_STERN_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_thorax.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "thorax_hull"
+			index = 0
+			texture_diffuse = "gallente_01_thorax_diffuse.dds"
+			texture_normal = "gallente_01_thorax_normal.dds"
+			texture_specular = "gallente_01_thorax_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_thorax_MID_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_thorax.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "thorax_hull"
+			index = 0
+			texture_diffuse = "gallente_01_thorax_diffuse.dds"
+			texture_normal = "gallente_01_thorax_normal.dds"
+			texture_specular = "gallente_01_thorax_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_thorax_BOW_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_thorax.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "thorax_hull"
+			index = 0
+			texture_diffuse = "gallente_01_thorax_diffuse.dds"
+			texture_normal = "gallente_01_thorax_normal.dds"
+			texture_specular = "gallente_01_thorax_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##						BATTLESHIP								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_megathron_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_megathron.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "megathron_hull"
+			index = 0
+			texture_diffuse = "gallente_01_megathron_diffuse.dds"
+			texture_normal = "gallente_01_megathron_normal.dds"
+			texture_specular = "gallente_01_megathron_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_megathron_STERN_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_megathron.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "megathron_hull"
+			index = 0
+			texture_diffuse = "gallente_01_megathron_diffuse.dds"
+			texture_normal = "gallente_01_megathron_normal.dds"
+			texture_specular = "gallente_01_megathron_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_megathron_MID_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_megathron.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "megathron_hull"
+			index = 0
+			texture_diffuse = "gallente_01_megathron_diffuse.dds"
+			texture_normal = "gallente_01_megathron_normal.dds"
+			texture_specular = "gallente_01_megathron_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_megathron_BOW_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_megathron.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "megathron_hull"
+			index = 0
+			texture_diffuse = "gallente_01_megathron_diffuse.dds"
+			texture_normal = "gallente_01_megathron_normal.dds"
+			texture_specular = "gallente_01_megathron_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

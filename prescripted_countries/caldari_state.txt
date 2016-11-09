@@ -1,0 +1,51 @@
+caldari 
+= {
+	flags = { caldari_state }
+	flags = { shield_faction }
+	flags = { missile_faction }
+	name_list="CLD1"
+	ship_prefix="CLD"
+	species_name="Caldari"
+	species_plural="Caldari"
+	species_class="CLD"
+	species_adjective="Caldari"
+	portrait="caldari"
+	name="Caldari State"
+	adjective="Caldari State"
+	government="plutocratic_oligarchy"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Caldari Prime"
+	planet_class="pc_arctic"
+	system_name="New Caldari"
+	initializer="caldari_state"
+	graphical_culture="caldari_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="eve_online"
+			file="caldari.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mens Reppola"
+		portrait="caldari"
+	}
+	spawn_enabled=no
+	ethic="ethic_militarist"
+	ethic="ethic_fanatic_materialist"
+	trait="trait_communal"
+	trait="trait_sedentary"
+	trait="trait_deteis"
+}

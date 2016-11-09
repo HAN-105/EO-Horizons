@@ -1,0 +1,22 @@
+new_eden_system_initializer = {
+    name = "New Eden"
+    class = "sc_k"
+
+
+    planet = {
+        name = "New Eden"
+        class = star
+        size = { min = 20 max = 35 }
+        orbit_distance = 0
+        orbit_angle = 0
+    }
+
+    planet = {
+        name = "New Eden I"
+        class = "pc_barren"
+        size = { min = 12 max = 30 }
+        orbit_distance = { min = 30 max = 40 }
+        orbit_angle = { min = 30 max = 270 }
+    }
+}
+

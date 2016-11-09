@@ -1,0 +1,256 @@
+@invis_scale = 0.1
+@main_scale = 0.2
+
+
+
+#########################################################################
+#####																#####
+##W##							FRIGATES							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+    pdxmesh = {
+        name = "amarr_01_magnate_mesh"
+        file = "gfx/models/ships/amarr_01/amarr_01_magnate.mesh"
+        scale = @main_scale
+
+        meshsettings = {
+			name = "magnate_hull"
+			index = 0
+			texture_diffuse = "amarr_01_magnate_diffuse.dds"
+			texture_normal = "amarr_01_magnate_normal.dds"
+			texture_specular = "amarr_01_magnate_specular.dds"
+			shader = "PdxMeshShip"
+        }
+    }
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_tormentor_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_tormentor.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "tormentor_hull"
+			index = 0
+			texture_diffuse = "amarr_01_tormentor_diffuse.dds"
+			texture_normal = "amarr_01_tormentor_normal.dds"
+			texture_specular = "amarr_01_tormentor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							DESTROYER							##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_coercer_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_coercer.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "coercer_hull"
+			index = 0
+			texture_diffuse = "amarr_01_coercer_diffuse.dds"
+			texture_normal = "amarr_01_coercer_normal.dds"
+			texture_specular = "amarr_01_coercer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_coercer_BOW_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_coercer.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "coercer_hull"
+			index = 0
+			texture_diffuse = "amarr_01_coercer_diffuse.dds"
+			texture_normal = "amarr_01_coercer_normal.dds"
+			texture_specular = "amarr_01_coercer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_coercer_STERN_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_coercer.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "coercer_hull"
+			index = 0
+			texture_diffuse = "amarr_01_coercer_diffuse.dds"
+			texture_normal = "amarr_01_coercer_normal.dds"
+			texture_specular = "amarr_01_coercer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##							CRUISER								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_omen_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_omen.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "omen_hull"
+			index = 0
+			texture_diffuse = "amarr_01_omen_diffuse.dds"
+			texture_normal = "amarr_01_omen_normal.dds"
+			texture_specular = "amarr_01_omen_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_omen_STERN_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_omen.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "omen_hull"
+			index = 0
+			texture_diffuse = "amarr_01_omen_diffuse.dds"
+			texture_normal = "amarr_01_omen_normal.dds"
+			texture_specular = "amarr_01_omen_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_omen_MID_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_omen.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "omen_hull"
+			index = 0
+			texture_diffuse = "amarr_01_omen_diffuse.dds"
+			texture_normal = "amarr_01_omen_normal.dds"
+			texture_specular = "amarr_01_omen_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_omen_BOW_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_omen.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "omen_hull"
+			index = 0
+			texture_diffuse = "amarr_01_omen_diffuse.dds"
+			texture_normal = "amarr_01_omen_normal.dds"
+			texture_specular = "amarr_01_omen_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#########################################################################
+#####																#####
+##W##						BATTLESHIP								##W##
+#####																#####
+#########################################################################
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_apocalypse_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_apocalypse.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "apocalypse_hull"
+			index = 0
+			texture_diffuse = "amarr_01_apocalypse_diffuse.dds"
+			texture_normal = "amarr_01_apocalypse_normal.dds"
+			texture_specular = "amarr_01_apocalypse_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#STERN############
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_apocalypse_STERN_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_apocalypse.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "apocalypse_hull"
+			index = 0
+			texture_diffuse = "amarr_01_apocalypse_diffuse.dds"
+			texture_normal = "amarr_01_apocalypse_normal.dds"
+			texture_specular = "amarr_01_apocalypse_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#MID############
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_apocalypse_MID_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_apocalypse.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "apocalypse_hull"
+			index = 0
+			texture_diffuse = "amarr_01_apocalypse_diffuse.dds"
+			texture_normal = "amarr_01_apocalypse_normal.dds"
+			texture_specular = "amarr_01_apocalypse_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+#BOW############
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_apocalypse_BOW_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_apocalypse.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "apocalypse_hull"
+			index = 0
+			texture_diffuse = "amarr_01_apocalypse_diffuse.dds"
+			texture_normal = "amarr_01_apocalypse_normal.dds"
+			texture_specular = "amarr_01_apocalypse_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

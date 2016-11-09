@@ -1,0 +1,51 @@
+# Generated species derive their names from here
+
+CLD = {
+	caldari = {
+		name = "Caldari"
+		plural = "Caldari"
+		home_planet = "Caldari Prime"
+		home_system = "Luminaire"
+		name_list = "CLD"
+	}
+	
+	deteis = {
+		name = "Deteis"
+		plural = "Deteis"
+		home_planet = "Caldari Prime"
+		home_system = "Luminaire"
+		name_list = "CLD"
+	}
+	
+	civire = {
+		name = "Civire"
+		plural = "Civire"
+		home_planet = "Caldari Prime"
+		home_system = "Luminaire"
+		name_list = "CLD"
+	}
+	
+	achura = {
+		name = "Achura"
+		plural = "Achuras"
+		home_planet = "Sasio Prime"
+		home_system = "Sasio"
+		name_list = "CLD"
+	}
+	
+	oryioni = {
+		name = "Oryioni"
+		plural = "Oryionis"
+		home_planet = "Caldari Prime"
+		home_system = "Luminaire"
+		name_list = "CLD"
+	}
+	
+	fuukiuye = {
+		name = "Fuukiuye"
+		plural = "Fuukiuyes"
+		home_planet = "Caldari Prime"
+		home_system = "Luminaire"
+		name_list = "CLD"
+	}
+}

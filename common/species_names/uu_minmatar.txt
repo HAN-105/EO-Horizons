@@ -1,0 +1,67 @@
+# Generated species derive their names from here
+
+MIN = {
+	minmatar = {
+		name = "Minmatar"
+		plural = "Minmatar"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+	
+	brutor = {
+		name = "Brutor"
+		plural = "Brutors"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+	
+	sebiestor = {
+		name = "Sebiestor"
+		plural = "Sebiestors"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+	
+	krusual = {
+		name = "Krusual"
+		plural = "Krusuals"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+	
+	vherokior = {
+		name = "Vherokior"
+		plural = "Vherokiors"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+	
+	thukker = {
+		name = "Thukker"
+		plural = "Thukkers"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+	
+	nefantar = {
+		name = "Nefantar"
+		plural = "Nefantars"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+	
+	starkmanir = {
+		name = "Starkmanir"
+		plural = "Starkmanirs"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "MIN1"
+	}
+}

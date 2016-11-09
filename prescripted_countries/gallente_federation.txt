@@ -1,0 +1,54 @@
+gallente 
+= {
+	flags = { gallente_federation }
+	flags = { shield_faction }
+	flags = { hybrid_faction }
+	name_list="GAL1"
+	ship_prefix="GAL"
+	species_name="Gallente"
+	species_plural="Gallenteans"
+	species_class="GAL"
+	species_adjective="Gallentean"
+	portrait="gallente"
+	name="Gallente Federation"
+	adjective="Gallente federal"
+	government="indirect_democracy"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Gallente Prime"
+	planet_class="pc_ocean"
+	system_name="Luminaire"
+	initializer="gallente_federation"
+	graphical_culture="gallente_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="eve_online"
+			file="gallente.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_teal"
+			"black"
+			"null"
+			"null"
+		}
+
+	}
+	ruler={
+		gender=male
+		name="Mens Reppola"
+		portrait="gallente_male5"
+	}
+	spawn_enabled=no
+	ethic="ethic_individualist"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	trait="trait_ethnic_gallente"
+	trait="trait_deviants"
+	trait="trait_sedentary"
+	trait="trait_talented"
+}

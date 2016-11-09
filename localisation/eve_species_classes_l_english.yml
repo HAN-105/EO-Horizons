@@ -1,0 +1,98 @@
+﻿l_english:
+ # Graphical Culture
+ amarr_01:0 "Amarr"
+ 
+ # Name List
+ name_list_AMR1:0 "Amarrian"
+ name_list_AMR1_desc:0 " "
+ 
+ # Species Class
+ AMR:0 "Amarr"
+ AMR_desc:1 "Species Class has no effect on your Empire, but Amarr-class Species may consider other Amarrians to be less alien than other Species Classes."
+ AMR_plural:0 "Amarrians"
+ AMR_insult_01:0 "slaver"
+ AMR_insult_plural_01:0 "slavers"
+ AMR_compliment_01:0 "sphinx"
+ AMR_compliment_plural_01:0 "sphinxes"
+ AMR_spawn:0 "baby"
+ AMR_spawn_plural:0 "babies"
+ AMR_sound_01:0 "growling"
+ AMR_sound_02:0 "grunting"
+ AMR_sound_03:0 "yapping"
+ AMR_sound_04:0 "yowling"
+ AMR_sound_05:0 "mewling"
+ AMR_organ:0 "stomach"
+ AMR_mouth:0 "mouth"
+ 
+ minmatar_01:0 "minmatar"
+ 
+ # Name List
+ name_list_MIN1:0 "Minmatari"
+ name_list_MIN1_desc:0 " "
+ 
+ # Species Classes
+ MIN:0 "Minmatar"
+ MIN_desc:1 "Species Class has no effect on your Empire, but Minmatar-class Species may consider other Minmatari to be less alien than other Species Classes."
+ MIN_plural:0 "Minmatar"
+ MIN_insult_01:0 "beast"
+ MIN_insult_plural_01:0 "beasts"
+ MIN_compliment_01:0 "sphinx"
+ MIN_compliment_plural_01:0 "sphinxes"
+ MIN_spawn:0 "baby"
+ MIN_spawn_plural:0 "babies"
+ MIN_sound_01:0 "growling"
+ MIN_sound_02:0 "grunting"
+ MIN_sound_03:0 "yapping"
+ MIN_sound_04:0 "yowling"
+ MIN_sound_05:0 "mewling"
+ MIN_organ:0 "stomach"
+ MIN_mouth:0 "mouth"
+ 
+ gallente_01:0 "Gallente"
+ GAL:0 "Gallente"
+ 
+ # Name List
+ name_list_GAL1:0 "Gallente"
+ name_list_GAL1_desc:0 " "
+ 
+ # Species Classes
+ GAL_desc:1 "Species Class has no effect on your Empire, but Gallente-class Species may consider other Gallenteans to be less alien than other Species Classes."
+ GAL_plural:0 "Gallentean"
+ GAL_insult_01:0 "hedonist"
+ GAL_insult_plural_01:0 "hedonists"
+ GAL_compliment_01:0 "sphinx"
+ GAL_compliment_plural_01:0 "sphinxes"
+ GAL_spawn:0 "baby"
+ GAL_spawn_plural:0 "babies"
+ GAL_sound_01:0 "growling"
+ GAL_sound_02:0 "grunting"
+ GAL_sound_03:0 "yapping"
+ GAL_sound_04:0 "yowling"
+ GAL_sound_05:0 "mewling"
+ GAL_organ:0 "stomach"
+ GAL_mouth:0 "mouth"
+ 
+ caldari_01:0 "Caldari"
+ caldari_01_desc:1 "Species Class has no effect on your Empire, but Caldari Species may consider other Caldari to be less alien than other Species Classes."
+ 
+ # Name List
+ name_list_CLD1:0 "Caldari"
+ name_list_CLD1_desc:0 " "
+ 
+ # Species Class
+ CLD:0 "Caldari"
+ CLD_desc:1 "Species Class has no effect on your Empire, but Caldari-class Species may consider other Caldari to be less alien than other Species Classes."
+ CLD_plural:0 "Caldari"
+ CLD_insult_01:0 "corporate-drone"
+ CLD_insult_plural_01:0 "corporate-drones"
+ CLD_compliment_01:0 "patriot"
+ CLD_compliment_plural_01:0 "patriots"
+ CLD_spawn:0 "baby"
+ CLD_spawn_plural:0 "babies"
+ CLD_sound_01:0 "growling"
+ CLD_sound_02:0 "grunting"
+ CLD_sound_03:0 "yapping"
+ CLD_sound_04:0 "yowling"
+ CLD_sound_05:0 "mewling"
+ CLD_organ:0 "stomach"
+ CLD_mouth:0 "mouth"

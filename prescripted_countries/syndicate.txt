@@ -1,0 +1,50 @@
+syndicate
+={
+	flags = { syndicate }
+	flags = { shield_faction }
+	flags = { hybrid_faction }
+	name_list="GAL1"
+	ship_prefix="ISP"
+	species_name="Intaki"
+	species_plural="Intakis"
+	species_class="GAL"
+	species_adjective="Intakian"
+	portrait="gallente"
+	name="The Syndicate"
+	adjective="Syndicate"
+	government="military_dictatorship"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Poitot III"
+	planet_class="pc_arctic"
+	system_name="Poitot"
+	initializer="syndicate"
+	graphical_culture="gallente_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="eve_online"
+			file="syndicate.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"blue"
+			"red"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Silphy en Diabel"
+		portrait="gallente_female2"
+	}
+	spawn_enabled=no
+	ethic="ethic_xenophile"
+	ethic="ethic_spiritualist"
+	ethic="ethic_individualist"
+	trait="trait_syndicate"
+}

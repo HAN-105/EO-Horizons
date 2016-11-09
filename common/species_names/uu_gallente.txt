@@ -1,0 +1,35 @@
+# Generated species derive their names from here
+
+GAL = {
+	gallente = {
+		name = "Gallente"
+		plural = "Gallenteans"
+		home_planet = "Gallente Prime"
+		home_system = "Luminaire"
+		name_list = "GAL"
+	}
+	
+	intaki = {
+		name = "Intaki"
+		plural = "Intakis"
+		home_planet = "Intaki Prime"
+		home_system = "Intaki"
+		name_list = "GAL"
+	}
+	
+	mannar = {
+		name = "Mannar"
+		plural = "Mannarians"
+		home_planet = "Mannar Prime"
+		home_system = "Mannar"
+		name_list = "GAL"
+	}
+	
+	jin_mei = {
+		name = "Jin-Mei"
+		plural = "Jin-Mei"
+		home_planet = "Lirsautton Prime"
+		home_system = "Lirsautton"
+		name_list = "GAL"
+	}
+}

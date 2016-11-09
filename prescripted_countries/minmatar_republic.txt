@@ -1,0 +1,50 @@
+minmatar 
+={
+	flags = { minmatar_republic }
+	flags = { projectile_faction }
+	name_list="MIN1"
+	ship_prefix="MR"
+	species_name="Minmatar"
+	species_plural="Minmatar"
+	species_class="MIN"
+	species_adjective="Minmatari"
+	portrait="minmatar"
+	name="Minmatar Republic"
+	adjective="Minmatar Republican"
+	government="military_republic"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Matar"
+	planet_class="pc_tropical"
+	system_name="Pator"
+	initializer="minmatar_republic"
+	graphical_culture="minmatar_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="eve_online"
+			file="minmatar.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Maleatu Shakor"
+		portrait="minmatar"
+	}
+	spawn_enabled=no
+	ethic="ethic_fanatic_individualist"
+	ethic="ethic_militarist"
+	trait="trait_sebiestor"
+	trait="trait_nomadic"
+	trait="trait_deviants"
+}

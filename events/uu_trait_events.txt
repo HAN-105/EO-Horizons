@@ -1,0 +1,315 @@
+namespace = trait_events
+
+country_event = {
+	id = trait_events.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = trait_events.2 days = 5 }
+	}
+}
+
+
+### Racial Starting Bonus###
+country_event = {
+	id = trait_events.2
+	title = trait_events.2.name	
+	desc = {
+		trigger = {
+			switch = {
+				trigger = has_trait
+				trait_true_amarr 			= { text = trait_events.1.desc.true_amarr }
+				trait_ni_kunni 				= { text = trait_events.1.desc.ni_kunni }
+				trait_khanid 				= { text = trait_events.1.desc.khanid }
+				trait_ethnic_gallente 		= { text = trait_events.1.desc.ethnic_gallente }
+				trait_intaki 				= { text = trait_events.1.desc.intaki }
+				trait_mannar				= { text = trait_events.1.desc.mannar }
+				trait_jin_mei 				= { text = trait_events.1.desc.jin_mei }
+				trait_brutor 				= { text = trait_events.1.desc.brutor }
+				trait_sebiestor				= { text = trait_events.1.desc.sebiestor }
+				trait_vherokior				= { text = trait_events.1.desc.vherokior }
+				trait_thukker 				= { text = trait_events.1.desc.thukker }
+				trait_krusual 				= { text = trait_events.1.desc.krusual }
+				trait_nefantar 				= { text = trait_events.1.desc.nefantar }
+				trait_starkmanir			= { text = trait_events.1.desc.starkmanir }
+				trait_deteis 				= { text = trait_events.1.desc.deteis }
+				trait_civire 				= { text = trait_events.1.desc.civire }
+				trait_achura 				= { text = trait_events.1.desc.achura }
+				trait_ishukone_corporation	= { text = trait_events.1.desc.ishukone_corporation }
+				trait_sanshas_nation 		= { text = trait_events.1.desc.sanshas_nation }
+				trait_ammatar 				= { text = trait_events.1.desc.ammatar }
+				trait_ore 					= { text = trait_events.1.desc.ore }
+				trait_interbus 				= { text = trait_events.1.desc.interbus }
+				trait_mordus_legion 		= { text = trait_events.1.desc.mordus_legion }
+				trait_blood_raider 			= { text = trait_events.1.desc.blood_raider }
+				trait_angel 				= { text = trait_events.1.desc.angel }
+				trait_cbd_corporation 		= { text = trait_events.1.desc.cbd_corporation }
+				trait_lai_dai_corporation 	= { text = trait_events.1.desc.lai_dai_corporation }
+				trait_syndicate 			= { text = trait_events.1.desc.syndicate }
+				trait_guristas 				= { text = trait_events.1.desc.guristas }
+				trait_sisters_of_eve 		= { text = trait_events.1.desc.sisters_of_eve }
+				default 					= { text = trait_events.2.desc }
+			}
+		}
+	}
+	
+	
+	picture = GFX_evt_satellite_in_orbit
+	
+	trigger = {
+		OR = {
+			has_trait = trait_true_amarr
+			has_trait = trait_ni_kunni		
+			has_trait = trait_khanid
+			
+			has_trait = trait_ethnic_gallente
+			has_trait = trait_intaki
+			has_trait = trait_mannar
+			has_trait = trait_jin_mei
+			
+			has_trait = trait_brutor
+			has_trait = trait_sebiestor
+			has_trait = trait_vherokior
+			has_trait = trait_thukker
+			has_trait = trait_krusual
+			has_trait = trait_nefantar
+			has_trait = trait_starkmanir
+			
+			has_trait = trait_deteis
+			has_trait = trait_civire
+			has_trait = trait_achura
+			
+			has_trait = trait_ishukone_corporation
+			has_trait = trait_sanshas_nation
+			has_trait = trait_ammatar
+			has_trait = trait_ore
+			has_trait = trait_interbus
+			has_trait = trait_mordus_legion
+			has_trait = trait_blood_raider
+			has_trait = trait_angel
+			has_trait = trait_cbd_corporation
+			has_trait = trait_lai_dai_corporation
+			has_trait = trait_syndicate
+			has_trait = trait_guristas
+			has_trait = trait_sisters_of_eve
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = trait_events.2.amarr
+		trigger = {
+			OR = {
+				has_trait = trait_true_amarr
+				has_trait = trait_ni_kunni
+				has_trait = trait_udorian
+				has_trait = trait_ealurian
+			}	
+		}
+		add_modifier = {
+			modifier = amarrian_armor
+		}
+	}
+	
+	option = {
+		name = trait_events.2.gallente
+		trigger = {
+			OR = {
+				has_trait = trait_ethnic_gallente
+				has_trait = trait_intaki
+				has_trait = trait_mannar
+				has_trait = trait_jin_mei
+			}	
+		}
+		add_modifier = {
+			modifier = gallente_hull_construction
+		}
+	}
+	
+	option = {
+		name = trait_events.2.caldari
+		trigger = {
+			OR = {
+				has_trait = trait_deteis
+				has_trait = trait_civire
+				has_trait = trait_achura
+			}	
+		}
+		add_modifier = {
+			modifier = caldari_shield_generators
+		}
+	}
+	
+	option = {
+		name = trait_events.2.minmatar
+		trigger = {
+			OR = {
+				has_trait = trait_brutor
+				has_trait = trait_sebiestor
+				has_trait = trait_vherokior
+				has_trait = trait_thukker
+				has_trait = trait_krusual
+				has_trait = trait_nefantar
+				has_trait = trait_starkmanir
+			}	
+		}
+		add_modifier = {
+			modifier = minmatari_thrusters
+		}
+	}
+	
+	option = {
+		name = trait_events.2.thukker
+		trigger = {
+			has_trait = trait_thukker
+		}
+		add_modifier = {
+			modifier = thukker_caravans
+		}
+	}
+	
+	option = {
+		name = trait_events.2.ammatar
+		trigger = {
+			has_trait = trait_ammatar	
+		}
+		add_modifier = {
+			modifier = ammatar_collaboration
+		}
+	}
+	
+	option = {
+		name = trait_events.2.angel_cartel
+		trigger = {
+			has_trait = trait_angel	
+		}
+		add_modifier = {
+			modifier = jovian_technology_salvagers
+		}
+	}
+	
+	option = {
+		name = trait_events.2.blood_raider
+		trigger = {
+			has_trait = trait_blood_raider	
+		}
+		add_modifier = {
+			modifier = blood_rituals
+		}
+	}
+	
+	option = {
+		name = trait_events.2.cbd
+		trigger = {
+			has_trait = trait_cbd_corporation	
+		}
+		add_modifier = {
+			modifier = cbd_trade_network
+		}
+	}
+	
+	option = {
+		name = trait_events.2.guristas
+		trigger = {
+			has_trait = trait_guristas	
+		}
+		add_modifier = {
+			modifier = guristas_operations
+		}
+	}
+	
+	option = {
+		name = trait_events.2.interbus
+		trigger = {
+			has_trait = trait_interbus	
+		}
+		add_modifier = {
+			modifier = interbus_transportation
+		}
+	}
+	
+	option = {
+		name = trait_events.2.ishukone
+		trigger = {
+			has_trait = trait_ishukone_corporation			
+		}
+		add_modifier = {
+			modifier = jovian_technology_exchange
+		}
+	}
+	
+	option = {
+		name = trait_events.2.khanid
+		trigger = {
+			OR = {
+				has_trait = trait_khanid
+			}	
+		}
+		add_modifier = {
+			modifier = khanid_trade_access
+		}
+	}
+	
+	option = {
+		name = trait_events.2.lai_dai
+		trigger = {
+			has_trait = trait_lai_dai_corporation
+		}
+		add_modifier = {
+			modifier = lai_dai_quality_insurance
+		}
+	}
+	
+	option = {
+		name = trait_events.2.mordus
+		trigger = {
+			has_trait = trait_mordus_legion
+		}
+		add_modifier = {
+			modifier = mordus_legion_commanders
+		}
+	}
+	
+	option = {
+		name = trait_events.2.ore
+		trigger = {
+			has_trait = trait_ore
+		}
+		add_modifier = {
+			modifier = ore_mining_construction
+		}
+	}
+	
+	option = {
+		name = trait_events.2.sansha
+		trigger = {
+			has_trait = trait_sanshas_nation
+		}
+		add_modifier = {
+			modifier = true_slaves
+		}
+	}
+	
+	option = {
+		name = trait_events.2.syndicate
+		trigger = {
+			has_trait = trait_syndicate
+		}
+		add_modifier = {
+			modifier = syndicate_financial_sector
+		}
+	}
+	
+	option = {
+		name = trait_events.2.sisters_of_eve
+		trigger = {
+			has_trait = trait_sisters_of_eve
+		}
+		add_modifier = {
+			modifier = sisters_of_eve_influence
+		}
+	}
+}

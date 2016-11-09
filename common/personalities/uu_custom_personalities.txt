@@ -1,0 +1,51 @@
+fanatic_reclaimers = {
+	aggressiveness = 4.0
+	trade_willingness = 0.5
+	bravery = 1.0
+	
+	military_spending = 1.3
+	colony_spending = 0.8	
+	
+	federation_acceptance = -1000
+	nap_acceptance = -50
+	defensive_pact_acceptance = 20
+	migration_pact_acceptance = -300
+	
+	threat_modifier = 1.0
+	threat_others_modifier = 0.5
+	friction_modifier = 10
+	
+	advanced_start_chance = 200
+	
+	weapon_preferences = weapon_type_energy
+	armor_ratio = 0.8
+	shields_ratio = 0.0
+	afterburners_ratio = 0.2
+
+	behaviour = {
+		conqueror = yes
+		subjugator = no
+		liberator = no
+		opportunist = yes
+		slaver = yes
+		uplifter = no
+		purger = no
+		dominator = no
+		infiltrator = no
+		robot_exploiter = no
+		robot_liberator = no
+		migrator = no
+		propagator = no
+		ideologue = yes
+		multispecies = no
+	}
+
+	
+	allow = {
+		has_country_flag = amarr_empire
+	}
+	
+	weight_modifier = {
+		weight = 10000			
+	}	
+}

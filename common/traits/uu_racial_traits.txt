@@ -1,0 +1,650 @@
+trait_true_amarr = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_conformists"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_ethic_shift = -0.20
+	}
+}
+trait_ni_kunni = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_communal"
+		"trait_quick_learners"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_happiness = 0.05
+		species_leader_exp_gain = 0.25
+	}
+}
+trait_khanid = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_strong"
+		"trait_resilient"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		army_damage_mult = 0.20
+		tile_resource_minerals_mult = 0.05
+		garrison_health = 1.0
+		pop_fortification_defense = 0.5
+	}
+}
+
+trait_udorian = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_natural_engineers"
+		"trait_rapid_breeders"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_engineering_research_mult = 0.15
+		pop_growth_req_mult = -0.1
+	}
+}
+
+trait_ealurian = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_agrarian"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_food_mult = 0.15
+	}
+}
+
+trait_deteis = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_thrifty"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_energy_mult = 0.15
+	}
+}
+
+trait_civire = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_industrious"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_minerals_mult = 0.15
+	}
+}
+trait_achura = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_intelligent"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_engineering_research_mult = 0.1
+		tile_resource_physics_research_mult = 0.1
+		tile_resource_society_research_mult = 0.1
+	}
+}
+
+trait_ethnic_gallente = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_natural_sociologists"
+		"trait_charismatic"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_society_research_mult = 0.15
+		pop_other_species_happiness = 0.01
+	}
+}
+
+trait_intaki = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_communal"
+		"trait_rapid_breeders"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	} 
+	modifier = {
+		pop_happiness = 0.05
+		pop_growth_req_mult = -0.1
+	}
+}
+
+trait_mannar = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_resilient"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_war_happiness = 0.05
+		garrison_health = 1.0
+		pop_fortification_defense = 0.5
+	}
+}
+trait_jin_mei = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_conformists"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_ethic_shift = -0.20
+	}
+}
+trait_brutor = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_very_strong"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		army_damage_mult = 0.40
+		tile_resource_minerals_mult = 0.05
+	}
+}
+
+trait_sebiestor = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_quick_learners"
+		"trait_natural_physicists"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		species_leader_exp_gain = 0.25
+		tile_resource_physics_research_mult = 0.1
+	}
+}
+
+trait_vherokior = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_thrifty"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_energy_mult = 0.15
+	}
+}
+
+trait_thukker = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_nomadic"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_migration_speed = 0.75
+		pop_resettlement_cost_mult = -0.66
+	}
+}
+trait_krusual = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_natural_sociologists"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_society_research_mult = 0.15
+		pop_war_happiness = 0.05
+	}
+}
+trait_nefantar = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_adaptive"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_environment_tolerance = 0.10
+	}
+}
+trait_starkmanir = {
+	cost = 2
+	modification = no
+	opposites = {
+		"trait_enduring"
+		"trait_strong"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		leader_age = 30
+		army_damage_mult = 0.20
+		tile_resource_minerals_mult = 0.05
+	}
+}
+trait_ammatar = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_adaptive"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_environment_tolerance = 0.1
+	}
+}
+trait_angel = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_thrifty"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_energy_mult = 0.15
+	}
+}
+trait_blood_raider = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_communal" "trait_natural_sociologists"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_society_research_mult = 0.15
+		pop_happiness = 0.05
+	}
+}
+trait_cbd_corporation = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_thrifty"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_energy_mult = 0.15
+	}
+}
+trait_guristas = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_industrious"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {	
+		tile_resource_minerals_mult = 0.15
+	}
+}
+trait_interbus = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_thrifty"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_energy_mult = 0.15
+	}
+}
+trait_ishukone_corporation = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_thrifty"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_energy_mult  = 0.15
+	}
+}
+
+trait_lai_dai_corporation = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_talented"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		leader_skill_levels = 1
+	}
+}
+trait_mordus_legion = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_talented"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		leader_skill_levels = 1
+	}
+}
+trait_ore = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_industrious"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_minerals_mult = 0.15
+	}
+}
+trait_sanshas_nation = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_industrious"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_minerals_mult = 0.15
+	}
+}
+trait_syndicate = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_rapid_breeders" "trait_communal"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		pop_happiness = 0.05
+		pop_growth_req_mult = -0.1
+	}
+}
+
+
+trait_sisters_of_eve = {
+	cost = 2
+	modification = no
+	opposites = { 
+		"trait_intelligent"
+		# Bloodline Traits
+		"trait_true_amarr" "trait_ni_kunni" "trait_khanid" "trait_udorian" "trait_ealurian" 
+		"trait_deteis" "trait_civire" "trait_achura"
+		"trait_ethnic_gallente" "trait_intaki" "trait_mannar" "trait_jin_mei"
+		"trait_brutor" "trait_sebiestor" "trait_vherokior" "trait_thukker" "trait_krusual" "trait_nefantar" "trait_starkmanir"
+		
+		# Faction Traits.
+		"trait_ammatar" "trait_angel" "trait_blood_raider" "trait_cbd_corporation" "trait_guristas" "trait_interbus" "trait_ishukone_corporation" 
+		"trait_lai_dai_corporation" "trait_mordus_legion" "trait_ore" "trait_sanshas_nation" "trait_syndicate" "trait_sisters_of_eve"
+	}
+	modifier = {
+		tile_resource_engineering_research_mult = 0.1
+		tile_resource_physics_research_mult = 0.1
+		tile_resource_society_research_mult = 0.1
+	}
+}
+

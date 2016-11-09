@@ -1,0 +1,27 @@
+Mod Version: v1.1.0
+Stellaris Version: v1.3.*
+
+This is a lightweight version of EvE Online: Horizon. It contains all the graphical features and some content features of the main mod. The main purpose is to have a mod, which is easy to update and maintain, while bringing some of the EvE Online flavour that the main mod brings. 
+
+I will try to update this mod after patches as fast as possible and upload the new version. 
+
+[h1]Features[/h1]
+	- 18 pre-scripted factions from EvE Online with system initializers, flags & traits. (All the factions are set to not spawn. If you want them to spawn, you need to enable them.)
+	- 4 species classes: Amarr, Gallente, Caldari, Minmatar with each 10 ship models, 12 portraits (6 male/6 female), name list and species names.
+	- 35 flag emblems.
+	- Empire Space map with named systems and randomized hyperplanes.
+
+[h1]Main Mod[/h1]
+The main mod can be found [url=http://steamcommunity.com/sharedfiles/filedetails/?id=703480265]here[/url].
+
+[h1]Roadmap[/h1]
+	- Update localisations for trait event.
+	- Add unique icons for all traits.
+	- Add more factions (Caldari Megacorps, Quafe Company, Amarr Holder Families, Serpentis, Jove Directorate)
+	- Add custom start screen messages for all factions.
+	- Add more sections for battlecruiser and capital ships.
+	- Add customized behaviours for new ship classes (Currently battlecruiser behaves like a cruiser and capital ships behave like a battleship).
+
+[h1]Compatibility[/h1]
+
+This mod is compatible with all mods, as it does not alter any files.

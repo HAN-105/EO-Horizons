@@ -1,4 +1,4 @@
-Mod Version: v1.1.0
+Mod Version: v1.0.2
 Stellaris Version: v1.3.*
 
 This is a lightweight version of EvE Online: Horizon. It contains all the graphical features and some content features of the main mod. The main purpose is to have a mod, which is easy to update and maintain, while bringing some of the EvE Online flavour that the main mod brings. 

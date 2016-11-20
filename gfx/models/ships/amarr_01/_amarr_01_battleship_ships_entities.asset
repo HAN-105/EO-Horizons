@@ -151,6 +151,23 @@ entity = {
 entity = {
 	name = "amarr_01_battleship_bow_M3S2_entity"
 	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	
+	scale = @battleship_physical_scale
+
+	game_data = {
+		size = @battleship_scale
+	}
+}
+
+
+entity = {
+	name = "amarr_01_battleship_bow_XL1_entity"
+	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	
+	locator = { 
+		name = "xl_gun_01" 
+		position = { 0 0 -14.5 } 
+	}
 
 	scale = @battleship_physical_scale
 

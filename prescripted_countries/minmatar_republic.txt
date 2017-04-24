@@ -11,7 +11,7 @@ minmatar
 	portrait="minmatar"
 	name="Minmatar Republic"
 	adjective="Minmatar Republican"
-	government="military_republic"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Matar"

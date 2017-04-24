@@ -12,7 +12,7 @@ mordus_legion
 	portrait="gallente"
 	name="Mordu's Legion Command"
 	adjective="Mordus"
-	government="military_dictatorship"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="5ZXX-K V"

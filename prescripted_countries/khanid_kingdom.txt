@@ -11,7 +11,7 @@ khanid_kingdom
 	portrait="amarr"
 	name="Khanid Kingdom"
 	adjective="Khanid"
-	government="despotic_empire"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Khanid Prime V"

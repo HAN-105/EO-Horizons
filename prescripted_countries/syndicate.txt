@@ -12,7 +12,7 @@ syndicate
 	portrait="gallente"
 	name="The Syndicate"
 	adjective="Syndicate"
-	government="military_dictatorship"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Poitot III"

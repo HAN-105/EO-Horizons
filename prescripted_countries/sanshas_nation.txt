@@ -12,7 +12,7 @@ sanshas_nation
 	portrait="caldari"
 	name="Sansha's Nation"
 	adjective="Sansha's Nation"
-	government="military_dictatorship"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="37S-KO IVa"

@@ -12,7 +12,7 @@ ishukone_corporation
 	portrait="caldari"
 	name="Isukone Corporation"
 	adjective="Isukonen"
-	government="plutocratic_oligarchy"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Malkalen IV"

@@ -13,7 +13,7 @@
 	portrait="gallente"
 	name="Servant Sisters of Eve"
 	adjective="Sisters"
-	government="peaceful_bureaucracy"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="X-7OMU Prime"

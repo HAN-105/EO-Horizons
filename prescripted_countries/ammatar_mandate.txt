@@ -1,17 +1,19 @@
-ammatar_mandate
-= {
-	flags = { ammatar_mandate }
-	flags = { laser_faction }
+"Ammatar Mandate"
+={
+	flags={ custom_start_screen ammatar_mandate laser_faction }
+	key="Ammatar Mandate"
 	name_list="AMR1"
-	ship_prefix="AM"
+	ship_prefix="AF"
 	species_name="Ammatar"
-	species_plural="Ammatar"
-	species_class="MIN"
-	species_adjective="Ammatari"
-	portrait="minmatar"
+	species_plural="Ammatari"
+	species_class="AMR"
+	species_adjective="Ammatarian"
+	species_bio="The Ammatar Mandate is a client state of the Amarr Empire. The Ammatar were one of the many Minmatar tribe, then known as the Nefantar. When the Amarr descended upon Matar and enslaved most of the Minmatar, the Nefantar made a deal with the Empire. As loyal subjects, enslaving their brethrens, they would become a valuable vassal of the Empire. Losing much of their influence with the Minmatar Rebellion. "
+	portrait="amarr"
 	name="Ammatar Mandate"
-	adjective="Ammatar Mandate"
-	government="despotic_empire"
+	adjective="Ammatari"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Tanoo II"
@@ -19,7 +21,7 @@ ammatar_mandate
 	system_name="Tanoo"
 	initializer="ammatar_mandate"
 	graphical_culture="amarr_01"
-	city_graphical_culture="arthropoid_01"
+	city_graphical_culture="amarr_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -30,7 +32,7 @@ ammatar_mandate
 			file="horizontal_stripe.dds"
 		}
 		colors={
-			"orange"
+			"red"
 			"black"
 			"null"
 			"null"
@@ -40,11 +42,23 @@ ammatar_mandate
 		gender=male
 		name="Yonis Ardishapur"
 		portrait="amarr_male1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Ammatar Governor"
 	}
-	spawn_enabled=no
-	ethic="ethic_fanatic_spiritualist"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_xenophile_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
-	trait="trait_slow_learners"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_slaver_guilds"
+	}
+	trait="trait_nefantar"
 	trait="trait_communal"
-	trait="trait_ammatar"
+	trait="trait_slow_learners"
 }

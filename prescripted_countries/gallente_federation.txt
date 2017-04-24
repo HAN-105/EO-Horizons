@@ -1,18 +1,18 @@
-gallente 
-= {
-	flags = { gallente_federation }
-	flags = { shield_faction }
-	flags = { hybrid_faction }
+"Gallente Federation"
+={
+	key="Gallente Federation"
 	name_list="GAL1"
-	ship_prefix="GAL"
+	ship_prefix="GN"
 	species_name="Gallente"
-	species_plural="Gallenteans"
-	species_class="GAL"
+	species_plural="Gallente"
+	species_class="HUM"
 	species_adjective="Gallentean"
-	portrait="gallente"
+	species_bio=""
+	portrait="human"
 	name="Gallente Federation"
-	adjective="Gallente federal"
-	government="indirect_democracy"
+	adjective="Federation"
+	authority="auth_democratic"
+	government="gov_direct_democracy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Gallente Prime"
@@ -20,7 +20,7 @@ gallente
 	system_name="Luminaire"
 	initializer="gallente_federation"
 	graphical_culture="gallente_01"
-	city_graphical_culture="fungoid_01"
+	city_graphical_culture="gallente_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -28,27 +28,37 @@ gallente
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="diagonal.dds"
 		}
 		colors={
-			"dark_teal"
-			"black"
+			"dark_green"
+			"teal"
 			"null"
 			"null"
 		}
-
 	}
 	ruler={
 		gender=male
 		name="Mens Reppola"
-		portrait="gallente_male5"
+		portrait="human_male_02"
+		texture=0
+		hair=3
+		clothes=2
 	}
-	spawn_enabled=no
-	ethic="ethic_individualist"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_materialist_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
 	ethic="ethic_materialist"
+	civics={
+		"civic_parliamentary_system"
+		"civic_idealistic_foundation"
+	}
 	trait="trait_ethnic_gallente"
 	trait="trait_deviants"
-	trait="trait_sedentary"
+	trait="trait_wasteful"
 	trait="trait_talented"
+	trait="trait_quick_learners"
 }

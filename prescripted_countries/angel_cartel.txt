@@ -1,17 +1,19 @@
-angel_cartel
-= {
-	flags = { angel_cartel }
-	flags = { missile_faction }
+"Angels Cartel"
+={
+	flags = { angel_cartel missile_faction }
+	key="Angels Cartel"
 	name_list="MIN1"
-	ship_prefix="AC"
+	ship_prefix="AA"
 	species_name="Minmatar"
-	species_plural="Minmatar"
+	species_plural="Minmatari"
 	species_class="MIN"
 	species_adjective="Minmatar"
+	species_bio="Operating from the heart of the Curse region, the Angel Cartel is today the largest and best organized of the space-based criminal factions. The Angels are divided into several groups, each with a very special function. It is commanded by the Dominations and in the century they've been lurking in deep space they have stolen, plundered or sabotaged countless number of ships and kidnapped, molested or murdered thousands of people. The Angels recruit members from all the races, and are thus not bound to any one zone of operation, which spans almost the entire known world. Many believe that the Angels got their power by uncovering Jovian technologies hidden in their ancient homes, now infested by the Angel Cartel. "
 	portrait="minmatar"
-	name="Angel Cartel"
-	adjective="Minmatar"
-	government="military_dictatorship"
+	name="Angels Cartel"
+	adjective="Angel"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Utopia IV"
@@ -19,7 +21,7 @@ angel_cartel
 	system_name="Utopia"
 	initializer="angel_cartel"
 	graphical_culture="minmatar_01"
-	city_graphical_culture="reptilian_01"
+	city_graphical_culture="minmatar_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -27,10 +29,10 @@ angel_cartel
 		}
 		background={
 			category="backgrounds"
-			file="diagonal.dds"
+			file="00_solid.dds"
 		}
 		colors={
-			"red"
+			"black"
 			"black"
 			"null"
 			"null"
@@ -39,10 +41,25 @@ angel_cartel
 	ruler={
 		gender=male
 		name="Trald Vukenda"
-		portrait="minmatar_male2"
+		portrait="minmatar_male3"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="CEO"
+		ruler_title_female="CEO"
 	}
-	spawn_enabled=no
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_xenophobe_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
 	ethic="ethic_militarist"
-	ethic="ethic_fanatic_individualist"
-	trait="trait_angel"
+	civics={
+		"civic_cutthroat_politics"
+		"civic_free_haven"
+	}
+	trait="trait_deviants"
+	trait="trait_vherokior"
+	trait="trait_quick_learners"
 }

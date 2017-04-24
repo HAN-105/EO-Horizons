@@ -68,6 +68,7 @@ blood_rituals = {
 	army_health = 0.2
 }
 
+# Angel's
 jovian_technology_salvagers = {
 	#category_field_manipulation_research_speed_mult = 0.3  ## Does not exist
 	ship_anomaly_generation_chance_mult = 0.5

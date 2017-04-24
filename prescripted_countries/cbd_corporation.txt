@@ -1,18 +1,19 @@
-cbd_corporation
-= {
-	flags = { cbd_corporation }
-	flags = { shield_faction }
-	flags = { missile_faction }
+"CBD Corporation"
+={
+	flags = { cbd_corporation shield_faction missile_faction}
+	key="CBD Corporation"
 	name_list="CLD1"
-	ship_prefix="CBD"
-	species_name="Caldari"
-	species_plural="Caldari"
+	ship_prefix="SP"
+	species_name="Deteis"
+	species_plural="Deteis"
 	species_class="CLD"
-	species_adjective="Caldari"
+	species_adjective="Detei"
+	species_bio=""
 	portrait="caldari"
 	name="CBD Corporation"
 	adjective="CBD"
-	government="plutocratic_oligarchy"
+	authority="auth_oligarchic"
+	government="gov_military_junta"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Muvolailen VII"
@@ -20,7 +21,7 @@ cbd_corporation
 	system_name="Muvolailen"
 	initializer="cbd_corporation"
 	graphical_culture="caldari_01"
-	city_graphical_culture="mammalian_01"
+	city_graphical_culture="caldari_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -28,11 +29,11 @@ cbd_corporation
 		}
 		background={
 			category="backgrounds"
-			file="horizontal_stripe.dds"
+			file="circle.dds"
 		}
 		colors={
-			"dark_teal"
-			"green"
+			"orange"
+			"dark_blue"
 			"null"
 			"null"
 		}
@@ -41,10 +42,26 @@ cbd_corporation
 		gender=female
 		name="Imanima Hinpas"
 		portrait="caldari_female3"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="CEO"
+		ruler_title_female="CEO"
 	}
-	spawn_enabled=no
-	ethic="ethic_collectivist"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_authoritarian_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
 	ethic="ethic_xenophile"
-	ethic="ethic_materialist"
-	trait="trait_cbd_corporation"
+	ethic="ethic_militarist"
+	civics={
+		"civic_meritocracy"
+		"civic_efficient_bureaucracy"
+	}
+	trait="trait_deteis"
+	trait="trait_sedentary"
+	trait="trait_nonadaptive"
+	trait="trait_intelligent"
+	trait="trait_natural_engineers"
 }

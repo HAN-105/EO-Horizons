@@ -1,10 +1,9 @@
-amarr
+"Amarr Empire"
 ={
-	flags = { custom_start_screen }
-	flags= { amarr_empire }
-	flags= { laser_faction }
+	flags={ custom_start_screen amarr_empire laser_faction }
+	key="Amarr Empire"
 	name_list="AMR1"
-	ship_prefix="AMR"
+	ship_prefix="IN"
 	species_name="Amarr"
 	species_plural="Amarrians"
 	species_class="AMR"
@@ -13,7 +12,8 @@ amarr
 	portrait="amarr"
 	name="Amarr Empire"
 	adjective="Amarr Imperial"
-	government="theocratic_oligarchy"
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Amarr Prime"
@@ -32,7 +32,7 @@ amarr
 			file="00_solid.dds"
 		}
 		colors={
-			"dark_brown"
+			"brown"
 			"black"
 			"null"
 			"null"
@@ -45,11 +45,21 @@ amarr
 		texture=0
 		hair=0
 		clothes=0
+		ruler_title="Emperor"
+		heir_title="Heir"
+		ruler_title_female="Empress"
+		heir_title_female="Princess"
 	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_spiritualism_room"
 	spawn_enabled=no
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_spiritualist"
-	trait="trait_slow_learners"
+	civics={
+		"civic_aristocratic_elite"
+	}
 	trait="trait_true_amarr"
 	trait="trait_communal"
+	trait="trait_slow_learners"
 }

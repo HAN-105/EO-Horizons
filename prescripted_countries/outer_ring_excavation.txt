@@ -12,7 +12,7 @@ ore
 	portrait="gallente"
 	name="Outer Ring Excavations"
 	adjective="ORE"
-	government="plutocratic_oligarchy"
+	government="gov_theocratic_monarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="4C-B7X VI"

@@ -1,27 +1,26 @@
-"Caldari State"
-={
-	flags = { caldari_state missile_faction }
-	key="Caldari State"
+caldari 
+= {
+	flags = { caldari_state }
+	flags = { shield_faction }
+	flags = { missile_faction }
 	name_list="CLD1"
-	ship_prefix="CSN"
-	species_name="Deteis"
-	species_plural="Deteis"
+	ship_prefix="CLD"
+	species_name="Caldari"
+	species_plural="Caldari"
 	species_class="CLD"
-	species_adjective="Detean"
-	species_bio=""
+	species_adjective="Caldari"
 	portrait="caldari"
 	name="Caldari State"
-	adjective="State"
-	authority="auth_oligarchic"
-	government="gov_executive_committee"
+	adjective="Caldari State"
+	government="plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Caldari Prime"
 	planet_class="pc_arctic"
 	system_name="New Caldari"
-	initializer="caldari_state"
+	#initializer="caldari_state"
 	graphical_culture="caldari_01"
-	city_graphical_culture="caldari_01"
+	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -32,7 +31,7 @@
 			file="00_solid.dds"
 		}
 		colors={
-			"dark_blue"
+			"dark_grey"
 			"black"
 			"null"
 			"null"
@@ -41,26 +40,12 @@
 	ruler={
 		gender=male
 		name="Mens Reppola"
-		portrait="caldari_male4"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="Director"
-		ruler_title_female="Director"
+		portrait="caldari"
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="ethic_materialist_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
-	civics={
-		"civic_meritocracy"
-		"civic_nationalistic_zeal"
-	}
-	trait="trait_deteis"
 	trait="trait_communal"
-	trait="trait_conformists"
 	trait="trait_sedentary"
-	trait="trait_nonadaptive"
+	trait="trait_deteis"
 }

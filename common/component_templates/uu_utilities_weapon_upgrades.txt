@@ -1,0 +1,496 @@
+#########################################
+### WEAPON UPGRADES
+###########################################
+#########################################
+## COST
+############################################
+
+@small_ballistic_cost_1 = 10
+@small_ballistic_cost_2 = 20
+@small_heatsink_cost_1 = 10
+@small_heatsink_cost_2 = 20
+@small_gyro_cost_1 = 10
+@small_gyro_cost_2 = 20
+
+@medium_ballistic_cost_1 = 10
+@medium_ballistic_cost_2 = 20
+@medium_heatsink_cost_1 = 10
+@medium_heatsink_cost_2 = 20
+@medium_gyro_cost_1 = 10
+@medium_gyro_cost_2 = 20
+
+@large_ballistic_cost_1 = 10
+@large_ballistic_cost_2 = 20
+@large_heatsink_cost_1 = 10
+@large_heatsink_cost_2 = 20
+@large_gyro_cost_1 = 10
+@large_gyro_cost_2 = 20
+
+@capital_ballistic_cost_1 = 10
+@capital_ballistic_cost_2 = 20
+@capital_heatsink_cost_1 = 10
+@capital_heatsink_cost_2 = 20
+@capital_gyro_cost_1 = 10
+@capital_gyro_cost_2 = 20
+
+#######################################
+# POWER
+######################################
+@small_ballistic_power_1 = -2
+@small_ballistic_power_2 = -3
+@small_heatsink_power_1 = -2
+@small_heatsink_power_2 = -3
+@small_gyro_power_1 = -2
+@small_gyro_power_2 = -3
+
+
+@medium_ballistic_power_1 = -25
+@medium_ballistic_power_2 = -30
+@medium_heatsink_power_1 = -25
+@medium_heatsink_power_2 = -30
+@medium_gyro_power_1 = -25
+@medium_gyro_power_2 = -30
+
+
+@large_ballistic_power_1 = -175
+@large_ballistic_power_2 = -200
+@large_heatsink_power_1 = -175
+@large_heatsink_power_2 = -200
+@large_gyro_power_1 = -175
+@large_gyro_power_2 = -200
+
+
+@capital_ballistic_power_1 = -2500
+@capital_ballistic_power_2 = -3000
+@capital_heatsink_power_1 = -2500
+@capital_heatsink_power_2 = -3000
+@capital_gyro_power_1 = -2500
+@capital_gyro_power_2 = -3000
+
+
+###########################################
+# Modifier
+#########################################
+
+@s_ship_weapon_damage_1 = 0.07
+@s_ship_weapon_damage_2 = 0.10
+
+@m_ship_weapon_damage_1 = 0.07
+@m_ship_weapon_damage_2 = 0.10
+
+
+@l_ship_weapon_damage_1 = 0.07
+@l_ship_weapon_damage_2 = 0.10
+
+
+@c_ship_weapon_damage_1 = 0.15
+@c_ship_weapon_damage_2 = 0.20
+
+#Ballistics
+utility_component_template = {
+	key = "SMALL_BALLISTIC_CONTROL_SYSTEM_01"
+	size = small
+	icon = "GFX_ship_part_bcu_1"
+	icon_frame = 1
+	power = @small_ballistic_power_1
+	cost = @small_ballistic_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_explosive_weapon_damage_mult = @s_ship_weapon_damage_1
+		weapon_type_explosive_weapon_fire_rate_mult = @s_ship_weapon_damage_1
+	}
+
+	prerequisites = { "tech_ballistic_control_system_1" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_01"
+}
+
+utility_component_template = {
+	key = "SMALL_BALLISTIC_CONTROL_SYSTEM_02"
+	size = small
+	icon = "GFX_ship_part_bcu_2"
+	icon_frame = 1
+	power = @small_ballistic_power_2
+	cost = @small_ballistic_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_explosive_weapon_damage_mult = @s_ship_weapon_damage_2
+		weapon_type_explosive_weapon_fire_rate_mult = @s_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_ballistic_control_system_2" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_02"
+}
+
+#Ballistics
+utility_component_template = {
+	key = "MEDIUM_BALLISTIC_CONTROL_SYSTEM_01"
+	size = medium
+	icon = "GFX_ship_part_bcu_1"
+	icon_frame = 1
+	power = @medium_ballistic_power_1
+	cost = @medium_ballistic_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_explosive_weapon_damage_mult = @m_ship_weapon_damage_1
+		weapon_type_explosive_weapon_fire_rate_mult = @m_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_ballistic_control_system_1" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_01"
+}
+
+utility_component_template = {
+	key = "MEDIUM_BALLISTIC_CONTROL_SYSTEM_02"
+	size = medium
+	icon = "GFX_ship_part_bcu_2"
+	icon_frame = 1
+	power = @medium_ballistic_power_2
+	cost = @medium_ballistic_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_explosive_weapon_damage_mult = @m_ship_weapon_damage_2
+		weapon_type_explosive_weapon_fire_rate_mult = @m_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_ballistic_control_system_2" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_02"
+}
+
+#Ballistics
+utility_component_template = {
+	key = "LARGE_BALLISTIC_CONTROL_SYSTEM_01"
+	size = large
+	icon = "GFX_ship_part_bcu_1"
+	icon_frame = 1
+	power = @large_ballistic_power_1
+	cost = @large_ballistic_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_explosive_weapon_damage_mult = @l_ship_weapon_damage_1
+		weapon_type_explosive_weapon_fire_rate_mult = @l_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_ballistic_control_system_1" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_01"
+}
+
+utility_component_template = {
+	key = "LARGE_BALLISTIC_CONTROL_SYSTEM_02"
+	size = large
+	icon = "GFX_ship_part_bcu_2"
+	icon_frame = 1
+	power = @large_ballistic_power_2
+	cost = @large_ballistic_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_explosive_weapon_damage_mult = @l_ship_weapon_damage_2
+		weapon_type_explosive_weapon_fire_rate_mult = @l_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_ballistic_control_system_2" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_02"
+}
+
+#Ballistics
+utility_component_template = {
+	key = "CAPITAL_BALLISTIC_CONTROL_SYSTEM_01"
+	size = large
+	icon = "GFX_ship_part_bcu_1"
+	icon_frame = 1
+	power = @capital_ballistic_power_1
+	cost = @capital_ballistic_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_explosive_weapon_damage_mult = @c_ship_weapon_damage_1
+		weapon_type_explosive_weapon_fire_rate_mult = @c_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_ballistic_control_system_1" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_01"
+}
+
+utility_component_template = {
+	key = "CAPITAL_BALLISTIC_CONTROL_SYSTEM_02"
+	size = large
+	icon = "GFX_ship_part_bcu_2"
+	icon_frame = 1
+	power = @capital_ballistic_power_2
+	cost = @capital_ballistic_cost_2
+	military_power = 2
+	ship_modifier = {
+			weapon_type_explosive_weapon_damage_mult = @c_ship_weapon_damage_2
+			weapon_type_explosive_weapon_fire_rate_mult = @c_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_ballistic_control_system_2" }
+	component_set = "BALLISTIC_CONTROL_SYSTEM_02"
+}
+
+
+#Heatsink
+utility_component_template = {
+	key = "SMALL_HEATSINK_01"
+	size = small
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @small_heatsink_power_1
+	cost = @small_heatsink_cost_1
+	military_power = 2
+	ship_modifier = {
+			weapon_type_energy_weapon_damage_mult = @s_ship_weapon_damage_1
+			weapon_type_energy_weapon_fire_rate_mult = @s_ship_weapon_damage_1
+  }
+	prerequisites = { "tech_heatsink_1" }
+	component_set = "HEATSINK_01"
+}
+
+
+utility_component_template = {
+	key = "SMALL_HEATSINK_02"
+	size = small
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @small_heatsink_power_2
+	cost = @small_heatsink_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = @s_ship_weapon_damage_2
+		weapon_type_energy_weapon_fire_rate_mult = @s_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_heatsink_2" }
+	component_set = "HEATSINK_02"
+}
+
+#Heatsink
+utility_component_template = {
+	key = "MEDIUM_HEATSINK_01"
+	size = medium
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @medium_heatsink_power_1
+	cost = @medium_heatsink_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = @m_ship_weapon_damage_1
+		weapon_type_energy_weapon_fire_rate_mult = @m_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_heatsink_1" }
+	component_set = "HEATSINK_01"
+}
+
+
+utility_component_template = {
+	key = "MEDIUM_HEATSINK_02"
+	size = medium
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @medium_heatsink_power_2
+	cost = @medium_heatsink_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = @m_ship_weapon_damage_2
+		weapon_type_energy_weapon_fire_rate_mult = @m_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_heatsink_2" }
+	component_set = "HEATSINK_02"
+}
+
+
+#Heatsink
+utility_component_template = {
+	key = "LARGE_HEATSINK_01"
+	size = large
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @large_heatsink_power_1
+	cost = @large_heatsink_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = @l_ship_weapon_damage_1
+		weapon_type_energy_weapon_fire_rate_mult = @l_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_heatsink_1" }
+	component_set = "HEATSINK_01"
+}
+
+
+utility_component_template = {
+	key = "LARGE_HEATSINK_02"
+	size = large
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @large_heatsink_power_2
+	cost = @large_heatsink_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = @l_ship_weapon_damage_2
+		weapon_type_energy_weapon_fire_rate_mult = @l_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_heatsink_2" }
+	component_set = "HEATSINK_02"
+}
+
+
+#Heatsink
+utility_component_template = {
+	key = "CAPITAL_HEATSINK_01"
+	size = large
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @capital_heatsink_power_1
+	cost = @capital_heatsink_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = @c_ship_weapon_damage_1
+		weapon_type_energy_weapon_fire_rate_mult = @c_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_heatsink_1" }
+	component_set = "HEATSINK_01"
+}
+
+
+utility_component_template = {
+	key = "CAPITAL_HEATSINK_02"
+	size = large
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @capital_heatsink_power_2
+	cost = @capital_heatsink_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_energy_weapon_damage_mult = @c_ship_weapon_damage_2
+		weapon_type_energy_weapon_fire_rate_mult = @c_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_heatsink_2" }
+	component_set = "HEATSINK_02"
+}
+
+
+#GYRO
+utility_component_template = {
+	key = "SMALL_GYROSTABILIZER_01"
+	size = small
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @small_gyro_power_1
+	cost = @small_gyro_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @s_ship_weapon_damage_1
+		weapon_type_kinetic_weapon_fire_rate_mult = @s_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_gyrostabilizer_1" }
+	component_set = "GYROSTABILIZER_01"
+}
+
+
+utility_component_template = {
+	key = "SMALL_GYROSTABILIZER_02"
+	size = small
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @small_gyro_power_2
+	cost = @small_gyro_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @s_ship_weapon_damage_2
+		weapon_type_kinetic_weapon_fire_rate_mult = @s_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_gyrostabilizer_2" }
+	component_set = "GYROSTABILIZER_02"
+}
+
+
+utility_component_template = {
+	key = "MEDIUM_GYROSTABILIZER_01"
+	size = medium
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @medium_gyro_power_1
+	cost = @medium_gyro_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @m_ship_weapon_damage_1
+		weapon_type_kinetic_weapon_fire_rate_mult = @m_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_gyrostabilizer_1" }
+	component_set = "GYROSTABILIZER_01"
+}
+
+
+utility_component_template = {
+	key = "MEDIUM_GYROSTABILIZER_02"
+	size = medium
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @medium_gyro_power_2
+	cost = @medium_gyro_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @m_ship_weapon_damage_2
+		weapon_type_kinetic_weapon_fire_rate_mult = @m_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_gyrostabilizer_2" }
+	component_set = "GYROSTABILIZER_02"
+}
+
+#GYROSTABILIZER
+utility_component_template = {
+	key = "LARGE_GYROSTABILIZER_01"
+	size = large
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @large_gyro_power_1
+	cost = @large_gyro_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @l_ship_weapon_damage_1
+		weapon_type_kinetic_weapon_fire_rate_mult = @l_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_gyrostabilizer_1" }
+	component_set = "GYROSTABILIZER_01"
+}
+
+
+utility_component_template = {
+	key = "LARGE_GYROSTABILIZER_02"
+	size = large
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @large_gyro_power_2
+	cost = @large_gyro_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @l_ship_weapon_damage_2
+		weapon_type_kinetic_weapon_fire_rate_mult = @l_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_gyrostabilizer_2" }
+	component_set = "GYROSTABILIZER_02"
+}
+
+#GYROSTABILIZER
+utility_component_template = {
+	key = "CAPITAL_GYROSTABILIZER_01"
+	size = large
+	icon = "GFX_ship_part_heatsink_1"
+	icon_frame = 1
+	power = @capital_gyro_power_1
+	cost = @capital_gyro_cost_1
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @c_ship_weapon_damage_1
+		weapon_type_kinetic_weapon_fire_rate_mult = @c_ship_weapon_damage_1
+	}
+	prerequisites = { "tech_gyrostabilizer_1" }
+	component_set = "GYROSTABILIZER_01"
+}
+
+
+utility_component_template = {
+	key = "CAPITAL_GYROSTABILIZER_02"
+	size = large
+	icon = "GFX_ship_part_heatsink_2"
+	icon_frame = 1
+	power = @capital_gyro_power_2
+	cost = @capital_gyro_cost_2
+	military_power = 2
+	ship_modifier = {
+		weapon_type_kinetic_weapon_damage_mult = @c_ship_weapon_damage_2
+		weapon_type_kinetic_weapon_fire_rate_mult = @c_ship_weapon_damage_2
+	}
+	prerequisites = { "tech_gyrostabilizer_2" }
+	component_set = "GYROSTABILIZER_02"
+}

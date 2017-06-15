@@ -1,0 +1,404 @@
+################################################
+## WEAPON ICONS
+###############################################
+
+spriteTypes = {
+################################################
+## LASER WEAPONS
+###############################################
+
+	## PULSE LASER SMALL
+	spriteType = {
+		name = "GFX_ship_part_gatling_pulse_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_gatling_pulse_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_gatling_pulse_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_gatling_pulse_laser_2.dds"
+	}
+
+
+	## PULSE LASER MEDIUM
+	spriteType = {
+		name = "GFX_ship_part_heavy_pulse_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_pulse_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_heavy_pulse_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_pulse_laser_2.dds"
+	}
+
+
+	## PULSE LASER LARGE
+	spriteType = {
+		name = "GFX_ship_part_mega_pulse_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_mega_pulse_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_mega_pulse_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_mega_pulse_laser_2.dds"
+	}
+
+
+	## PULSE LASER CAPITAL
+	spriteType = {
+		name = "GFX_ship_part_quad_mega_pulse_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_quad_mega_pulse_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_quad_mega_pulse_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_quad_mega_pulse_laser_2.dds"
+	}
+
+
+	## BEAM LASER SMALL
+	spriteType = {
+		name = "GFX_ship_part_small_focused_beam_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_small_focused_beam_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_small_focused_beam_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_small_focused_beam_laser_2.dds"
+	}
+
+
+	## BEAM LASER MEDIUM
+	spriteType = {
+		name = "GFX_ship_part_heavy_beam_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_beam_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_heavy_beam_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_beam_laser_2.dds"
+	}
+
+
+	## BEAM LASER LARGE
+	spriteType = {
+		name = "GFX_ship_part_mega_beam_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_mega_beam_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_mega_beam_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_mega_beam_laser_2.dds"
+	}
+
+	## BEAM LASER CAPITAL
+	spriteType = {
+		name = "GFX_ship_part_dual_giga_beam_laser_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_dual_giga_beam_laser_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_dual_giga_beam_laser_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_dual_giga_beam_laser_2.dds"
+	}
+
+
+
+################################################
+## HYBRID WEAPONS
+###############################################
+## BLASTER SMALL
+	spriteType = {
+		name = "GFX_ship_part_light_neutron_blaster_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_light_neutron_blaster_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_light_neutron_blaster_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_light_neutron_blaster_2.dds"
+	}
+
+## BLASTER MEDIUM
+	spriteType = {
+		name = "GFX_ship_part_heavy_neutron_blaster_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_neutron_blaster_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_heavy_neutron_blaster_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_neutron_blaster_2.dds"
+	}
+
+## BLASTER LARGE
+	spriteType = {
+		name = "GFX_ship_part_neutron_blaster_cannon_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_neutron_blaster_cannon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_neutron_blaster_cannon_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_neutron_blaster_cannon_2.dds"
+	}
+
+## BLASTER CAPITAL
+	spriteType = {
+		name = "GFX_ship_part_triple_neutron_blaster_canon_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_triple_neutron_blaster_canon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_triple_neutron_blaster_canon_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_triple_neutron_blaster_canon_2.dds"
+	}
+
+## RAILS SMALL
+	spriteType = {
+		name = "GFX_ship_part_150mm_railgun_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_150mm_railgun_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_150mm_railgun_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_150mm_railgun_2.dds"
+	}
+
+## RAILS MEDIUM
+	spriteType = {
+		name = "GFX_ship_part_250mm_railgun_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_250mm_railgun_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_250mm_railgun_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_250mm_railgun_2.dds"
+	}
+
+## RAILS LARGE
+	spriteType = {
+		name = "GFX_ship_part_425mm_railgun_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_425mm_railgun_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_425mm_railgun_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_425mm_railgun_2.dds"
+	}
+
+## RAILS CAPITAL
+	spriteType = {
+		name = "GFX_ship_part_dual_1000mm_railgun_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_dual_1000mm_railgun_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_dual_1000mm_railgun_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_dual_1000mm_railgun_2.dds"
+	}
+
+
+################################################
+## PROJECTILE WEAPONS
+###############################################
+## AUTOCANNON SMALL
+	spriteType = {
+		name = "GFX_ship_part_200mm_autocannon_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_200mm_autocannon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_200mm_autocannon_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_200mm_autocannon_2.dds"
+	}
+
+## AUTOCANNON MEDIUM
+	spriteType = {
+		name = "GFX_ship_part_425mm_autocannon_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_425mm_autocannon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_425mm_autocannon_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_425mm_autocannon_2.dds"
+	}
+
+## AUTOCANNON LARGE
+	spriteType = {
+		name = "GFX_ship_part_800mm_repeating_cannon_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_800mm_repeating_cannon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_800mm_repeating_cannon_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_800mm_repeating_cannon_2.dds"
+	}
+
+## AUTOCANNON CAPITAL
+	spriteType = {
+		name = "GFX_ship_part_hexa_2500mm_repeating_cannon_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_hexa_2500mm_repeating_cannon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_hexa_2500mm_repeating_cannon_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_hexa_2500mm_repeating_cannon_2.dds"
+	}
+
+## ARTTILARY SMALL
+	spriteType = {
+		name = "ship_part_280mm_howitzer_artillery_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_280mm_howitzer_artillery_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_280mm_howitzer_artillery_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_280mm_howitzer_artillery_2.dds"
+	}
+
+## ARTTILARY MEDIUM
+	spriteType = {
+		name = "GFX_ship_part_720mm_howitzer_artillery_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_720mm_howitzer_artillery_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_720mm_howitzer_artillery_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_720mm_howitzer_artillery_2.dds"
+	}
+
+## ARTTILARY LARGE
+	spriteType = {
+		name = "GFX_ship_part_1400mm_howitzer_artillery_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_1400mm_howitzer_artillery_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_1400mm_howitzer_artillery_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_1400mm_howitzer_artillery_2.dds"
+	}
+
+## ARTTILARY CAPITAL
+	spriteType = {
+		name = "GFX_ship_part_quad_3500mm_siege_artillery_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_quad_3500mm_siege_artillery_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_quad_3500mm_siege_artillery_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_quad_3500mm_siege_artillery_2.dds"
+	}
+
+
+################################################
+## MISSILE WEAPONS
+###############################################
+## LIGHT MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_light_missile_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_light_missile_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_light_missile_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_light_missile_2.dds"
+	}
+
+## HEAVY MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_heavy_missiles_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_missiles_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_heavy_missiles_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_missiles_2.dds"
+	}
+
+## ROCKET LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_rocket_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_rocket_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_rocket_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_rocket_2.dds"
+	}
+
+## TORPEDO LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_torpedo_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_torpedo_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_torpedo_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_torpedo_2.dds"
+	}
+
+## CAPITAL TORPEDO LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_xl_torpedo_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_xl_torpedo_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_xl_torpedo_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_xl_torpedo_2.dds"
+	}
+
+## LIGHT RAPID MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_rapid_light_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_rapid_light_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_rapid_light_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_rapid_light_2.dds"
+	}
+
+## HEAVY RAPID MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_rapid_heavy_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_rapid_heavy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_rapid_heavy_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_rapid_heavy_2.dds"
+	}
+
+## CRUISE MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_cruise_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_cruise_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_cruise_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_cruise_2.dds"
+	}
+
+## CAPITAL CRUISE MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_xl_cruise_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_xl_cruise_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_xl_cruise_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_xl_cruise_2.dds"
+	}
+
+## SMALL DEFENDER MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_small_defender_missile_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_light_missile_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_small_defender_missile_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_light_missile_2.dds"
+	}
+
+## MEDIUM DEFENDER MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_medium_defender_missiles_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_missiles_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_medium_defender_missiles_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heavy_missiles_2.dds"
+	}
+
+## LARGE DEFENDER MISSILE LAUNCHER
+	spriteType = {
+		name = "GFX_ship_part_large_defender_missiles_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_cruise_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_large_defender_missiles_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_cruise_2.dds"
+	}
+
+################################################
+## DOOMSDAY WEAPONS
+###############################################
+	spriteType = {
+		name = "GFX_ship_part_energy_doomsday"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_energy_doomsday.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_explosive_doomsday"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_explosive_doomsday.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_kinetic_doomsday"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_kinetic_doomsday.dds"
+	}
+}

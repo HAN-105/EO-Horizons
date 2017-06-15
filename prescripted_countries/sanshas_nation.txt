@@ -12,13 +12,13 @@ sanshas_nation
 	portrait="caldari"
 	name="Sansha's Nation"
 	adjective="Sansha's Nation"
-	government="gov_theocratic_monarchy"
+	government="military_dictatorship"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="37S-KO IVa"
 	planet_class="pc_arid"
 	system_name="37S-KO"
-	initializer="sanshas_nation"
+	#initializer="sanshas_nation"
 	graphical_culture="caldari_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -42,7 +42,7 @@ sanshas_nation
 		name="Sansha Kuvakei"
 		portrait="caldari"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_collectivist"
 	ethic="ethic_militarist"
 	trait="trait_sanshas_nation"

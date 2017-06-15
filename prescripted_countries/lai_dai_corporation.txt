@@ -12,13 +12,13 @@ laidai_corporation
 	portrait="caldari"
 	name="Lai Dai Corporation"
 	adjective="Lai Dai"
-	government="gov_theocratic_monarchy"
+	government="despotic_hegemony"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Airkio VIc"
 	planet_class="pc_tundra"
 	system_name="Airkio"
-	initializer="laidai_corporation"
+	#initializer="laidai_corporation"
 	graphical_culture="caldari_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -42,7 +42,7 @@ laidai_corporation
 		name="Alakoni Ishanoya"
 		portrait="caldari_female3"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_collectivist"
 	ethic="ethic_materialist"
 	trait="trait_lai_dai_corporation"

@@ -1,0 +1,68 @@
+####################################
+##### Ship Cores
+####################################
+spriteTypes = {
+	###############################################################
+	### TITAN
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_titan_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/titan_core.dds"
+	}
+	###############################################################
+	### MOTHERSHIP
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_mothership_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/mothership_core.dds"
+	}
+	###############################################################
+	### DREADNOUGHTS
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_dreadnought_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/dreadnought_core.dds"
+	}
+	###############################################################
+	### DESTROYER
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_destroyer_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/destroyer_core.dds"
+	}
+	###############################################################
+	### CRUISER
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_cruiser_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/cruiser_core.dds"
+	}
+	###############################################################
+	### CARRIER
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_carrier_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/carrier_core.dds"
+	}
+	###############################################################
+	### BATTLESHIP
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_battleship_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/battleship_core.dds"
+	}
+	###############################################################
+	### BATTLECRUISER
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_battlecruiser_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/battlecruiser_core.dds"
+	}
+	###############################################################
+	### FRIGATES
+	################################################################
+	spriteType = {
+		name = "GFX_ship_part_frigate_core"
+		texturefile = "gfx/interface/icons/ship_parts/ship_core/frigate_core.dds"
+	}
+}

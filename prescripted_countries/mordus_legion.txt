@@ -12,13 +12,13 @@ mordus_legion
 	portrait="gallente"
 	name="Mordu's Legion Command"
 	adjective="Mordus"
-	government="gov_theocratic_monarchy"
+	government="military_dictatorship"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="5ZXX-K V"
 	planet_class="pc_arid"
 	system_name="5ZXX-K"
-	initializer="mordus_legion"
+	#initializer="mordus_legion"
 	graphical_culture="caldari_01"
         city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -42,7 +42,7 @@ mordus_legion
 		name="Muryia Mordu"
 		portrait="caldari_male4"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_collectivist"
 	ethic="ethic_xenophile"
 	ethic="ethic_militarist"

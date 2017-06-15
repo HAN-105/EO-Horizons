@@ -1,0 +1,10 @@
+
+
+# This modifier replaces the tech bonus from the related event for space whale weapons for spiritualists
+tinyanki_happiness = {
+	pop_happiness = 0.05
+}
+# This modifier replaces the tech bonus from the related event for space whale weapons for materialists
+tinyanki_research = {
+	tile_resource_society_research_mult = 0.05
+}

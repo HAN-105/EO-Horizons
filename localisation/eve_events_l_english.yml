@@ -1,0 +1,270 @@
+﻿l_english:
+ ### CONTENT
+ ## AMARR EMPIRE
+ ## SLAVER
+ ## ARCHAEOLOGICAL SOCIETY
+ ## TAKMAHL
+
+
+ ## AMARR EMPIRE
+ START_SCREEN_AMARR_EMPIRE:0 "Several thousand years ago our ancestors settled on the continent §YAmarr§!. The peoples were divided into several small city-states, led by petty warlords. This continued for about 8000 years, when §YAmash-Akura§!, the warlord of the city-state §YDom-Torsad§!, reinvigorated our faith and conquered the entire continent in a mere 20 years. He was named Emperor by the unified Church and founded the §YCouncil of Apostles§! with the most loyal Holder families.\n\nThen in 20022 the §YUdorians§! arrived on our shores. The Emperor of the time reminded our people of their duty to spread the True Faith and so the §YFirst Great Reclaiming§! was launched. As the §YUdorians§! refused to simply submit to our rule they were enslaved or killed. During this time we encountered the §YKhanid§! as well, who embraced the §YTrue Faith§! and became loyal subjects. Now we have united the World and have found a way to travel to the stars!" 
+ amarr_empire_events.2.name:0 "The Amarr Empire Rises (HINTS)"
+ amarr_empire_events.2.desc:0 "The Amarr Empire starts with Khanid and Udorian pops. These are enslaved from the beginning and will join the docile slave faction.\n\n The Amarr Empire has the state religion Amarr Faith, which will allow the enslavement of any pop. However, members of the Sani Sabik sect will be unhappy. Slaves who observe the Amarr Faith will join the docile slaves faction."
+
+ ## SLAVERY
+ slavery.5.title:0 "End Vitoc Development"
+ slavery.5.desc:0 "Ending the practice of vitoc is a costly endeavour. Although there is a cure for it takes still some time for the slaves to fully recover."
+ slavery.5.a:0 "Halt Vitoc Development"
+ slavery.5.a.tooltip:0 "This can lead to death. Some survivors will work with a slightly diminished capacity for many years."
+ slavery.5.b:0 "Continue Vitoc Development"
+ 
+ slavery.6.title:0 "End Advanced Vitoc Development"
+ slavery.6.desc:0 "Ending the practice of advanced Vitoc is a costly endeavour. As there is no true cure for it, some sacrifices will have to be made."
+ slavery.6.a:0 "Halt Vitoc Development"
+ slavery.6.a.tooltip:0 "This will lead to the death of many. Survivors will work in diminished capacity for many years."
+ slavery.6.b:0 "Continue Vitoc Development"
+ 
+ slavery.8.title:0 "End Neural Implants Maintenance"
+ slavery.8.desc:0 "Ending the practice of neural implants is a costly endeavour. There is no way to safely remove the implants and fully restore cognitive function."
+ slavery.8.a:0 "Remove the implants"
+ slavery.8.a.tooltip:0 "Removal of the implants is a dangerous and painful process, which some will not survive. The rest will suffer varying damage to their cognitive function for a long time."
+ slavery.8.b:0 "Shifting implants out of use"
+ 
+ slavery.8.title:0 "End True Slave Implants Maintenance"
+ slavery.8.desc:0 "Ending the practice of true slaves is a costly endeavour. There is no way to safely remove the implants and fully restore cognitive function."
+ slavery.8.a:0 "Remove the implants"
+ slavery.8.a.tooltip:0 "Removal of the implants is a dangerous and painful process, which many will not survive. The rest will suffer considerable damage to their cognitive function for a long time."
+ slavery.8.b:0 "Shifting implants out of use"
+ 
+ ## ARCHAEOLOGICAL SOCIETY
+ archaeological_society.2.title:0 "Archaeological Society"
+ archaeological_society.2.desc:0 "Since the discovery of the remnants of a precursor race, many organisations have launched initiatives to discover more about them. However most of these initiatives had only limited success. This is why various organisations have decided to combine forces and form the Archaeological Society. This will hopefully re-invigorate the exploration of the ruins of this long lost civilisation."
+ archaeological_society.2.a:0 "Very Well!"
+ 
+ archaeological_society.198.title:0 "Nothing of Note"
+ archaeological_society.198.desc:0 "Unfortunately the latest efforts of the Archaeological Society have yielded no tangible results."
+ 
+ archaeological_society.199.title:0 "Precursors Complete"
+ archaeological_society.199.desc:0 "The Society believes everything of note has been found and will shut down operations."
+ 
+ archaeological_society.200.title:0 "New Initiative"
+ archaeological_society.200.desc:0 "A new initiative for a archaeological dig has been started."
+ 
+ archaeological_society.290.title:0 "Archaeological Site"
+ archaeological_society.290.desc:0 "The Archaeological Society has decided to launch a new initiative on [Root.GetName]."
+ 
+ archaeological_society.291.title:0 "Archaeological Site"
+ archaeological_society.291.desc:0 "The Archaeological Society has decided to launch a new initiative on [Root.GetName]."
+ 
+ archaeological_society.292.title:0 "Archaeological Site"
+ archaeological_society.292.desc:0 "The Archaeological Society has decided to launch a new initiative on [Root.GetName]."
+ 
+ ##### TAKMAHL PRECURSOR
+ ## EVENT CHAIN
+ takmahl_main_questline_title:0 "The Takmahl Empire"
+ takmahl_main_questline_desc:0 "The Takmahl were a civilisation founded several thousand years ago. It crumbled for unknown reasons, but have left behind many ruins which might be worth investigating."
+ takmahl_historical_records: "Historical Records"
+ takmahl_cultural_artifacts: "Cultural Artefacts"
+ takmahl_bio_engineering_research_data:0 "Bio-Engineering Research Data"
+ takmahl_cybernetic_research_data:0 "Cybernetics Research Data"
+ takmahl_ship_remnants:0 "Ship Remnants"
+ takmahl_terraforming_equipment:0 "Terraforming Equipment"
+ ## ANOMALY CATEGORY
+ takmahl_colony_category_desc:0 "Old ruins indicate the presence of an ancient civilisation."
+ takmahl_barren_category_desc:0 "Old ruins indicate the presence of an ancient civilisation."
+ takmahl_uninhabitable_category_desc: "Our sensors indicate that there might be wreckage in orbit."
+ ## INTRO EVENTS
+ takmahl.10.name:0 "The Takmahl Empire"
+ takmahl.10.desc:0 "The ruins we have uncovered are clearly from an ancient civilisation. After a first spurious analysis it has become apparent that everything is of Human origin and not Alien live. The civilisation called itself the Takmahl."
+ takmahl.20.name:0 "The Takmahl Empire"
+ takmahl.20.desc:0 "The ruins we have uncovered are clearly from an ancient civilisation. After a first spurious analysis it has become apparent that everything is of Human origin and not Alien live. The civilisation called itself the Takmahl."
+ takmahl.30.name:0 "The Takmahl Empire"
+ takmahl.30.desc:0 "The ruins we have uncovered are clearly from an ancient civilisation. After a first spurious analysis it has become apparent that everything is of Human origin and not Alien live. The civilisation called itself the Takmahl."
+ 
+ takmahl.completed.name:0 "Project Completed"
+ 
+ ## History
+ takmahl.101.name:0 "Origins"
+ takmahl.101.desc:0 "We have uncovered several mostly intact data-cores from what appears to be a colonial archive. Some time and resources will be required to further investigate these data cores."
+ takmahl.102.name:0 "Expansion"
+ takmahl.102.desc:0 "We have uncovered various records, data-cores and other information from imperial sources on the colonial efforts in the early days of the Empire."
+ takmahl.103.name:0 "Technological Advances"
+ takmahl.103.desc:0 "During the investigation we have found much evidence of rapid technological development. We should investigate why this is."
+ takmahl.104.name:0 "Disaster"
+ takmahl.104.desc:0 "This major habitable world at the heart of the Takmahl Empire seems to have suffered from the impact of several large scale meteorites."
+ takmahl.105.name:0 "Civil War"
+ takmahl.105.desc:0 "Many records found reference a civil war. We should investigate why this war erupted and whether it lead to the decline of the Takmahl Empire."
+ takmahl.121.name:0 "Origins"
+ takmahl.121.desc:0 "We have uncovered several mostly intact data-cores from what appears to be a colonial archive. Some time and resources will be required to further investigate these data-cores."
+ takmahl.122.name:0 "Expansion"
+ takmahl.122.desc:0 "We have uncovered various records, data-cores and other information from imperial sources on the colonial efforts in the early days of the Empire."
+ takmahl.123.name:0 "Technological Advances"
+ takmahl.123.desc:0 "During the investigation we have found much evidence of rapid technological development. We should investigate why this is."
+ takmahl.124.name:0 "Disaster"
+ takmahl.124.desc:0 "This major habitable world at the heart of the Takmahl Empire seems to have suffered from the impact of several large scale meteorites."
+ takmahl.125.name:0 "Civil War"
+ takmahl.125.desc:0 "Many records found reference to a civil war. We should investigate why this war erupted and whether it lead to the decline of the Takmahl Empire."
+ takmahl.151.desc:0 "With the information on the data-cores and other information available researchers have determined that the Takmahl must have arrived here only a few thousand years ago. The first settlers came in slow cryo-colonyships. Only a small number of people and resources were transported. It appears that the Takmahl fled the Amarr Empire shortly after the Hedion Star Gate was constructed."
+ takmahl.152.desc:0 "It appears that early shortly after its foundation the Takmahl Empire started to expand its reach to many nearby solar systems. This expansion was mainly driven by a need to find new resources to supply the growing slave population."
+ takmahl.153.desc:0 "The Takmahl Empire managed to advance their technology in bio-engineering and cybernetics rapidly. This came from the need of a large and stable slave population to maintain the Takmahl society. If properly understood, we might be able to apply these advances to our own technology."
+ takmahl.154.desc:0 "This world was one of the major production planets for biomass, required in the mass-cloning of slaves to supply the Takmahl Empire. The meteorite destroyed reduced the production to a tiny amount. The investigation revealed that other such biomass worlds were rendered useless by meteorite impacts. This led to a rapid shortage of new slaves and therefore the main labour force of the Empire."
+ takmahl.155.desc:0 "The civil war within the Takmahl Empire erupted after meteorite impacts destroyed the supply of biomass to produce the slaves of the Empire. This led to much instability within the Empire and an increase in crime and unrest. The Takmahl Emperor attempted to quell this unrest by calling upon the Imperial Navy. However due to the weak centralisation the loyalty of many navy captains and admirals stood with powerful noble families and not the empire. With this the authority of the Empire crumbled in an instant and the noble families started to fight for dominance. This civil war led to the decline of the Takmahl Empire, which eventually disappeared entirely."
+ 
+ ## Culture
+ takmahl.201.name:0 "Religious Scriptures"
+ takmahl.201.desc:0 "We have uncovered various large scale temples and many religious scriptures on §Y[From.From.GetName]§!. Religion was clearly important in the Takmahl Empire, but we should investigate how this religion was observed."
+ takmahl.202.name:0 "Feudal Society"
+ takmahl.202.desc:0 "The society of the Takmahl Empire seems to be strictly organised. Investigation of court records might shed more light on how exactly."
+ takmahl.203.name:0 "Slavery"
+ takmahl.203.desc:0 "All information uncovered so far indicates that slavery was a crucial part of the Takmahl Empire. Why was this?"
+ takmahl.221.name:0 "Religious Scriptures"
+ takmahl.221.desc:0 "We have uncovered various large scale temples and many religious scriptures on §Y[From.From.GetName]§!. Religion was clearly important in the Takmahl Empire, but we should investigate how this religion was observed."
+ takmahl.222.name:0 "Feudal Society"
+ takmahl.222.desc:0 "The society of the Takmahl Empire seems to be strictly organised. Investigation of court records might shed more light on how exactly."
+ takmahl.223.name:0 "Slavery"
+ takmahl.223.desc:0 "All information uncovered so far indicates that slavery was a crucial part of the Takmahl Empire. Why was this?"
+ takmahl.251.desc:0 "The Takmahl seem to worship the same God as the Amarr Empire. However, the prevalence of blood and live sacrifices would indicate that the Takmahl were a Sani Sabik sect. This would also explain why they fled the Amarr Empire to this region of space."
+ takmahl.252.desc:0 "The origin of the Takmahl Empire is the Amarr Empire. The elites of the Takmahl strove to create a similar society in their empire as they left behind. With the Emperor at the centre the Holder families held the most power. The rest of the population was either of minor noble blood, commoners, soldiers or slaves. The casts were very strictly enforced, but good service to the Empire or God could help subjects or their families to ascend the ranks."
+ takmahl.253.desc:0 "Slavery was the main labour force of the Takmahl Empire and drove much of the technological advancements and territorial expansion of the Empire. The vast slave population was controlled with cybernetic implants and cybernetic advanced overseers."
+ 
+ ## Bio-Engineering
+ takmahl.301.name:0 "Aquaculture Farm Ruins"
+ takmahl.301.desc:0 "We have discovered several ruins of what appears to be vast aquaculture farms to harvest plankton."
+ takmahl.302.name:0 "Clone Mass Grave"
+ takmahl.302.desc:0 "Upon excavating the surface of the planet we found evidence of a mass grave for clones."
+ takmahl.303.name:0 "Cloning Facilities"
+ takmahl.303.desc:0 "In the equatorial region of [From.From.GetName] we found the ruins of a cloning facility."
+ takmahl.304.name:0 "Clone Research"
+ takmahl.304.desc:0 "While going through the ruins of a library, we found many document pertaining early clone research conducted by the Takmahl Empire."
+ takmahl.305.name:0 "Research Archives"
+ takmahl.305.desc:0 "In the imperial archives located on [From.From.GetName] we were able to recover many records which seem to be about the optimisation of biomass production and harvest."
+ takmahl.306.name:0 "Damaged Space Ship"
+ takmahl.306.desc:0 "Our sensors have found the wreckage of a Takmal vessel."
+ takmahl.321.name:0 "Aquaculture Farm Ruins"
+ takmahl.321.desc:0 "We have discovered several ruins of what appears to be vast aquaculture farms to harvest plankton."
+ takmahl.322.name:0 "Clone Mass Grave"
+ takmahl.322.desc:0 "Upon excavating the surface of the planet we found evidence of a mass grave for clones."
+ takmahl.323.name:0 "Cloning Facilities"
+ takmahl.323.desc:0 "In the equatorial region of [From.From.GetName] we found the ruins of a cloning facility."
+ takmahl.324.name:0 "Clone Research"
+ takmahl.324.desc:0 "While going through the ruins of a library, we found many document pertaining early clone research conducted by the Takmahl Empire."
+ takmahl.325.name:0 "Research Archives"
+ takmahl.325.desc:0 "In the imperial archives located on [From.From.GetName] we were able to recover many records which seem to be about the optimisation of biomass production and harvest."
+ takmahl.326.name:0 "Space Ship Wreckage"
+ takmahl.326.desc:0 "Our sensors have found the wreckage of a Takmal vessel."
+ takmahl.351.desc:0 "In these aquacultures the Takmahl harvested an enormous amount of plankton to create the biomass necessary for growing so many clones."
+ takmahl.352.desc:0 "Although we were unable to recover any actual DNA or organic matter, there were plenty of artificial remains of the clones such as limbs and neural implants. Some of these devices were for medical purposes and we found a treasure trove of medical data."
+ takmahl.353.desc:0 "The cloning facility was a vast complex of filled with many thousand clone vats. We were able to recover some data from the monitoring software, which should help us optimise the growthprocess of new clones."
+ takmahl.354.desc:0 "After translating this research we realised that it was a long and bloody path towards mass cloning. This data should help us avoid many of the Pitfalls the Takmahl encountered."
+ takmahl.355.desc:0 "It appears the Takmahl spent a great deal of time and resources to optimise the production of biomass. It is clear that we can use many of these technologies to improve our own food production process."
+ takmahl.356.desc:0 "Upon inspection of the wreckage it became clear, that this was a cargo ship. It is unclear what its origin or destnation was, but its cargo was most valuable. Amongst other things we found a complete clone vat, which has helped immensely to study this technology."
+ 
+ ## Cybernetics
+ takmahl.401.name:0 "Bio-Droid Controller"
+ takmahl.401.desc:0 "We have recovered what appears to be a functioning bio-droid controller. Preserved in an air tight safe. We should try to figure out how to install and use this controller."
+ takmahl.402.name:0 "Cyborg Remains"
+ takmahl.402.desc:0 "We have found the mummified and astonishingly well preserved remains of a highly modifier human. Hopefully some of the data stored within will still be recoverable, but we will certainly learn a lot how these implants were installed."
+ takmahl.403.name:0 "Cybernetic Research Data"
+ takmahl.403.desc:0 "We have recovered several containers which are probably data-cores. Hopefully we will find some useful information within them."
+ takmahl.404.name:0 "Implant Factory"
+ takmahl.404.desc:0 "A first survey indicates that this facility was used to create neural implants."
+ takmahl.405.name:0 "Bio-Droid Controller Interface"
+ takmahl.405.desc:0 "In the ruins of a small complex we have found a machine which may have been used to interface with and control bio-droids."
+ takmahl.406.name:0 "Cybernetic Implant Storage Facility"
+ takmahl.406.desc:0 "We have uncovered what appears to be a Takmahl storage facility for neural and cybernetic implants. We might be able to recover some functioning implants here." 
+ takmahl.421.name:0 "Bio-Droid Controller"
+ takmahl.421.desc:0 "We have recovered what appears to be a functioning bio-droid controller. Preserved in an air tight safe. We should try to figure out how to install and use this controller."
+ takmahl.422.name:0 "Cyborg Remains"
+ takmahl.422.desc:0 "We have found the mummified and astonishingly well preserved remains of a highly modifier human. Hopefully some of the data stored within will still be recoverable, but we will certainly learn a lot how these implants were installed."
+ takmahl.423.name:0 "Cybernetic Research Data"
+ takmahl.423.desc:0 "We have recovered several containers which are probably data-cores. Hopefully we will find some useful information within them."
+ takmahl.424.name:0 "Implant Factory"
+ takmahl.424.desc:0 "A first survey indicates that this facility was used to create neural implants."
+ takmahl.425.name:0 "Bio-Droid Controller Interface"
+ takmahl.425.desc:0 "In the ruins of a small complex we have found a machine which may have been used to interface with and control bio-droids."
+ takmahl.426.name:0 "Cybernetic Implant Storage Facility"
+ takmahl.426.desc:0 "We have uncovered what appears to be a Takmahl storage facility for neural and cybernetic implants. We might be able to recover some functioning implants here."
+ takmahl.451.desc:0 "We were unable to get the bio-droid controller to work. Most likely it was too damaged to begin with. However, we were able to gather valuable data which we most likely can apply to our own cybernetic technology."
+ takmahl.452.desc:0 "The cyborg was still in good condition and we managed to extract most of implants and artificial parts without damaging them. By connecting them to electric controllers we were able to even reactivate them and determine their purpose. They will serve as prototypes for our own designs."
+ takmahl.453.desc:0 "Most of the research data was damaged, but we managed to recover a number of blueprints for cybernetic implants and various data collection from tests. This should help us to further understand Takmahl cybernetic technologies."
+ takmahl.454.desc:0 "The implant factory proofed rather useful. We have found several only slightly damaged production machines, which were most likely used to assemble neural implants. By comparing our own designs with these machines we were able to make various improvements to the production of neural implants."
+ takmahl.455.desc:0 "The bio-droid interface was too damaged to bring back online, but we managed to recover software which was used to support the controller in controlling many bio-droids at once. The software both distributes the inputs from the controller to all the controlled bio-droids and pre-edits the sensory information from the bio-droids to not overwhelm the controller."
+ takmahl.456.desc:0 "Although the facility seems to have been raided before us we still recovered many parts and broken implants. We used them to get a detailed analysis of the materials used to produce these implants. With this we were able to develop a new alloy used by the Takmahl to make the neural implants more durable."
+ 
+ ## Ship Remnants
+ takmahl.501.name:0 "Battleship Wreckage"
+ takmahl.501.desc:0 "Our sensor picked up the presence of a large artificial structure in orbit of [From.GetName]."
+ takmahl.502.name:0 "Frigate Hulls"
+ takmahl.502.desc:0 "Our sensor picked up the presence of a many small artificial structures in orbit of [From.GetName]."
+ takmahl.503.name:0 "Battlefield"
+ takmahl.503.desc:0 "The amount of debris found in orbit of [From.GetName] that a battle has been fought here."
+ takmahl.521.name:0 "Battleship Wreckage"
+ takmahl.521.desc:0 "Our sensor picked up the presence of a large artificial structure in orbit of [From.GetName]."
+ takmahl.522.name:0 "Frigate Hulls"
+ takmahl.522.desc:0 "Our sensor picked up the presence of a many small artificial structures in orbit of [From.GetName]."
+ takmahl.523.name:0 "Battlefield"
+ takmahl.523.desc:0 "The amount of debris found in orbit of [From.GetName] that a battle has been fought here. The battle must have ended several thousand years ago, but the hulls of many ships was still surprisingly intact."
+ takmahl.551.desc:0 "On the battleship sized wreckage we found a large laser weapon mount. Close analysis of the laser weapon has shown that those weapons were very advanced and had high destructive power."
+ takmahl.552.desc:0 "Among the many frigates we were able to recover a mostly intact thruster system. It appears to be the main drive of the ship, which would indicate that the Takmahl never achieved FTL-drives. Making their drive technological rather uninteresting."
+ takmahl.553.desc:0 "Analysing the hulls of the debris made it clear that the Takmahl employed powerful and thick armour to protect their ships from enemy fire."
+ 
+ ## Terraforming
+ takmahl.601.name:0 "Terraforming Facility"
+ takmahl.601.desc:0 "In the vast wastelands of [From.GetName] we have uncovered an enormous complex of machines. Upon closer inspection we have found that the facility most likely was used to transform the atmosphere of §Y[From.GetName]§!."
+ takmahl.602.name:0 "Terraforming Labour Camp"
+ takmahl.602.desc:0 "In a mountain range on [From.GetName] we have found a large vault, potentially housing many thousand peoples within it. We should investigate what its purpose was."
+ takmahl.603.name:0 "Terraforming Survey Data"
+ takmahl.603.desc:0 "On [From.GetName] we found a small station equipped with extensive surveillance gear. Maybe we will be able to recover the data."
+ takmahl.621.name:0 "Terraforming Facility"
+ takmahl.621.desc:0 "In the vast wastelands of [From.GetName] we have uncovered an enormous complex of machines. Upon closer inspection we have found that the facility most likely was used to transform the atmosphere of §Y[From.GetName]§!."
+ takmahl.622.name:0 "Terraforming Labour Camp"
+ takmahl.622.desc:0 "In a mountain range on [From.GetName] we have found a large vault, potentially housing many thousand peoples within it. We should investigate what its purpose was."
+ takmahl.623.name:0 "Terraforming Survey Data"
+ takmahl.623.desc:0 "On [From.GetName] we found a small station equipped with extensive surveillance gear. Maybe we will be able to recover the data."
+ takmahl.651.desc:0 "The terraforming facility was indeed used to create an atmosphere. Or at least it was attempted as there was no evidence that this planet ever had an atmosphere. The facility seems to have simply created air and distribute it around the facility. Even if it would work, it would take many hundred years to see any kind of result with this method." 
+ takmahl.652.desc:0 "This vault was most likely the home of Bio-Droids. It is very rudimentarily furnished and there is no evidence of any personal items. But we found many bio-droid controllers and other implants. It appears that the Takmahl simply abandoned this vault and left the Bio-Droids to rot. Logs from an overseer seem to indicate that these Bio-Droids were used in the Terraforming process. We were unable to determine where and why exactly."
+ takmahl.653.desc:0 "The survey data on the planet has proven rather useful. We learned a great deal of what the Takmahl though were necessary conditions for a barren world such as this to be a good target for terraforming. We will most likely be able to apply this to other terraforming projects."
+ 
+ ## End
+ takmahl.1200.title:0 "Historical Records Restored"
+ takmahl.1200.desc:0 "The history of the Takmahl Empire was fairly short and brutal. Its fast technological advances to overcome the shortage of slaves are eerily impressive, but their eventual decline was just as fast due to the destruction of the most basic resources for the mass cloning projects."
+ takmahl.1210.title:0 "Cultural Information Compiled"
+ takmahl.1210.desc:0 "The information compiled has given us a good idea on how the Takmahl society functioned. However, its rigid nature lead to its eventual collapse, something we will hopefully be able to avoid. "
+ takmahl.1220.title:0 "Bio-Engineering Research Completed"
+ takmahl.1220.desc:0 "We have gathered enough data and prototypes to be able to assembly a research project to put together all the pieces and adapt this technology to our own."
+ takmahl.1230.title:0 "Cybernetics Research Completed"
+ takmahl.1230.desc:0 "We have gathered enough data and prototypes to be able to assembly a research project to put together all the pieces and adapt this technology to our own."
+ takmahl.1240.title:0 "Ship Remnants Analysed"
+ takmahl.1240.desc:0 "The technologies uncovered from the space ship remnants was interesting, but has not lead to any astonishing new findings. Nevertheless we were able to apply our findings to construct better ship armour and more powerful laser weapons."
+ takmahl.1250.title:0 "Terraforming Equipment Researched"
+ takmahl.1250.desc:0 "The Takmahl had attempted to start the terraforming process for several barren worlds. However, their efforts were fruitless and did not lead to any substantial changes. The data obtained from analysing the terraforming projects can still be used to improve our own efforts."
+ 
+ takmahl.1300.title:0 "Takmahl Completed"
+ takmahl.1300.desc:0 "The Takmahl were a heavily stratified slaver society with powerful religious elements and little regard for the individual. Due to its precarious situation from the outset the Takmahl Empire managed to accomplish great things in a fairly short time. However, due to its rigid structure the empire was unable to react after disaster destroyed their supply of slaves. All what they built in a few thousand years disappeared in the span of a hundred. Hopefully we will learn from this and not make the same mistake."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+

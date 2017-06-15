@@ -1,0 +1,238 @@
+###########################################
+## HYBRID TURRETS
+############################################
+#### For Stats see weapons_components.csv
+
+################################################
+###### BLASTER WEAPONS
+#################################################
+
+weapon_component_template = {
+	key = "SMALL_BLASTER_TURRET_01"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_light_neutron_blaster_1"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_1" }
+	component_set = "BLASTER_TURRET_01"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "SMALL_BLASTER_TURRET_02"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_light_neutron_blaster_2"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_2" }
+	component_set = "BLASTER_TURRET_02"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "MEDIUM_BLASTER_TURRET_01"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_heavy_neutron_blaster_1"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_1" }
+	component_set = "BLASTER_TURRET_01"
+	projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "MEDIUM_BLASTER_TURRET_02"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_heavy_neutron_blaster_2"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_2" }
+	component_set = "BLASTER_TURRET_02"
+	projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "LARGE_BLASTER_TURRET_01"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_neutron_blaster_cannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_1" }
+	component_set = "BLASTER_TURRET_01"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "LARGE_BLASTER_TURRET_02"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_neutron_blaster_cannon_1"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_2" }
+	component_set = "BLASTER_TURRET_02"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "CAPITAL_BLASTER_TURRET_01"
+	size = extra_large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_triple_neutron_blaster_canon_1"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_1" }
+	component_set = "BLASTER_TURRET_01"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "CAPITAL_BLASTER_TURRET_02"
+	size = extra_large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_triple_neutron_blaster_canon_2"
+	icon_frame = 1
+	prerequisites = { "tech_blaster_turrets_2" }
+	component_set = "BLASTER_TURRET_02"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_short_range weapon_role_anti_shield }	
+}
+
+
+################################################
+###### RAILGUNS
+#################################################
+
+
+weapon_component_template = {
+	key = "SMALL_RAILGUN_01"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_150mm_railgun_1"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_1" }
+	component_set = "RAILGUN_01"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "SMALL_RAILGUN_02"
+	size = small
+	entity = "small_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_150mm_railgun_2"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_2" }
+	component_set = "RAILGUN_02"
+	projectile_gfx = "mass_driver_s"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "MEDIUM_RAILGUN_01"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_250mm_railgun_1"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_1" }
+	component_set = "RAILGUN_01"
+	projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "MEDIUM_RAILGUN_02"
+	size = medium
+	entity = "medium_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_250mm_railgun_2"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_2" }
+	component_set = "RAILGUN_02"
+	projectile_gfx = "mass_driver_m"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "LARGE_RAILGUN_01"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_425mm_railgun_1"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_1" }
+	component_set = "RAILGUN_01"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "LARGE_RAILGUN_02"
+	size = large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_425mm_railgun_2"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_2" }
+	component_set = "RAILGUN_02"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "CAPITAL_RAILGUN_01"
+	size = extra_large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_dual_1000mm_railgun_1"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_1" }
+	component_set = "RAILGUN_01"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}
+
+weapon_component_template = {
+	key = "CAPITAL_RAILGUN_02"
+	size = extra_large
+	entity = "large_kinetic_gun_entity"
+	type = instant
+	icon = "GFX_ship_part_dual_1000mm_railgun_2"
+	icon_frame = 1
+	prerequisites = { "tech_railguns_2" }
+	component_set = "RAILGUN_02"
+	projectile_gfx = "mass_driver_l"
+	tags = { weapon_type_kinetic }
+	ai_tags = { weapon_role_long_range weapon_role_anti_shield }	
+}

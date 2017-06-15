@@ -1,0 +1,140 @@
+@influence_tier1 = 50
+@influence_tier2 = 150
+@energy_tier1 = 400
+@energy_tier2 = 600
+
+advanced_vitoc_dependent_slaves = {
+	support_multiplier = 0.1
+	lose_support_on_pop_leave = no
+	
+	is_potential = {
+		always = no
+	}
+	
+	valid = {
+		owner = {
+			any_owned_pop = {
+				AND = {
+					is_enslaved = yes
+					has_modifier = pop_advanced_vitoc_dependence
+				}
+			}
+		}
+	}
+	can_create = { always = no }
+	
+	##	attraction_custom_title = "slave_attraction_title"
+	attraction_custom_desc = "advanced_vitoc_dependent_slaves_desc"
+	
+
+	is_dangerous = {
+	}
+
+	on_create = {
+		set_name = random
+		owner = {
+			every_owned_pop = {
+				limit = {
+					AND = {
+						is_enslaved = yes
+						has_modifier = pop_advanced_vitoc_dependence
+					}					
+				}
+				set_pop_faction = root
+			}
+		}
+	}
+
+	flag = {
+		icon = {
+			category = "blocky"
+			file = "flag_blocky_23.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"dark_teal"
+			"teal"
+			"null"
+			"null"
+		}
+	}
+	
+	parameters = {
+		owner_empire = {
+			type = country
+		}
+	}
+	
+	demand = {
+		title = POP_FACTION_ADVANCED_VITOC_DEPENDENT_SLAVES_DEMAND_TITLE_1
+		desc = POP_FACTION_ADVANCED_VITOC_DEPENDENT_SLAVES_DEMAND_DESC_1
+		max_support = 1
+
+		potential = {
+			always = yes
+		}
+	}
+	
+	attraction = {	#executed with a pop scope, country is stored in root
+		base = 0
+		
+		modifier = {
+			add = 300
+			is_enslaved = yes
+			has_modifier = pop_advanced_vitoc_dependence
+		}
+	
+		modifier = {
+			add = 100
+			is_enslaved = yes
+		}
+		
+
+		modifier = {
+			add = 50
+			is_enslaved = yes
+			pop_has_ethic = ethic_collectivist
+		}
+
+		modifier = {
+			add = 70
+			is_enslaved = yes
+			pop_has_ethic = ethic_fanatic_collectivist
+		}
+
+		#Xenophile in foreign empire
+		modifier = {
+			factor = 1.2
+			is_enslaved = yes
+			pop_has_ethic = ethic_xenophile
+			NOT = { is_same_species = root.species }
+		}
+
+		#Fanatic Xenophile in foreign empire
+		modifier = {
+			factor = 1.4
+			is_enslaved = yes
+			pop_has_ethic = ethic_fanatic_xenophile
+			NOT = { is_same_species = root.species }
+		}
+		
+		modifier = {
+			factor = 0
+			OR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+			}
+		}
+	}
+	
+	actions = {
+	
+	}
+
+	support_effects = {
+		
+	}
+}

@@ -18,8 +18,8 @@ fanatic_reclaimers = {
 	advanced_start_chance = 200
 	
 	weapon_preferences = weapon_type_energy
-	armor_ratio = 1.0
-	shields_ratio = 0.0
+	armor_ratio = 0.9
+	shields_ratio = 0.1
 
 	behaviour = {
 		conqueror = yes

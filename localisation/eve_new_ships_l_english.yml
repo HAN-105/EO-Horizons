@@ -1,0 +1,158 @@
+﻿l_english:
+ ####################################
+ # HULLS
+ ####################################
+ battlecruiser:0 "Battlecruiser"
+ battlecruiser_plural:0 "Battlecruisers"
+ carrier:0 "Carrier"
+ carrier_plural:0 "Carriers"
+ dreadnought:0 "Dreadnought"
+ dreadnought_plural:0 "Dreadnoughts"
+ mothership:0 "Mothership"
+ mothership_plural:0 "Motherships"
+ titan:0 "Titan"
+ titan_plural:0 "Titans"
+ 
+ ####################################
+ # SECTIONS
+ ####################################
+ ## Frigates
+ CORVETTE_CORE_S4:0 "Assault Core"
+ CORVETTE_CORE_S2P2:0 "Balanced Core"
+ 
+ ## Destroyer 
+ DESTROYER_BOW_S4:0 "Assault Bow"
+ DESTROYER_BOW_S2PD2:0 "Balanced Bow"
+ DESTROYER_BOW_PD4:0 "Point Defence Bow"
+ DESTROYER_STERN_S4:0 "Assault Stern"
+ DESTROYER_STERN_S2PD2:0 "Balanced Stern"
+ DESTROYER_STERN_PD4:0 "Point Defence Stern"
+ 
+ ## Battlecruiser Sections
+ BATTLECRUISER_BOW_M1PD2:0 "Point Defence Bow"
+ BATTLECRUISER_BOW_M2:0 "Broadside Bow"
+ BATTLECRUISER_MID_M4:0 "Broadside Core"
+ BATTLECRUISER_STERN_M2:0 "Broadside Stern"
+ 
+ # Battleship Sections
+ BATTLESHIP_BOW_L3: "Artillery Bow"
+ BATTLESHIP_MID_L3: "Artillery Core"
+ BATTLESHIP_MID_L2PD2:0 "Point Defence Core"
+ BATTLESHIP_STERN_L3:0 "Artillery Stern"
+
+ ## Carrier Sections
+ CARRIER_BOW_HANGER:0 "Hangar Bow"
+ CARRIER_MID_HANGER:0 "Hangar Core"
+ CARRIER_STERN_HANGER:0 "Hangar Stern"
+
+ ## Dreadnought Sections
+ DREADNOUGHT_BOW_M2S4:0 "Broadside Bow"
+ DREADNOUGHT_BOW_L2:0 "Artillery Bow"
+ DREADNOUGHT_MID_L2M2:0 "Broadside Core"
+ DREADNOUGHT_MID_L3:0 "Artillery Core"
+ DREADNOUGHT_STERN_L1:0 "Artillery Stern"
+ DREADNOUGHT_STERN_M2:0 "Broadside Stern"
+
+ ## Mothership Sections
+ MOTHERSHIP_BOW_HANGER:0 "Hangar Bow"
+ MOTHERSHIP_MID_HANGER:0 "Hangar Core"
+ MOTHERSHIP_STERN_HANGER:0 "Hangar Stern"
+
+ ## Titan Sections
+ TITAN_BOW_XL3DD1:0 "Doomsday Bow"
+ TITAN_BOW_XL4:0 "Artillery Bow"
+ TITAN_MID_XL4:0 "Artillery Core"
+ TITAN_STERN_XL2:0 "Artillery Core"
+
+
+ 
+ 
+ ####################################
+ # TECHNOLOGIES
+ ####################################
+ tech_battlecruiser_1:0 "Battlecruiser Construction"
+ tech_battlecruiser_1_desc:0 "Establishing new standards for the modeling and construction of battlecruisers.\n\n"
+ TECH_UNLOCK_BATTLECRUISER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Battlecruiser"
+ TECH_UNLOCK_BATTLECRUISER_CONSTRUCTION_DESC:0 "§HBattlecruiser§!\nBattlecruisers are larger, slower and have more slots than cruisers, but they're smaller than battleships and fit the same medium-sized weapons that cruisers use."
+
+ tech_carrier_1:0 "Carriers Construction"
+ tech_carrier_1_desc:0 "Expanded dry-docks allow for the construction of Carrier-class military vessels."
+ TECH_UNLOCK_CARRIER_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Carrier"
+ TECH_UNLOCK_CARRIER_CONSTRUCTION_DESC:0 "§HCarrier§!\nA huge hull configuration, the Carrier brings multiple squadrons of fighters into battle at great cost and at severely reduced maneuverability."
+
+ tech_dreadnought_1:0 "Dreadnoughts Construction"
+ tech_dreadnought_1_desc:0 "Expanded dry-docks allow for the construction of Dreadnought-class military vessels."
+ TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Dreadnought"
+ TECH_UNLOCK_DREADNOUGHT_CONSTRUCTION_DESC:0 "§HDreadnought§!\nA huge hull configuration, the Dreadnought can host truly absurd firepower at a massive cost with severely reduced maneuverability."
+
+ tech_mothership_1:0 "Motherships Construction"
+ tech_mothership_1_desc:0 "Expanded dry-docks allow for the construction of Carrier-class military vessels."
+ TECH_UNLOCK_MOTHERSHIP_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Mothership"
+ TECH_UNLOCK_MOTHERSHIP_CONSTRUCTION_DESC:0 "§HMothership§!\nA huge hull configuration, the Mothership brings multiple squadrons of fighters into battle at great cost and at severely reduced maneuverability."
+
+ tech_titan_1:0 "Titan Construction"
+ tech_titan_1_desc:0 "Expanded dry-docks allow for the construction of Dreadnought-class military vessels."
+ TECH_UNLOCK_TITAN_CONSTRUCTION_TITLE:0 "§HUnlocks Ship Type:§! Titan"
+ TECH_UNLOCK_TITAN_CONSTRUCTION_DESC:0 "§HTitan§!\nA huge hull configuration, the Titan can host truly absurd firepower at a massive cost with severely reduced maneuverability."
+ 
+ ####################################
+ # COMPONENTS
+ ####################################
+ ## Combat Computers
+ BATTLECRUISER_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Battlecruiser)"
+ BATTLECRUISER_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Battlecruiser)"
+ BATTLECRUISER_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Battlecruiser)"
+ BATTLECRUISER_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Battlecruiser)"
+ BATTLECRUISER_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Battlecruiser)"
+ 
+ CARRIER_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Carrier)"
+ CARRIER_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Carrier)"
+ CARRIER_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Carrier)"
+ CARRIER_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Carrier)"
+ CARRIER_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Carrier)"
+ 
+ DREADNOUGHT_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Dreadnought)"
+ DREADNOUGHT_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Dreadnought)"
+ DREADNOUGHT_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Dreadnought)"
+ DREADNOUGHT_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Dreadnought)"
+ DREADNOUGHT_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Dreadnought)"
+ 
+ MOTHERSHIP_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Mothership)"
+ MOTHERSHIP_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Mothership)"
+ MOTHERSHIP_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Mothership)"
+ MOTHERSHIP_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Mothership)"
+ MOTHERSHIP_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Mothership)"
+ 
+ TITAN_COMBAT_COMPUTER_1:0 "Basic Combat Computer (Titan)"
+ TITAN_COMBAT_COMPUTER_2:0 "Intermediate Combat Computer (Titan)"
+ TITAN_COMBAT_COMPUTER_3:0 "Advanced Combat Computer (Titan)"
+ TITAN_COMBAT_COMPUTER_4:0 "Sentient Combat Computer (Titan)"
+ TITAN_COMBAT_COMPUTER_PRECOG:0 "Precognitive Interface (Titan)"
+ 
+ ####################################
+ # SPACEPORT MODULES
+ ####################################
+ sm_battlecruiser_assembly_yards:0 "Battlecruiser Assembly Yard"
+ sm_battlecruiser_assembly_yards_desc:0 " "
+ shipsize_battlecruiser_construction_speed_mult:0 "Battlecruiser Build Speed"
+ shipsize_battlecruiser_build_cost_mult:0 "Battlecruiser Build Cost"
+ 
+ sm_carrier_assembly_yards:0 "Carrier Assembly Yard"
+ sm_carrier_assembly_yards_desc:0 " "
+ shipsize_carrier_construction_speed_mult:0 "Carrier Build Speed"
+ shipsize_carrier_build_cost_mult:0 "Carrier Build Cost"
+ 
+ sm_dreadnought_assembly_yards:0 "Dreadnought Assembly Yard"
+ sm_dreadnought_assembly_yards_desc:0 " "
+ shipsize_dreadnought_construction_speed_mult:0 "Dreadnought Build Speed"
+ shipsize_dreadnought_build_cost_mult:0 "Dreadnought Build Cost"
+ 
+ sm_mothership_assembly_yards:0 "Mothership Assembly Yard"
+ sm_mothership_assembly_yards_desc:0 " "
+ shipsize_mothership_construction_speed_mult:0 "Mothership Build Speed"
+ shipsize_mothership_build_cost_mult:0 "Mothership Build Cost"
+ 
+ sm_titan_assembly_yards:0 "Titan Assembly Yard"
+ sm_titan_assembly_yards_desc:0 " "
+ shipsize_titan_construction_speed_mult:0 "Titan Build Speed"
+ shipsize_titan_build_cost_mult:0 "Titan Build Cost"

@@ -1,0 +1,984 @@
+namespace = slavery
+
+##################
+## Enable Edict 1 - 4
+#####################
+country_event = {
+	id = slavery.1
+	hide_window = yes
+	
+	trigger = {
+		has_edict = vitoc_development
+		NOT = { has_country_flag = administered_vitoxin }
+	}
+	
+	immediate = {
+		set_country_flag = administered_vitoxin
+		
+		remove_modifier = country_inactive_advanced_vitoc_development
+		remove_modifier = country_inactive_neural_implants_maintenance
+		remove_modifier  = country_inactive_true_slave_implants_maintenance
+		remove_modifier = country_inactive_vitoc_development
+	
+		every_owned_pop = {
+			if = {
+				limit = {
+					is_enslaved = yes
+					NOT = { has_modifier = pop_vitoc_dependence }
+				}
+				add_modifier = {
+					modifier = pop_vitoc_dependence
+					days = -1
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = pop_vitoc_withdrawal
+				}
+				remove_modifier = pop_vitoc_withdrawal
+			}
+			
+			if = {
+				limit = {
+					has_modifier = pop_severe_vitoc_withdrawal
+				}
+				remove_modifier = pop_severe_vitoc_withdrawal
+			}
+			
+			pop_event = { id = slavery.17 }
+		}
+	}
+}
+
+country_event = {
+	id = slavery.2
+	hide_window = yes
+	
+	trigger = {
+		has_edict = advanced_vitoc_development
+		NOT = { has_country_flag = administered_advanced_vitoxin }
+	}
+	
+	immediate = {
+		set_country_flag = administered_advanced_vitoxin
+		
+		remove_modifier = country_inactive_advanced_vitoc_development
+		remove_modifier = country_inactive_neural_implants_maintenance
+		remove_modifier  = country_inactive_true_slave_implants_maintenance
+		remove_modifier = country_inactive_vitoc_development
+	
+		every_owned_pop = {
+			if = {
+				limit = {
+					is_enslaved = yes
+					NOT = { has_modifier = pop_advanced_vitoc_dependence }
+				}
+				add_modifier = {
+					modifier = pop_advanced_vitoc_dependence
+					days = -1
+				}
+			}	
+			if = {
+				limit = {
+					has_modifier = pop_vitoc_withdrawal
+				}
+				remove_modifier = pop_vitoc_withdrawal
+			}	
+			if = {
+				limit = {
+					has_modifier = pop_severe_vitoc_withdrawal
+				}
+				remove_modifier = pop_severe_vitoc_withdrawal
+			}
+			
+			pop_event = { id = slavery.18 }
+		}
+	}
+}
+
+country_event = {
+	id = slavery.3
+	hide_window = yes
+	
+	trigger = {
+		has_edict = neural_implants_maintenance
+		NOT = { has_country_flag = installed_neural_implants }
+	}
+	
+	immediate = {
+		set_country_flag = installed_neural_implants
+		
+		remove_modifier = country_inactive_advanced_vitoc_development
+		remove_modifier = country_inactive_neural_implants_maintenance
+		remove_modifier  = country_inactive_true_slave_implants_maintenance
+		remove_modifier = country_inactive_vitoc_development
+	
+		every_owned_pop = {
+			if = {
+				limit = {
+					is_enslaved = yes
+					NOT = { has_modifier = pop_neural_implants }
+				}
+				add_modifier = {
+					modifier = pop_neural_implants
+					days = -1
+				}
+			}
+			if = {
+				limit = {
+					has_modifier = pop_damaged_brain_function
+				}
+				remove_modifier = pop_damaged_brain_function
+			}
+			
+			if = {
+				limit = {
+					has_modifier = pop_severe_damaged_brain_function
+				}
+				remove_modifier = pop_severe_damaged_brain_function
+			}
+			
+			pop_event = { id = slavery.19 }
+		}
+	}
+}
+
+country_event = {
+	id = slavery.4
+	hide_window = yes
+	
+	trigger = {
+		has_edict = true_slave_implants_maintenance
+		NOT = { has_country_flag = installed_advanced_neural_implants }
+	}
+	
+	immediate = {
+		set_country_flag = installed_advanced_neural_implants
+		
+		remove_modifier = country_inactive_advanced_vitoc_development
+		remove_modifier = country_inactive_neural_implants_maintenance
+		remove_modifier  = country_inactive_true_slave_implants_maintenance
+		remove_modifier = country_inactive_vitoc_development
+	
+		every_owned_pop = {
+			if = {
+				limit = {
+					is_enslaved = yes
+					NOT = { has_modifier = pop_true_slave }
+				}
+				add_modifier = {
+					modifier = pop_true_slave
+					days = -1
+				}
+			}	
+			if = {
+				limit = {
+					has_modifier = pop_damaged_brain_function
+				}
+				remove_modifier = pop_damaged_brain_function
+			}	
+			if = {
+				limit = {
+					has_modifier = pop_severe_damaged_brain_function
+				}
+				remove_modifier = pop_severe_damaged_brain_function
+			}
+			
+			pop_event = { id = slavery.20 }
+		}
+	}
+}
+##################
+## Disable Edict 5 - 8
+#####################
+country_event = {
+	id = slavery.5
+	title = slavery.5.title
+	desc = slavery.5.desc
+	picture = GFX_evt_satellite_in_orbit
+	
+	trigger = {
+		NOT = { has_edict = vitoc_development }
+		has_country_flag = administered_vitoxin
+	}
+	
+	immediate = {
+		remove_country_flag = administered_vitoxin	
+	}
+	
+	option = {
+		trigger = {
+			is_ai = no
+		}
+		name = slavery.5.a
+		custom_tooltip = slavery.5.a.tooltip
+		
+		hidden_effect = {
+			every_owned_pop = {
+				if = {
+					limit = {
+						AND = {
+							has_modifier = pop_vitoc_dependence
+							is_enslaved = yes
+						}	
+					}
+					remove_modifier = pop_vitoc_dependence
+					random_list = {
+						1 = {
+							kill_pop = yes
+						}
+						40 = {
+							add_modifier = {
+								modifier = pop_vitoc_withdrawal
+								days = 360
+							}			
+						}
+						59 = {
+						
+						}
+					}				
+				}
+				
+				pop_event = { id = faction.1 }
+			}
+		}
+	}
+	
+	option = {
+		name = slavery.5.b
+		add_modifier = {
+			modifier = country_inactive_vitoc_development
+			days = 5400
+		}
+		
+		hidden_effect = {
+			every_owned_pop = {
+				limit = {
+					is_enslaved = yes
+				}
+				remove_modifier = pop_vitoc_dependence
+				
+				pop_event = { id = faction.1 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = slavery.6
+	title = slavery.6.title
+	desc = slavery.6.desc
+	picture = GFX_evt_satellite_in_orbit
+	
+	trigger = {
+		NOT = { has_edict = advanced_vitoc_development }
+		has_country_flag = administered_advanced_vitoxin
+	}
+	
+	immediate = {
+		remove_country_flag = administered_advanced_vitoxin
+	}
+	
+	option = {
+		trigger = {
+			is_ai = no
+		}
+		
+		name = slavery.6.a
+		custom_tooltip = slavery.6.a.tooltip
+		
+		hidden_effect = {
+			every_owned_pop = {
+				limit = {
+					has_modifier = pop_advanced_vitoc_dependence
+				}
+				random_list = {
+					50 = {
+						remove_modifier = pop_advanced_vitoc_dependence
+						add_modifier = {
+							modifier = pop_severe_vitoc_withdrawal
+							days = 720
+						}
+					}
+					50 = {
+						kill_pop = yes
+					}
+				}
+				
+				pop_event = { id = faction.1 }
+			}	
+		}	
+	}
+
+	option = {
+		name = slavery.6.b
+		add_modifier = {
+			modifier = country_inactive_advanced_vitoc_development
+			days = 10800
+		}
+		
+		hidden_effect = {
+			every_owned_pop = {
+				limit = {
+					is_enslaved = yes
+				}
+				remove_modifier = pop_advanced_vitoc_dependence
+				pop_event = { id = faction.1 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = slavery.7
+	title = slavery.7.title
+	desc = slavery.7.desc
+	picture = GFX_evt_satellite_in_orbit
+	
+	trigger = {
+		NOT = { has_edict = neural_implants_maintenance }
+		has_country_flag = installed_neural_implants
+	}
+	
+	immediate = {
+		remove_country_flag = installed_neural_implants
+	}
+	
+	option = {
+		trigger = {
+			is_ai = no
+		}
+		name = slavery.7.a
+		custom_tooltip = slavery.7.a.tooltip
+		
+		hidden_effect = {
+			every_owned_pop = {
+				if = {
+					limit = {
+						AND = {
+							has_modifier = pop_neural_implants
+							is_enslaved = yes
+						}	
+					}	
+					remove_modifier = pop_neural_implants
+					random_list = {
+						1 = {
+							kill_pop = yes
+						}
+						80 = {
+							add_modifier = {
+								modifier = pop_damaged_brain_function
+								days = 720
+							}			
+						}
+						5 = {
+							add_modifier = {
+								modifier = pop_severe_damaged_brain_function
+								days = 720
+							}
+						}
+					}				
+				}
+				
+				pop_event = { id = faction.1 }
+			}
+		}
+	}
+	
+	option = {
+		name = slavery.7.b
+		add_modifier = {
+			modifier = country_inactive_neural_implants_maintenance
+			days = 5400
+		}
+		
+		hidden_effect = {
+			every_owned_pop = {
+				limit = {
+					is_enslaved = yes
+				}
+				remove_modifier = pop_neural_implants
+				pop_event = { id = faction.1 }				
+			}
+		}
+	}
+}
+
+country_event = {
+	id = slavery.8
+	title = slavery.8.title
+	desc = slavery.8.desc
+	picture = GFX_evt_satellite_in_orbit
+	
+	trigger = {
+		NOT = { has_edict = true_slave_implants_maintenance }
+		has_country_flag = installed_advanced_neural_implants
+	}
+	
+	immediate = {
+		remove_country_flag = installed_advanced_neural_implants
+	}	
+	
+	option = {
+		trigger = {
+			is_ai = no
+		}
+		name = slavery.8.a
+		custom_tooltip = slavery.8.a.tooltip
+		
+		hidden_effect = {
+			every_owned_pop = {
+				limit = {
+					has_modifier = pop_true_slave	
+				}
+				random_list = {
+					50 = {
+						remove_modifier = pop_true_slave
+						add_modifier = {
+							modifier = pop_severe_damaged_brain_function
+							days = 720
+						}
+					}
+					50 = {
+						kill_pop = yes
+					}
+				}
+				
+				pop_event = { id = faction.1 }	
+			}
+		}
+	}
+	
+	option = {
+		name = slavery.8.b	
+		add_modifier = {
+			modifier = country_inactive_true_slave_implants_maintenance
+			days = 10800
+		}
+		
+		hidden_effect = {
+			every_owned_pop = {
+				limit = {
+					is_enslaved = yes
+				}
+				remove_modifier = pop_true_slave
+				pop_event = { id = faction.1 }
+			}
+		
+		}
+	}
+}
+############################
+# Enslavement 9 - 12
+############################	
+	
+pop_event = {
+	id = slavery.9
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = vitoc_development	
+		}
+		NOT = { has_modifier = pop_vitoc_dependence }
+	}
+	
+	immediate = {
+		add_modifier = {
+			modifier = pop_vitoc_dependence
+			days = -1
+		}
+		if = {
+			limit = {
+				has_modifier = pop_vitoc_withdrawal
+			}
+			remove_modifier = pop_vitoc_withdrawal
+		}
+		
+		if = {
+			limit = {
+				has_modifier = pop_severe_vitoc_withdrawal
+			}
+			remove_modifier = pop_severe_vitoc_withdrawal
+		}
+		pop_event = { id = slavery.17 }
+	}
+}
+
+pop_event = {
+	id = slavery.10
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = advanced_vitoc_development
+		}	
+		NOT = { has_modifier = pop_advanced_vitoc_dependence }
+	}
+	
+	immediate = {
+		add_modifier = {
+			modifier = pop_advanced_vitoc_dependence
+			days = -1
+		}
+		if = {
+			limit = {
+				has_modifier = pop_vitoc_withdrawal
+			}
+			remove_modifier = pop_vitoc_withdrawal
+		}
+		
+		if = {
+			limit = {
+				has_modifier = pop_severe_vitoc_withdrawal
+			}
+			remove_modifier = pop_severe_vitoc_withdrawal
+		}
+		
+		pop_event = { id = slavery.18 }
+	}
+}
+
+pop_event = {
+	id = slavery.11
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = neural_implants_maintenance	
+		}
+		NOT = { has_modifier = pop_neural_implants }
+	}
+	
+	immediate = {
+		add_modifier = {
+			modifier = pop_neural_implants
+			days = -1
+		}
+		if = {
+			limit = {
+				has_modifier = pop_damaged_brain_function
+			}
+			remove_modifier = pop_damaged_brain_function
+		}
+		
+		if = {
+			limit = {
+				has_modifier = pop_severe_damaged_brain_function
+			}
+			remove_modifier = pop_severe_damaged_brain_function
+		}
+		
+		pop_event = { id = slavery.19 }
+	}
+}
+
+pop_event = {
+	id = slavery.12
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = true_slave_implants_maintenance
+		}	
+		NOT = { has_modifier = pop_true_slave }
+	}
+	
+	immediate = {
+		add_modifier = {
+			modifier = pop_true_slave
+			days = -1
+		}
+		if = {
+			limit = {
+				has_modifier = pop_damaged_brain_function
+			}
+			remove_modifier = pop_damaged_brain_function
+		}
+		
+		if = {
+			limit = {
+				has_modifier = pop_severe_damaged_brain_function
+			}
+			remove_modifier = pop_severe_damaged_brain_function
+		}
+		
+		pop_event = { id = slavery.20 }
+	}
+}
+############################
+# Emancipation 13 - 16
+############################
+pop_event = {
+	id = slavery.13
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = vitoc_development
+		}
+		has_modifier = pop_vitoc_dependence 
+	}
+	
+	immediate = {
+		remove_modifier = pop_vitoc_dependence
+		random_list = {
+			1 = {
+				kill_pop = yes
+			}
+			40 = {
+				add_modifier = {
+					modifier = pop_vitoc_withdrawal
+					days = 360
+				}			
+			}
+			59 = {
+			}
+		}	
+	}
+}
+	
+pop_event = {
+	id = slavery.14
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = advanced_vitoc_development
+		}
+		has_modifier = pop_advanced_vitoc_dependence 
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			remove_modifier = pop_vitoc_dependence
+			else = {
+				random_list = {
+					50 = {
+						kill_pop = yes
+					}
+					50 = {
+						remove_modifier = pop_vitoc_dependence
+						add_modifier = {
+							modifier = pop_severe_vitoc_withdrawal
+							days = 720
+						}			
+					}
+				}	
+			}
+		}
+		
+	}
+}	
+
+pop_event = {
+	id = slavery.15
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = neural_implants_maintenance
+		}
+		has_modifier = pop_neural_implants 
+	}
+	
+	immediate = {
+		remove_modifier = pop_neural_implants
+		random_list = {
+			1 = {
+				kill_pop = yes
+			}
+			40 = {
+				add_modifier = {
+					modifier = pop_damaged_brain_function
+					days = 360
+				}			
+			}
+			59 = {
+			}
+		}	
+	}
+}
+	
+pop_event = {
+	id = slavery.16
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		owner = {
+			has_edict = true_slave_implants_maintenance
+		}
+		has_modifier = pop_true_slave 
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					is_ai = yes
+				}
+			}
+			remove_modifier = pop_true_slave
+			else = {
+				random_list = {
+					50 = {
+						kill_pop = yes
+					}
+					50 = {
+						remove_modifier = pop_true_slave
+						add_modifier = {
+							modifier = pop_severe_damaged_brain_function
+							days = 720
+						}			
+					}
+				}	
+			}
+		}
+	}
+}	
+
+
+###########################
+## Faction Setup 17 - 20
+###########################
+
+pop_event = {
+	id = slavery.17
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		has_modifier = pop_vitoc_dependence
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					count_pop_factions = {
+						limit = { is_pop_faction_type = vitoc_dependent_slaves }
+						count < 1
+					}
+				}
+			}
+			owner = {
+				create_pop_faction = {
+					type = vitoc_dependent_slaves
+					parameter:owner_empire = this
+					pop = root
+				}
+			}
+			else = {
+				owner = {
+					random_pop_faction = {
+						limit = { is_pop_faction_type = vitoc_dependent_slaves }
+						save_event_target_as = vitoc_dependent_slaves_faction
+					}
+				}
+				set_pop_faction = event_target:vitoc_dependent_slaves_faction
+			}
+		}
+	}
+}
+
+pop_event = {
+	id = slavery.18
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		has_modifier = pop_advanced_vitoc_dependence
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					count_pop_factions = {
+						limit = { is_pop_faction_type = advanced_vitoc_dependent_slaves }
+						count < 1
+					}
+				}
+			}
+			owner = {
+				create_pop_faction = {
+					type = advanced_vitoc_dependent_slaves
+					parameter:owner_empire = this
+					pop = root
+				}
+			}
+			else = {
+				owner = {
+					random_pop_faction = {
+						limit = { is_pop_faction_type = advanced_vitoc_dependent_slaves }
+						save_event_target_as = advanced_vitoc_dependent_slaves_faction
+					}
+				}
+				set_pop_faction = event_target:advanced_vitoc_dependent_slaves_faction
+			}
+		}
+	}
+}
+
+pop_event = {
+	id = slavery.19
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		has_modifier = pop_neural_implants
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					count_pop_factions = {
+						limit = { is_pop_faction_type = neural_implants_slaves }
+						count < 1
+					}
+				}
+			}
+			owner = {
+				create_pop_faction = {
+					type = neural_implants_slaves
+					parameter:owner_empire = this
+					pop = root
+				}
+			}
+			else = {
+				owner = {
+					random_pop_faction = {
+						limit = { is_pop_faction_type = neural_implants_slaves }
+						save_event_target_as = neural_implants_slaves_faction
+					}
+				}
+				set_pop_faction = event_target:neural_implants_slaves_faction
+			}
+		}
+	}
+}
+
+pop_event = {
+	id = slavery.20
+	hide_window = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			is_species = "ROBOT_POP_SPECIES_1"
+			is_species = "ROBOT_POP_SPECIES_2"
+			#is_species = "ROBOT_POP_SPECIES_3"
+		}
+		has_modifier = pop_true_slave
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				owner = {
+					count_pop_factions = {
+						limit = { is_pop_faction_type = true_slaves }
+						count < 1
+					}
+				}
+			}
+			owner = {
+				create_pop_faction = {
+					type = true_slaves
+					parameter:owner_empire = this
+					pop = root
+				}
+			}
+			else = {
+				owner = {
+					random_pop_faction = {
+						limit = { is_pop_faction_type = true_slaves }
+						save_event_target_as = true_slaves_faction
+					}
+				}
+				set_pop_faction = event_target:true_slaves_faction
+			}
+		}
+	}
+}

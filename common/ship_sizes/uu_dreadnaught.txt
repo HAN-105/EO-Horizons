@@ -1,0 +1,44 @@
+@dreadnought_combat_speed = 0.75
+@dreadnought_combat_rotation = 0.01
+@dreadnought_collision_radius = 5
+@dreadnought_formation_priority = 6
+
+dreadnought = {
+	formation_priority = @dreadnought_formation_priority
+	max_speed = 3
+	acceleration = 0.2
+	rotation_speed = 0.15
+	combat_max_speed = @dreadnought_combat_speed
+	combat_rotation_speed = @dreadnought_combat_rotation
+	collision_radius = @dreadnought_collision_radius
+	modifier = {
+		ship_armor_add = 120
+	}
+	max_hitpoints = 28500
+	size_multiplier = 16
+	fleet_slot_size = 16
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 5
+	base_buildtime = 780
+	required_spaceport_level = 6
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_dreadnought_1" }
+
+	class = shipclass_military
+	
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+	required_component_set = "CORE_COMPONENTS"
+	required_component_set = "SIEGE_MODULES"
+	required_component_set = "FLEET_ASSISTANCE"
+	required_component_set = "CAPITAL_MIDSLOT_01"
+	required_component_set = "CAPITAL_MIDSLOT_02"
+	required_component_set = "CAPITAL_MIDSLOT_03"
+	required_component_set = "CAPITAL_MIDSLOT_04"
+}

@@ -1,0 +1,161 @@
+﻿l_english:
+ ##########################
+ ## CONTENT
+ ##########################
+ ### EDICTS
+ ## SLAVERY EDICTS
+ ## RELIGION EDICTS
+ 
+ ### POLICIES
+ ## SLAVERY CONTROL
+ ## STATE RELIGION
+ 
+ ### FACTIONS
+ ## VITOC DEPENDENT
+ ## NEURAL IMPLANTS 
+ ## ADVANCED VITOC DEPENDENT
+ ## TRUE SLAVES
+ 
+ ############################################################
+ ### EDICTS
+ ## SLAVERY EDICTS
+ edict_vitoc_development:0 "Vitoc Development"
+ edict_vitoc_development_desc:0 "This edict alocates the necessary resources aside to support the development, distribution and use of vitoxin and its anti-dote vitoc.\n\nWARNING: Removing this can have some repercussions for the slave population.The repercussions are avoided once the Vitoc Cure is developed."
+ edict_advanced_vitoc_development:0 "Advanced Vitoc Development"
+ edict_advanced_vitoc_development_desc:0 "This edict alocates the necessary resources to support the development, distribution and use of an advanced variant of vitoxin and its anti-dote vitoc.\n\nWARNING: Removing this can have severe repercussions up to death."
+ edict_neural_implants_maintenance:0 "Neural Implants Maintenance"
+ edict_neural_implants_maintenance_desc:0 "This edict alocates the necessary resources to install and maintain the neural implants in the slave population.\n\nWARNING: Removing this can have some repercussions for the slave population."
+ edict_true_slave_implants_maintenance:0 "True Slave Neural Implants Maintenance"
+ edict_true_slave_implants_maintenance_desc:0 "This edict alocates the necessary resources to install and maintain the advanced neural implants in the slave population and turn them into True Slaves.\n\nWARNING: Removing this has severe repercussions up to death (50%)."
+ 
+ ## RELIGION EDICTS
+ edict_start_great_reclaiming:0 "Start New Great Reclaiming"
+ edict_start_great_reclaiming_desc:0 "In God’s name, the Amarr have reclaimed the entirety of our world. Now, blessed with the divine mandate of God, we spread our reach unto other worlds: from nearby Hedion, to the distant Misaba, to the burning southern star Penirgman, and all lands in-between. They are our birthright, our duty, our Domain."
+ edict_missionary_mission_amarr_faith:0 "Missionary Mission (Amarr Faith)"
+ edict_missionary_mission_amarr_faith_desc:0 "This missionary mission can be launched on newly conquered or colonized planets to spread the one true faith."
+ edict_missionary_mission_sani_sabik:0 "Missionary Mission (Sani Sabik)"
+ edict_missionary_mission_sani_sabik_desc:0 "This missionary mission can be launched on newly conquered or colonized planets to spread the one true faith."
+ 
+ ### POLICIES
+ ## SLAVERY CONTROL
+ policy_advanced_slavery_control_measures:0 "Slavery Control Measures"
+ policy_advanced_slavery_control_measures_name:0 "Advanced Slavery Control Measures"
+ policy_advanced_slavery_control_measures_desc:0 "Slavery control measures allow for stronger control over slave populations."
+ no_advanced_slave_control_measures:0 "None"
+ no_advanced_slave_control_measures_name:0 "No Advanced Slavery Control Measures"
+ no_advanced_slave_control_measures_desc:0 "Disallowes the use of advanced slave control measures."
+ vitoc_method_usage_allowed: "Allow Vitoc"
+ vitoc_method_usage_allowed_name: "Vitoc Method Usage Allowed"
+ vitoc_method_usage_allowed_desc:0 "Allows the use of vitoxin and vitoc to control the slave population."
+ advanced_vitoc_method_usage_allowed:0 "Allow Advanced Vitoc"
+ advanced_vitoc_method_usage_allowed_name:0 "Advanced Vitoc Method Usage Allowed"
+ advanced_vitoc_method_usage_allowed_desc:0 "Allows the use of an advanced form of vitoxin and vitoc to control the slave population."
+ neural_implants_usage_allowed:0 "Allow Neural Implants"
+ neural_implants_usage_allowed_name:0 "Neural Implants Installation Allowed"
+ neural_implants_usage_allowed_desc:0 "Allows the use of neural implants to control the slave population."
+ advanced_neural_implants_usage_allowed:0 "Allow True Slaves"
+ advanced_neural_implants_usage_allowed_name:0 "True Slaves Creation Allowed"
+ advanced_neural_implants_usage_allowed_desc:0 "Allows the use of advanced neural implants to turn the slave population into True Slaves."
+ ## STATE RELIGION
+ policy_religion:0 "Religion"
+ policy_religion_name:0 "Religious Policy"
+ policy_religion_desc:0 "This policy determines the role of religion within government affairs."
+ no_religion:0 "Illegal"
+ no_religion_name:0 "Illegal Religion"
+ no_religion_desc:0 "Religious organisations are illegal in this empire."
+ freedom_of_religion:0 "Free"
+ freedom_of_religion_name:0 "Freedom of Religion"
+ freedom_of_religion_desc:0 "Citizens are free to follow any religion within the confines of the law.\n\n§EWhile active our Empire gains:§!"
+ tolerant_state_religion:0 "Tolerant"
+ tolerant_state_religion_name:0 "Tolerant State Religion"
+ tolerant_state_religion_desc:0 "The state has a official state religion, but other faiths are tolerated.\n\n§EWhile active our Empire gains:§!"
+ state_religion: "State"
+ state_religion_name: "State Religion"
+ state_religion_desc: "The empire has a single state religion, all other religious practices are illegal.\n\n§EWhile active our Empire gains:§!"
+ ## CLONE BREEDING
+ policy_clone_breeding: "Clone Breeding"
+ policy_clone_breeding_desc: "Clone Breeding allows for the rapid expansion of population numbers with clones."
+ clone_breeding_none: "None"
+ clone_breeding_none_name: "Clone Breeding - None"
+ clone_breeding_none_desc: "No clone breeding may be conducted."
+ clone_breeding_slaves_only: "Slaves only"
+ clone_breeding_slaves_only_desc: "Clone breeding is only applied to slaves."
+ clone_breeding_slaves_only_name: "Clone Breeding - Slaves only"
+ clone_breeding_xenos_only: "Xeno only"
+ clone_breeding_xenos_only_desc: "Clone breeding is only applied to aliens."
+ clone_breeding_xenos_only_name: "Clone Breeding - Xenos only"
+ clone_breeding_all: "All"
+ clone_breeding_all_desc: "Clone breeding is applied to the entire population."
+ clone_breeding_all_name: "Clone Breeding - All"
+ ## LEADER ENHANCEMENT
+ leader_enhancement_cybernetics: "Cybernetics"
+ leader_enhancement_cybernetics_desc: "Cybernetic implants garantees the creation of new leaders for the empire with outstanding skills.\n\n§EWhile active our Empire gains:§!"
+ leader_enhancement_cybernetics_name:0 "Cybernetics"
+ ## CYBERNETICS
+ policy_cybernetics: "Cybernetics"
+ policy_cybernetics_desc: "Determines how far members of society may be upgraded with cybernetics."
+ cybernetics_none: "None"
+ cybernetics_none_desc: "Cybernetic upgrades are illegal."
+ cybernetics_none_name: "Cybernetics - None"
+ cybernetics_basic: "Basic"
+ cybernetics_basic_desc: "Only the most basic upgrades my be installed."
+ cybernetics_basic_name: "Cybernetics - Basic"
+ cybernetics_extensive: "Extensive"
+ cybernetics_extensive_desc: "Cybernetic upgrades can be applied extensivley creating cyborgs."
+ cybernetics_extensive_name: "Cybernetics - Extensive"
+ cybernetics_full: "Full"
+ cybernetics_full_desc: "Allows the complete transformation into bio droids."
+ cybernetics_full_name: "Cybernetics - Full"
+ ### FACTIONS
+ ## VITOC DEPENDENT
+ pft_vitoc_dependent_slaves:0 "Vitoc Dependent Slaves"
+ pft_vitoc_dependent_slaves_desc:0 "These slaves were injected with Vitoxin, a deadly poison that slowly kills the slaves. The only way to stop death is by administering Vitoc, making the slaves fully dependent on their masters for survival."
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_DEMAND_TITLE_1:0 "No Advanced Slavery Control"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_DEMAND_DESC_1:0 "The vitoc dependent slaves demand that the practice of vitoc is discontinued!"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD:0 "Interstellar Railroad"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_DESC:0 "The slaves organised themselves enough to flee the country. Involvement of foreign forces is likely."
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_SUICIDE:0 "Mass Suicide"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_DESC:0 "The horrible conditions and the hopless reality of slavery has caused many of your slaves to chose death over continued suffering."
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_1:0 "Minor Railroad Support"
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:0 "Average Railroad Support"
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:0 "Large Railroad Support"
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:0 "Major Railroad Support"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_SPECIAL_TREATMENT:0 "Special Treatmeant"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_RECENT_INTERSTELLAR_RAILROAD:0 "Recent Railroad"
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_1:0 "Minor Suicide Support"
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_2:0 "Average Suicide Support"
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_3:0 "Large Suicide Support"
+ FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_4:0 "Major Suicide Support"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_SPECIAL_TREATMENT:0 "Special Treatmeant"
+ POP_FACTION_VITOC_DEPENDENT_SLAVES_RECENT_SUICIDE:0 "Recent Suicide"
+ ## NEURAL IMPLANTS
+ pft_neural_implants_slaves:0 "Neural Implants Slaves"
+ pft_neural_implants_slaves_desc:0 "These slaves have neural implants integrated which allows their owners to control some behaviour of the slaves. This makes it easier to control them."
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_DEMAND_TITLE_1:0 "No Advanced Slavery Control"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_DEMAND_DESC_1:0 "The neural implants slaves demand that their implants are removed!"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_INTERSTELLAR_RAILROAD:0 "Interstellar Railroad"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_INTERSTELLAR_RAILROAD_DESC:0 "The slaves organised themselves enough to flee the country. Involvement of foreign forces is likely."
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_SUICIDE:0 "Mass Suicide"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_SUICIDE_DESC:0 "The horrible conditions and the hopless reality of slavery has caused many of your slaves to chose death over continued suffering."
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_1:0 "Minor Railroad Support"
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2:0 "Average Railroad Support"
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3:0 "Large Railroad Support"
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4:0 "Major Railroad Support"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_SPECIAL_TREATMENT:0 "Special Treatmeant"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_RECENT_INTERSTELLAR_RAILROAD:0 "Recent Railroad"
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_SUICIDE_TOOLTIP_1:0 "Minor Suicide Support"
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_SUICIDE_TOOLTIP_2:0 "Average Suicide Support"
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_SUICIDE_TOOLTIP_3:0 "Large Suicide Support"
+ FACTION_ACTION_NEURAL_IMPLANTS_SLAVES_SUICIDE_TOOLTIP_4:0 "Major Suicide Support"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_SPECIAL_TREATMENT:0 "Special Treatmeant"
+ POP_FACTION_NEURAL_IMPLANTS_SLAVES_RECENT_SUICIDE:0 "Recent Suicide"
+ ## ADVANCED VITOC DEPENDENT
+ pft_advanced_vitoc_dependent_slaves:0 "Advanced Vitoc Dependent Slaves"
+ pft_advanced_vitoc_dependent_slaves_desc:0 "These slaves were injected with an advanced Vitoxin, a deadly virus-like poison that slowly kills the slaves. The only way to stop death is by administering Vitoc, making the slaves fully dependent on their masters for survival. Due to its evolving nature it is impossible to develope a cure, making it much harder for slaves to become free. In return the constant development of new Vitoc serums is much more expensive."
+ POP_FACTION_ADVANCED_VITOC_DEPENDENT_SLAVES_DEMAND_TITLE_1:0 "No demands"
+ POP_FACTION_ADVANCED_VITOC_DEPENDENT_SLAVES_DEMAND_DESC_1:0 "Due to the advanced nature of vitoc, the slaves do not see a way to rebel against their masters!"
+ ## TRUE SLAVES
+ pft_true_slaves:0 "True Slaves"
+ pft_true_slaves_desc:0 "True Slaves are directly controlled by their owners through advanced neural implants and an interface attached to it, making them perfect slaves."
+ POP_FACTION_TRUE_SLAVES_DEMAND_TITLE_1:0 "No demands"
+ POP_FACTION_TRUE_SLAVES_DEMAND_DESC_1:0 "The advanced neural implants remove any agency from the slaves."

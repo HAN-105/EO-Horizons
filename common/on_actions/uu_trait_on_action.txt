@@ -1,10 +1,3 @@
-on_game_start = {
-	events = {
-		uu_game_start.2
-	}
-}
-
-
 # Triggers when the game starts
 on_press_begin = {
 	events = {

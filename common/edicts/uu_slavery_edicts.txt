@@ -1,0 +1,123 @@
+country_edict = {
+	name = "vitoc_development"
+	modifier = {
+		tile_resource_energy_mult = -0.1
+		ship_upkeep_mult = -0.025
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_policy_flag = vitoc_method_usage_allowed
+	}
+		
+	allow = {
+		has_policy_flag = vitoc_method_usage_allowed
+	}
+	
+	ai_weight = {	
+		weight = 1
+		modifier = {
+			factor = 5
+			has_policy_flag = vitoc_method_usage_allowed
+		}
+	}
+	
+
+	
+	prerequisites = {
+		"tech_vitoc_development"
+	}
+}
+
+country_edict = {
+	name = "advanced_vitoc_development"
+	modifier = {
+		tile_resource_energy_mult = -0.2
+		ship_upkeep_mult = -0.05
+	}
+	
+	influence_cost = 2
+	
+	potential = {
+		has_policy_flag = advanced_vitoc_method_usage_allowed	
+	}
+		
+	allow = {
+		has_policy_flag = advanced_vitoc_method_usage_allowed		
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 5
+			has_policy_flag = advanced_vitoc_method_usage_allowed
+		}
+	}
+	
+	prerequisites = {
+		"tech_advanced_vitoc_development"
+	}
+}
+
+country_edict = {
+	name = "neural_implants_maintenance"
+	modifier = {
+		tile_resource_energy_mult = -0.1
+		ship_upkeep_mult = -0.025
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		has_policy_flag = neural_implants_usage_allowed
+	}
+		
+	allow = {
+		has_policy_flag = neural_implants_usage_allowed
+	}
+	
+	ai_weight = {	
+		weight = 1
+		modifier = {
+			factor = 5
+			has_policy_flag = neural_implants_usage_allowed
+		}
+	}
+	
+
+	
+	prerequisites = {
+		"tech_advanced_neural_implants"
+	}
+}
+
+country_edict = {
+	name = "true_slave_implants_maintenance"
+	modifier = {
+		tile_resource_energy_mult = -0.2
+		ship_upkeep_mult = -0.05
+	}
+	
+	influence_cost = 2
+	
+	potential = {
+		has_policy_flag = advanced_neural_implants_usage_allowed
+	}
+		
+	allow = {
+		has_policy_flag = advanced_neural_implants_usage_allowed
+	}
+	
+	ai_weight = {
+		weight = 2
+		modifier = {
+			factor = 5
+			has_policy_flag = advanced_neural_implants_usage_allowed
+		}
+	}
+	
+	prerequisites = {
+		"tech_assume_direct_control"
+	}
+}

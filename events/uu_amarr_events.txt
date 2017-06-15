@@ -1,0 +1,163 @@
+namespace = amarr_empire_events
+
+## Gate Keeper Event For Amarr Empire Events.
+country_event = {
+	id = amarr_empire_events.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_flag = amarr_empire
+	}
+	
+	immediate = {
+		country_event = { id = amarr_empire_events.2 } ## Tutorial
+		country_event = { id = amarr_empire_events.11 } ## Policy & Religion
+		country_event = { id = amarr_empire_events.10 } ## Khanid & Udorian Pops
+	}
+}
+
+## Tutorial Event
+
+country_event = {
+	id = amarr_empire_events.2
+	title = amarr_empire_events.2.name	
+	desc = amarr_empire_events.2.desc
+	picture = GFX_evt_satellite_in_orbit
+	
+	is_triggered_only = yes
+
+	option = {
+		name = OK
+	}
+}
+
+## Start Setup Event
+country_event = {
+	id = amarr_empire_events.10
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {			
+		capital_scope = {
+			random_pop = {
+				limit = {
+					has_trait = "trait_true_amarr"
+				}
+				kill_pop = yes
+			}
+			random_pop = {
+				limit = {
+					has_trait = "trait_true_amarr"
+				}
+				kill_pop = yes
+			}
+			
+			create_species = {
+				name = "Khanid"
+				class = "AMR"
+				portrait = random
+				traits = {
+					trait = "trait_khanid"
+				}
+				homeworld = this
+			}
+
+			random_tile = {
+				limit = {
+					AND = {
+						has_blocker = no
+						has_grown_pop = no
+					}	
+				}
+				create_pop = {
+					species = last_created_species
+					ethos = {
+						ethic = "ethic_fanatic_spiritualist"
+						ethic = "ethic_militarist"
+					}
+				}
+				last_created_pop = { 
+					enslave_pop = yes 
+				}
+			}
+
+			create_species = {
+				name = "Udorian"
+				class = "AMR"
+				portrait = random
+				traits = {
+					trait = "trait_udorian"
+					trait = "trait_rapid_breeders"
+					trait = "trait_deviants"
+				}
+				homeworld = this
+			}
+
+			random_tile = {
+				limit = {
+					AND = {
+						has_blocker = no
+						has_grown_pop = no
+					}
+				}
+				create_pop = {
+					species = last_created_species
+					ethos = {
+						ethic = "ethic_individualist"
+						ethic = "ethic_militarist"
+						ethic = "ethic_xenophile"
+					}
+				}
+				last_created_pop = { 
+					enslave_pop = yes 
+				}
+			}
+		}
+		
+		every_owned_pop = {
+			set_pop_flag = amarr_faith
+		}
+		
+		capital_scope = {
+			random_pop = {
+				set_pop_flag = sani_sabik
+				remove_pop_flag = amarr_faith
+			}
+		}	
+	}
+}
+
+
+country_event = {
+	id = amarr_empire_events.11
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {	
+		add_modifier = {
+			modifier = empire_state_religion_amarr_faith
+			days = -1
+		}
+		
+		set_policy = {
+			policy = religion
+			option = "state_religion"
+			cooldown = no
+		}	
+		
+		set_policy = {
+			policy = slavery
+			option = "slavery_allowed_all"
+			cooldown = no
+		}
+		
+		set_policy = {
+			policy = slavery_procreation
+			option = "slavery_procreation_allowed"
+			cooldown = no
+		}
+	}	
+}

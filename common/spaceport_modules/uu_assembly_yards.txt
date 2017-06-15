@@ -1,0 +1,159 @@
+battlecruiser_assembly_yards = {
+	icon = "GFX_spaceport_module_cruiser_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { tech_battlecruiser_1 }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 400
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	modifier = {
+		shipsize_battlecruiser_construction_speed_mult = 0.25
+		shipsize_battlecruiser_build_cost_mult = -0.10
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+carrier_assembly_yards = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_carrier_1 }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 600
+	}
+	
+	required_resources = {
+		energy = 6
+	}
+	
+	modifier = {
+		shipsize_carrier_construction_speed_mult = 0.25
+		shipsize_carrier_build_cost_mult = -0.10
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+dreadnought_assembly_yards = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_dreadnought_1 }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 700
+	}
+	
+	required_resources = {
+		energy = 7
+	}
+	
+	modifier = {
+		shipsize_dreadnought_construction_speed_mult = 0.25
+		shipsize_dreadnought_build_cost_mult = -0.10
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+mothership_assembly_yards = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_mothership_1 }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 700
+	}
+	
+	required_resources = {
+		energy = 7
+	}
+	
+	modifier = {
+		shipsize_mothership_construction_speed_mult = 0.25
+		shipsize_mothership_build_cost_mult = -0.10
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+titan_assembly_yards = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_titan_1 }
+	spaceport_level = 6
+	
+	cost = {
+		minerals = 800
+	}
+	
+	required_resources = {
+		energy = 8
+	}
+	
+	modifier = {
+		shipsize_titan_construction_speed_mult = 0.25
+		shipsize_titan_build_cost_mult = -0.10
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}

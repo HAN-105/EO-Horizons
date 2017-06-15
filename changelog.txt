@@ -1,0 +1,126 @@
+------------------------------------------------------------------------------------------------
+Version 1.0.1_beta
+------------------------------------------------------------------------------------------------
+- Added afterburners as mid slot components.
+- Changed/Added various localisation strings & icons
+- Fixed defender missile class restrictions (mostly anyway...)
+- Fixed some model clipping isses.
+
+------------------------------------------------------------------------------------------------
+Version 1.0.0_beta
+------------------------------------------------------------------------------------------------
+- Removed Essence mini map preview.
+- Combined most of the mod parts into the main mod.
+- Updated ship sections & ship sizes
+- Updated component technologies, components.
+
+- Changed capital components from large to extra large.
+
+- Added all vanilla components. This should keep most vanilla global ship designs intact.
+- Added Fleet Assistance modules and technologies.
+
+- Increased max energy storage from reactor technology from 500 to 750 per level.
+
+- Fixed broken global ship designs.
+------------------------------------------------------------------------------------------------
+Version 0.2.1
+------------------------------------------------------------------------------------------------
+- Added Essence mini map as preview
+- Added Servants Sisters of Eve Faction with trait and faction modifier
+
+- Changed Empire Space Map to spawn with random hyperlanes
+- Fixed Empire Space Map stacked systems, now all systems should be accessible.
+------------------------------------------------------------------------------------------------
+Version 0.2.0
+------------------------------------------------------------------------------------------------
+- Removed changes to game rules.
+- Removed edict Suppress Religion & Supress Religious Extremism as they are obsolete.
+
+- Reduced core component costs of all ship core components to 0.
+
+- Changed SYSTEM_SPACE_SCALE_MULT from 10.0 to 50.0
+- Changed events for religious spread to new pop_flag mechanic
+- Changed event uu_game_start.2 to set homeworld to capital world of the empire
+- Changed amarr_empire_events 
+- Changed policy State Religion to policy Religion with options Illegal, Free, Tolerant, State
+- Changed Hydroponics Farms I - V to be upgradeable into their Takmahl counterpart
+- Changed missionary edicts
+- Changed /interface/situation_log.gui counters element from position y = 400 to y = 350
+- Changed docile & malcontent slave factions to interact with State Religion: Amarr Faith
+
+- Added start screen message for Amarr Empire
+- Added ai personality for Amarr Empire
+- Added event to spread religious flags to newly colonized planets when country has state religion
+- Added static modifier State Religion: Amarr Faith. (+100% Slavery Tolerance, +5% Happiness, -40% Happiness w/o Slaves)
+- Added static modifier State Religion: Sani Sabik (+100% Slavery Tolerance, +20% Society Output, -40% Happiness w/o Slaves)
+- Added events, anomalies, anomaly categories & special projects for precursor Takmahl Empire
+- Added static modifiers Archaeological Society, Takmahl Armour, Takmahl Laser Waepons
+- Added events for the Archaeological Society feature
+- Added precursor_takmahl tag to precursor civilisations
+- Added technologies Takmahl Bio-Engineering Technolgies, Takmahl Cybernetics Technolgies, Takmahl Terraforming Technolgies, Takmahl Orbital Hydroponics, Takmahl Hydroponics Upgrades, Takmahl Cloning Technology, Takmhal Cybernetic Upgrades, Takmahl Cybernetic Implants, Takmahl Bio Droids
+- Added spaceport module Orbital Hydroponics Farms II
+- Added Takmahl Clone Army. Very weak and fast built army.
+- Added Takmahl Hydroponics Farms I - V
+- Added policy Cybernetics with options None, Basic, Extensive, Full.
+- Added policy Clone Breeding with options None, Slaves only, Xenos only, All.
+- Added static modifier pop_clone_breeding (-25% growth requirement, -10% food requirement)
+- Added events to apply Clone Breeding when appropriate.
+- Added policy choice Cybernetics to policy Leader Enhancement (+3 skill, +75 age, -75% cost)
+- Added buildable bio droids
+- Added event to kill a pop when a Bio Droid is built.
+- Added traits Bio Droid & Cyborg
+
+------------------------------------------------------------------------------------------------
+Version 0.1.0
+------------------------------------------------------------------------------------------------
+- Removed most vanilla components (except special critter and crisis components, which are hidden from the default empires & strike craft components)
+
+- Changed define ENERGY_MAINTENANCE_MUL from 0.005 to 0.001.
+- Changed define MINERAL_MAINTENANCE_MUL from 0.005 to 0.001.
+- Changed define FLEET_MOVE_MAX_DIST_SHIPS from 10 to 60
+- Changed define FLEET_BASE_FORMATION_SCALE from 2 to 18
+- Changed define RANDOM_HEIGHT_MIN from 10 to 0.
+- Changed define RANDOM_HEIGHT_MAX from 10 to 0.
+- Changed event faction.1 to not trigger when any advanced slavery control edict is active.
+- Changed event anomaly.235 (removed technologies)
+- Changed event anomaly.257 (removed technologies)
+- Changed event story.501 (removed technologies)
+- Changed emancipation faction to not accept slaves.
+- Changed policy Slavery to be available for countries with policy choice State Religion (Amarr Faith) & State Religion (Sani Sabik)
+- Changed game rule can_purge_pop to let countries with state religion purge heretics.
+- Changed ftl-drives to not require power.
+- Changed thrusters to not require power.
+- Changed combat computers to not require power.
+- Changed sensors to not require power.
+- Changed anomaly category FROZ_ILLUMINATED_CAT 
+- Changed global ship designs
+- Changed random star names to EvE Online names.
+- Changed section templates of corvettes, destroyers, cruisers & battleships
+- Changed ship designer and ship viewer interface elements.
+
+- Added projectile weapons: Autocannons (S,M,L,C; T1,T2), Artillery Cannons (S,M,L,C; T1,T2)
+- Added laser weapons: Pulse Laser (S,M,L,C; T1,T2), Beam Laser (S,M,L,C; T1,T2)
+- Added hybrid weapons: Blaster Turrets (S,M,L,C; T1,T2), Railguns (S,M,L,C; T1,T2)
+- Added missile launchers: Missile Launchers (S,M; T1,T2), Rocket Launcher (S; T1,T2), Cruise Missile Launchers (L,C; T1,T2), Torpedo Launchers (L,C; T1,T2), Rapid Missile Launchers (L,C; T1,T2)
+- Added defender missile launchers as point defences. Currently implemented as kinetic CIWS. (S,M,L; T1,T2)
+- Added doomsday devices and sections for titans.
+- Added ship core components for each ship size: they provide power, shield and shield regeneration. Enable combat shield regeneration.
+- Added engineering modules: Reactor Control Unit (S,M,L; T1,T2)
+- Added armor modules: Armor Hardener (S,M,L,C; T1,T2)
+- Added propulsion jamming modules: Stasis Webifiers (S,M,L,C; T1,FC,X5,T2), Warp Scrambler (S,M,L,C; T1)
+- Added hull modules: Hull Repairer (S,M,L,C; T1,T2), Armour Plates (S,M,L,C; T1,T2)
+- Added weapon upgrade modules: Ballistic Control Unit (S,M,L,C; T1,T2), Heatsink (S,M,L,C; T1,T2), Gyro (S,M,L,C; T1,T2)
+- Added shield modules: Shield Boosters (S,M,L,C; T1, T2), Shield Extenders (S,M,L,C; T1,T2)
+- Added edicts Start Great Reclaiming, Vitoc Development, Advanced Vitoc Development, Neural Implants Maintenance, True Slave Maintenance
+- Added planetary edicts Suppress Religious Extremism, Suppress Religion, Missionary Mission: Amarr Faith, Missionary Mission Sani Sabik
+- Added policy Advanced Slavery Control Measures with options None, Vitoc, Advanced Vitoc, Neural Implants, True Slaves.
+- Added policy State Religion with options Illegal, Freedom of Religion, Tolerant (Amarr Faith), Tolerant (Sani Sabik), State Religion (Amarr Faith), State Religion (Sani Sabik).
+- Added pop factions Vitoc Dependent Slaves, Advanced Vitoc Dependent Slaves, Neural Implants Slaves, True Slaves.
+- Added event for True Amarr.
+- Added events to simulate religious spread
+- Added events for advanced slavery control mechanics
+- Added solar system initializers for every empire space system.
+- Added event to give medium and large weapons of starter type.
+- Added event to change planet class if not ideal planet class (fix static galaxy generation errors).
+- Added galaxy setup scenario Empire Space
+

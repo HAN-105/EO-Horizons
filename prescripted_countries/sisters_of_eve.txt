@@ -13,7 +13,7 @@
 	portrait="gallente"
 	name="Servant Sisters of Eve"
 	adjective="Sisters"
-	government="gov_theocratic_monarchy"
+	government="peaceful_bureaucracy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="X-7OMU Prime"
@@ -47,7 +47,7 @@
 		clothes=0
 		ruler_title_female="CEO"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_pacifist"
 	trait="trait_charismatic"

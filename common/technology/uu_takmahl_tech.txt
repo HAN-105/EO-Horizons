@@ -1,0 +1,422 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+
+tech_takmahl_bioengineering = {
+	cost = @tier2cost4
+	area = society
+	tier = 2
+	is_rare = yes
+	category = { biology }	
+	weight = 0
+	
+	#Unlocks all the bio-engineering techs by researching takmahl sites.
+	
+	modifier = {
+		category_biology_research_speed_mult = 0.25
+	}
+	
+	weight_modifier = {
+	
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+# Advanced Hydroponics
+tech_takmahl_orbital_hydroponics = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { biology }	
+	prerequisites = { "tech_orbital_hydroponics" }
+	weight = @tier3weight1
+	
+	# unlocks hydroponics farm 2 module 
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 1.5 #farms are good
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+# Advanced Hydroponics
+tech_takmahl_hydroponics_upgrades = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { biology }	
+	prerequisites = { "tech_takmahl_bioengineering" "tech_eco_simulation" }
+	weight = @tier3weight1
+	
+	# unlocks takmahl hydroponics. 
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 1.5 #farms are good
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+tech_takmahl_cloning_technology = {
+	cost = @tier3cost4
+	area = society
+	tier = 3
+	category = { biology }	
+	prerequisites = { "tech_takmahl_bioengineering" "tech_cloning" }
+	weight = @tier3weight4
+	
+	# unlocks advanced clone armies and clone breeding.
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+tech_takmahl_cybernetics = {
+	cost = @tier2cost4
+	area = society
+	tier = 2
+	is_rare = yes
+	category = { biology }	
+	weight = 0
+	
+	#Unlocks all the cybernetics techs by researching takmahl sites.
+	
+	modifier = {
+		category_biology_research_speed_mult = 0.25
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+tech_takmahl_cybernetic_implants = {
+	cost = @tier3cost4
+	area = society
+	category = { biology }
+	tier = 3
+	is_rare = yes
+	prerequisites = { "tech_capacity_boosters" "tech_takmahl_cybernetics" }
+	weight = @tier3weight4
+	
+	# Modifiers from this tech is added through a policy-option
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.10
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_biology"
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = society
+				has_level > 4
+			}
+		}
+		modifier = {
+			factor = 0.75
+			NOT = {
+				research_leader = {
+					area = society
+					has_level > 2
+				}
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 3 #rare tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+#Targeted Gene Expressions
+tech_takmahl_cybernetic_upgrades = {
+	cost = @tier3cost4
+	area = society
+	category = { biology }
+	tier = 3
+	is_rare = yes
+	prerequisites = { "tech_gene_expressions" "tech_takmahl_cybernetics" }
+	weight = @tier3weight4
+	
+	modifier = {
+		trait_points = 2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.50
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_biology"
+				}
+			}
+		}
+		modifier = {
+			factor = 1.50
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.50
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 0.10
+			OR = {
+				has_ethic = ethic_individualist
+				has_ethic = ethic_fanatic_individualist
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 #rare tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+tech_takmahl_bio_droids = {
+	cost = @tier3cost2
+	area = society
+	category = { biology }
+	tier = 3
+	is_rare = yes
+	prerequisites = { "tech_takmahl_cybernetic_upgrades" "tech_takmahl_cybernetic_implants" }
+	weight = @tier3weight2
+	
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.50
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_biology"
+				}
+			}
+		}
+		modifier = {
+			factor = 1.50
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.50
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 0.10
+			OR = {
+				has_ethic = ethic_individualist
+				has_ethic = ethic_fanatic_individualist
+			}
+		}
+	}	
+	
+	ai_weight = {
+		factor = 3 #rare tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+tech_takmahl_terraforming = {
+	cost = @tier2cost4
+	area = society
+	tier = 2
+	is_rare = yes
+	category = { new_worlds }	
+	weight = 0
+	
+	#Unlocks all the cybernetics techs by researching takmahl sites.
+	
+	modifier = {
+		category_new_worlds_research_speed_mult = 0.25
+	}
+	
+	weight_modifier = {
+	
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+}

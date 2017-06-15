@@ -125,22 +125,6 @@ entity = {
 	}
 }
 
-entity = {
-	name = "gallente_01_battleship_bow_XL1_entity"
-	pdxmesh = "gallente_01_megathron_BOW_mesh"
-	
-	locator = { 
-		name = "xl_gun_01" 
-		position = { 0 0 -14.5 } 
-	}
-
-	scale = @battleship_physical_scale
-
-	game_data = {
-		size = @battleship_scale
-	}
-}
-
 #############################################################################
 ##################         	 MID SECTIONS            ########################
 #############################################################################

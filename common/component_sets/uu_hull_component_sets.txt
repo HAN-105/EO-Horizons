@@ -1,0 +1,25 @@
+component_set = {
+	key = "ARMOR_PLATES_01"
+	show_in_designer = yes
+	icon = "GFX_ship_part_armor_plate_01"
+	icon_frame = 1
+}
+component_set = {
+	key = "ARMOR_PLATES_02"
+	show_in_designer = yes
+	icon = "GFX_ship_part_armor_plate_02"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ARMOR_REPAIRERS_01"
+	show_in_designer = yes
+	icon = "GFX_ship_part_armor_repairer_01"
+	icon_frame = 1
+}
+component_set = {
+	key = "ARMOR_REPAIRERS_02"
+	show_in_designer = yes
+	icon = "GFX_ship_part_armor_repairer_02"
+	icon_frame = 1
+}

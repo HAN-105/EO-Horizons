@@ -1,27 +1,25 @@
-"Blood Raiders Covenant"
+blood_raiders
 ={
-	flags = { blood_raiders laser_faction }
-	key="Blood Raiders Covenant"
+	flags = { blood_raiders }
+	flags = { laser_faction }
 	name_list="AMR1"
-	ship_prefix="ISS"
+	ship_prefix="BRC"
 	species_name="Amarr"
 	species_plural="Amarr"
 	species_class="AMR"
 	species_adjective="Amarrian"
-	species_bio="The Blood Raiders are part of an ancient cultist faction called Sani Sabik, meaning Bloodfriends. The cult first appeared thousands of years ago on Amarr Prime, long before space travel came into being. The cult was based on schismatic sect of the Amarr state religion, which advocated that some people were born for greatness and other people only lived to feed and breed these geniuses."
 	portrait="amarr"
-	name="Blood Raiders Covenant"
-	adjective="Blood Raider"
-	authority="auth_imperial"
-	government="gov_divine_empire"
+	name="Blood Raiders Convenant"
+	adjective="Blood Raider's"
+	government="divine_mandate"
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="KFIE-Z IV"
 	planet_class="pc_desert"
 	system_name="KFIE-Z"
-	initializer="blood_raiders"
+	#initializer="blood_raiders"
 	graphical_culture="amarr_01"
-	city_graphical_culture="amarr_01"
+	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -33,7 +31,7 @@
 		}
 		colors={
 			"red"
-			"red"
+			"blue"
 			"null"
 			"null"
 		}
@@ -41,24 +39,11 @@
 	ruler={
 		gender=male
 		name="Omir Sarikusa"
-		portrait="amarr_male1"
-		texture=0
-		hair=0
-		clothes=0
-		ruler_title="High Priest"
+		portrait="amarr_male6"
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="ethic_hive_room"
 	spawn_enabled=yes
-	ethic="ethic_authoritarian"
+	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_spiritualist"
-	civics={
-		"civic_imperial_cult"
-		"civic_slaver_guilds"
-	}
 	trait="trait_repugnant"
-	trait="trait_true_amarr"
-	trait="trait_slow_learners"
-	trait="trait_agrarian"
+	trait="trait_blood_raider"
 }

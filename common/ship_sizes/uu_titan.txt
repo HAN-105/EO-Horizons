@@ -1,0 +1,47 @@
+@titan_combat_speed = 0.6
+@titan_combat_rotation = 0.01
+@titan_collision_radius = 5
+@titan_formation_priority = 8
+
+############
+# STANDARD #
+############
+
+titan = {
+	formation_priority = @titan_formation_priority
+	max_speed = 3
+	acceleration = 0.2
+	rotation_speed = 0.15
+	combat_max_speed = @titan_combat_speed
+	combat_rotation_speed = @titan_combat_rotation
+	collision_radius = @titan_collision_radius
+	modifier = {
+    	ship_armor_add = 200
+	}
+	max_hitpoints = 65000
+	size_multiplier = 64
+	fleet_slot_size = 64
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 5
+	base_buildtime = 990
+	required_spaceport_level = 6
+	can_have_federation_design = yes
+	enable_default_design = yes	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_titan_1" }
+
+	class = shipclass_military
+	
+	required_component_set = "ftl_components"
+	required_component_set = "combat_computers"
+	required_component_set = "thruster_components"
+	required_component_set = "ship_sensor_components"
+	required_component_set = "CORE_COMPONENTS"
+	required_component_set = "FLEET_ASSISTANCE"
+	required_component_set = "CAPITAL_MIDSLOT_01"
+	required_component_set = "CAPITAL_MIDSLOT_02"
+	required_component_set = "CAPITAL_MIDSLOT_03"
+	required_component_set = "CAPITAL_MIDSLOT_04"
+}

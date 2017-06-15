@@ -1,0 +1,159 @@
+﻿l_english:
+ ##############################################
+ ## Weapon Component Sets
+ ########################################
+ 
+ ### DRONES
+ DRONE_HANGARS_01: "Drone Hangars I"
+ DRONE_HANGARS_01_DESC: "Drones are small strike craft which can be used on destroyers, cruisers, battlecruisers and battleships. They can attack other strike crafts and missiles."
+ DRONE_HANGARS_02: "Drone Hangars II"
+ DRONE_HANGARS_02_DESC: "Drones are small strike craft which can be used on frigates, destroyers, cruisers, battlecruisers and battleships. They can attack other strike crafts and missiles."
+ SENTRY_DRONE_HANGARS_01: "Sentry Drone Hangars I"
+ SENTRY_DRONE_HANGARS_01_DESC: "Sentry drones are stationary strike craft with a large range and improved defenses. They can be used by battleships and primarly attack other ships."
+ SENTRY_DRONE_HANGARS_02: "Sentry Drone Hangars II"
+ SENTRY_DRONE_HANGARS_02_DESC: "Sentry drones are stationary strike craft with a large range and improved defenses. They can be used by battleships and primarly attack other ships."
+ 
+ ### DOOMSDAY
+ KINETIC_DOOMSDAY_DEVICE_SET: "Kinetic Doomsday Device"
+ KINETIC_DOOMSDAY_DEVICE_SET_DESC: "The doomsday device inflicts a huge amount of damage, but has a long recharge duration. It can only be equiped by titans."
+ EXPLOSIVE_DOOMSDAY_DEVICE_SET: "Explosive Doomsday Device"
+ EXPLOSIVE_DOOMSDAY_DEVICE_SET_DESC: "The doomsday device inflicts a huge amount of damage, but has a long recharge duration. It can only be equiped by titans."
+ LASER_DOOMSDAY_DEVICE_SET: "Energy Doomsday Device"
+ LASER_DOOMSDAY_DEVICE_SET_DESC: "The doomsday device inflicts a huge amount of damage, but has a long recharge duration. It can only be equiped by titans."
+ 
+ ### HYBRID
+ BLASTER_TURRET_01: "Blaster Turrets I"
+ BLASTER_TURRET_01_DESC: "The projectiles inflict very high damage at a very short range. They deal kinetic damage."
+ BLASTER_TURRET_02: "Blaster Turrets II"
+ BLASTER_TURRET_02_DESC: "The projectiles inflict very high damage at a very short range. They deal kinetic damage."
+ RAILGUN_01: "Railguns I"
+ RAILGUN_01_DESC: "The projectiles inflict high damage at a very long range. They deal kinetic damage."
+ RAILGUN_02: "Railguns II"
+ RAILGUN_02_DESC: "The projectiles inflict high damage at a very long range. They deal kinetic damage."
+ 
+ ### LASER
+ PULSE_LASER_TURRET_01: "Pulse Laser Turrets I"
+ PULSE_LASER_TURRET_01_DESC: "These lasers have a high rate of fire, but a short range. They deal energy damage."
+ PULSE_LASER_TURRET_02: "Pulse Laser Turrets II"
+ PULSE_LASER_TURRET_02_DESC: "These lasers have a high rate of fire, but a short range. They deal energy damage."
+ BEAM_LASER_TURRET_01: "Beam Laser Turrets I"
+ BEAM_LASER_TURRET_01_DESC: "These lasers inflict high damage and have a long range. They deal energy damage."
+ BEAM_LASER_TURRET_02: "Beam Laser Turrets II"
+ BEAM_LASER_TURRET_02_DESC: "These lasers inflict high damage and have a long range. They deal energy damage."
+ 
+ ### MISSILES
+ MISSILE_LAUNCHER_01: "Missile Launchers I"
+ MISSILE_LAUNCHER_01_DESC: "Missiles have a long range and deal explosive damage. They can be used by frigates, destroyers, cruisers, battlecruisers and battleships."
+ MISSILE_LAUNCHER_02: "Missile Launchers II"
+ MISSILE_LAUNCHER_02_DESC: "Missiles have a long range and deal explosive damage. They can be used by frigates, destroyers, cruisers, battlecruisers and battleships."
+ RAPID_MISSILE_LAUNCHER_01: "Rapid Missile Launchers I"
+ RAPID_MISSILE_LAUNCHER_01_DESC: "Rapid missiles have a high rate of fire and deal explosive damage. They can be used by cruisers, battlecruisers and battleships."
+ RAPID_MISSILE_LAUNCHER_02: "Rapid Missile Launchers II"
+ RAPID_MISSILE_LAUNCHER_02_DESC: "Rapid missiles have a high rate of fire and deal explosive damage. They can be used by cruisers, battlecruisers and battleships."
+ ROCKET_LAUNCHER_01: "Rocket Launchers I"
+ ROCKET_LAUNCHER_01_DESC: "Rockets have a very high rate of fire, inflict high explosive damage, but at a very short range. They can be used by frigates and destroyers."
+ ROCKET_LAUNCHER_02: "Rocket Launchers II"
+ ROCKET_LAUNCHER_02_DESC: "Rockets have a very high rate of fire, inflict high explosive damage, but at a very short range. They can be used by frigates and destroyers."
+ TORPEDO_LAUNCHER_01: "Torpedo Launchers I"
+ TORPEDO_LAUNCHER_01_DESC: "Torpedos hava a high rate of fire, inflict very high explosive damage, but at a short range. They can be used by battleships."
+ TORPEDO_LAUNCHER_02: "Torpedo Launchers II"
+ TORPEDO_LAUNCHER_02_DESC: "Torpedos hava a high rate of fire, inflict very high explosive damage, but at a short range. They can be used by battleships."
+ CRUISE_MISSILE_LAUNCHER_01: "Cruise Missile Launchers I"
+ CRUISE_MISSILE_LAUNCHER_01_DESC: "Cruise missiles inflict high explosive damage at a long range. They can be used by battleships."
+ CRUISE_MISSILE_LAUNCHER_02: "Cruise Missile Launchers II"
+ CRUISE_MISSILE_LAUNCHER_02_DESC: "Cruise missiles inflict high explosive damage at a long range. They can be used by battleships."
+ DEFENDER_MISSILE_LAUNCHER_01: "Defender Missile Launchers I"
+ DEFENDER_MISSILE_LAUNCHER_01_DESC: "Defender missiles are designed to shoot down enemy missiles. They can be used by frigates, destroyers, cruisers, battlecruisers and battleships."
+ DEFENDER_MISSILE_LAUNCHER_02: "Defender Missile Launchers II"
+ DEFENDER_MISSILE_LAUNCHER_02_DESC: "Defender missiles are designed to shoot down enemy missiles. They can be used by frigates, destroyers, cruisers, battlecruisers and battleships."
+ 
+ ### PROJECTILE
+ AUTOCANNONS_01: "Autocannons I"
+ AUTOCANNONS_01_DESC: "Autocannons have a very high rate of fire, but low kinetic damage and short range. They can be used by all ships."
+ AUTOCANNONS_02: "Autocannons II"
+ AUTOCANNONS_02_DESC: "Autocannons have a very high rate of fire, but low kinetic damage and short range. They can be used by all ships."
+ ARTILLERY_CANNONS_01: "Artillery Cannons I"
+ ARTILLERY_CANNONS_01_DESC: "Artillery Cannons have a very slow rate of fire, but inflict very high kinetic damage at a long range. They can be used by all ships."
+ ARTILLERY_CANNONS_02: "Artillery Cannons II"
+ ARTILLERY_CANNONS_02_DESC: "Artillery Cannons have a very slow rate of fire, but inflict very high kinetic damage at a long range. They can be used by all ships."
+ 
+ ## SIEGE MODULE
+ SIEGE_MODULE:0 "Siege Module I"
+ SIEGE_MODULE_DESC:0 "Siege Modules enhance the damage and tank of Dreadnoughts greatly"
+ 
+ ## ARMOUR & HULL
+ ARMOR_REPAIRERS_01:0 "Armor Repairers I"
+ ARMOR_REPAIRERS_01_DESC:0 "Components that use nano-assembler technology to repair damage done to the structure of a ship."
+ ARMOR_REPAIRERS_02:0 "Armor Repairers II"
+ ARMOR_REPAIRERS_02_DESC:0 "Components that use nano-assembler technology to repair damage done to the structure of a ship."
+ ARMOR_HARDENER_01:0 "Armor Hardener I"
+ ARMOR_HARDENER_01_DESC:0 "These modules increase the armor of ships."
+ ARMOR_HARDENER_02:0 "Armor Hardener II"
+ ARMOR_HARDENER_02_DESC:0 "These modules increase the armor of ships."
+ ARMOR_PLATES_01:0 "Armor Plates I"
+ ARMOR_PLATES_01_DESC:0 "Armor Plates increase the hull strenght of the ship."
+ ARMOR_PLATES_02:0 "Armor Plates II"
+ ARMOR_PLATES_02_DESC:0 "Armor Plates increase the hull strenght of the ship."
+
+ ## Engineering
+ REACTOR_CONTROL_UNIT_1: "Reactor Control Unit I"
+ REACTOR_CONTROL_UNIT_1_DESC: "Increase the available power of the ship."
+ REACTOR_CONTROL_UNIT_2: "Reactor Control Unit II"
+ REACTOR_CONTROL_UNIT_2_DESC: "Increase the available power of the ship."
+
+ ## Damage mods
+ BALLISTIC_CONTROL_SYSTEM_01:0 "Ballistic Controls I"
+ BALLISTIC_CONTROL_SYSTEM_01_DESC:0 "Systems designed to improve missile launcher efficiency."
+ BALLISTIC_CONTROL_SYSTEM_02:0 "Ballistic Controls II"
+ BALLISTIC_CONTROL_SYSTEM_02_DESC:0 "Systems designed to improve missile launcher efficiency."
+ HEATSINK_01:0 "Heat Sink I"
+ HEATSINK_01_DESC:0 "Systems designed to improve turret efficiency."
+ HEATSINK_02:0 "Heat Sink II"
+ HEATSINK_02_DESC:0 "Systems designed to improve turret efficiency."
+ GYROSTABALIZER_01:0 "Gyrostabilizer I"
+ GYROSTABALIZER_01_DESC:0 "Systems designed to improve turret efficiency."
+ GYROSTABALIZER_02:0 "Gyrostabilizer II"
+ GYROSTABALIZER_02_DESC:0 "Systems designed to improve turret efficiency."
+
+ ## MIDSLOTS
+ SMALL_MIDSLOT_01:0 "Small Medium Power Slot Modules"
+ SMALL_MIDSLOT_01_DESC:0 "Various Mid Slot Modules go into this slot"
+ SMALL_MIDSLOT_02:0 "Small Medium Power Slot Modules"
+ SMALL_MIDSLOT_02_DESC:0 "Various Mid Slot Modules go into this slot"
+ SMALL_MIDSLOT_03:0 "Small Medium Power Slot Modules"
+ SMALL_MIDSLOT_03_DESC:0 "Various Mid Slot Modules go into this slot"
+ SMALL_MIDSLOT_04:0 "Small Medium Power Slot Modules"
+ SMALL_MIDSLOT_04_DESC:0 "Various Mid Slot Modules go into this slot"
+
+ MEDIUM_MIDSLOT_01:0 "Medium Medium Power Slot Modules"
+ MEDIUM_MIDSLOT_01_DESC:0 "Various Mid Slot Modules go into this slot"
+ MEDIUM_MIDSLOT_02:0 "Medium Medium Power Slot Modules"
+ MEDIUM_MIDSLOT_02_DESC:0 "Various Mid Slot Modules go into this slot"
+ MEDIUM_MIDSLOT_03:0 "Medium Medium Power Slot Modules"
+ MEDIUM_MIDSLOT_03_DESC:0 "Various Mid Slot Modules go into this slot"
+ MEDIUM_MIDSLOT_04:0 "Medium Medium Power Slot Modules"
+ MEDIUM_MIDSLOT_04_DESC:0 "Various Mid Slot Modules go into this slot"
+
+ LARGE_MIDSLOT_01:0 "Large Medium Power Slot Modules"
+ LARGE_MIDSLOT_01_DESC:0 "Various Mid Slot Modules go into this slot"
+ LARGE_MIDSLOT_02:0 "Large Medium Power Slot Modules"
+ LARGE_MIDSLOT_02_DESC:0 "Various Mid Slot Modules go into this slot"
+ LARGE_MIDSLOT_03:0 "Large Medium Power Slot Modules"
+ LARGE_MIDSLOT_03_DESC:0 "Various Mid Slot Modules go into this slot"
+ LARGE_MIDSLOT_04:0 "Large Medium Power Slot Modules"
+ LARGE_MIDSLOT_04_DESC:0 "Various Mid Slot Modules go into this slot"
+
+ CAPITAL_MIDSLOT_01:0 "Capital Medium Power Slot Modules"
+ CAPITAL_MIDSLOT_01_DESC:0 "Various Mid Slot Modules go into this slot"
+ CAPITAL_MIDSLOT_02:0 "Capital Medium Power Slot Modules"
+ CAPITAL_MIDSLOT_02_DESC:0 "Various Mid Slot Modules go into this slot"
+ CAPITAL_MIDSLOT_03:0 "Capital Medium Power Slot Modules"
+ CAPITAL_MIDSLOT_03_DESC:0 "Various Mid Slot Modules go into this slot"
+ CAPITAL_MIDSLOT_04:0 "Capital Medium Power Slot Modules"
+ CAPITAL_MIDSLOT_04_DESC:0 "Various Mid Slot Modules go into this slot"
+ 
+ ## Fleet Assistance
+ FLEET_ASSISTANCE:0 "Fleet Assistance Modules"
+ FLEET_ASSISTANCE_DESC:0 "Fleet assistance modules go into this slot."
+
+ 

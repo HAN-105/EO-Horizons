@@ -11,13 +11,13 @@ thukker_tribe
 	portrait="minmatar"
 	name="Thukker Tribe"
 	adjective="Thukker"
-	government="gov_theocratic_monarchy"
+	government="military_junta"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="M-MD3B XI"
 	planet_class="pc_tropical"
 	system_name="M-MD3B"
-	initializer="thukker_tribe"
+	#initializer="thukker_tribe"
 	graphical_culture="minmatar_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag={
@@ -41,7 +41,7 @@ thukker_tribe
 		name="Einnar Aeboul"
 		portrait="minmatar_male6"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
 	ethic="ethic_collectivist"

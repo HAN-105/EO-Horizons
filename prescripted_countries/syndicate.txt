@@ -12,13 +12,13 @@ syndicate
 	portrait="gallente"
 	name="The Syndicate"
 	adjective="Syndicate"
-	government="gov_theocratic_monarchy"
+	government="military_dictatorship"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Poitot III"
 	planet_class="pc_arctic"
 	system_name="Poitot"
-	initializer="syndicate"
+	#initializer="syndicate"
 	graphical_culture="gallente_01"
 	city_graphical_culture="fungoid_01"
 	empire_flag={
@@ -42,7 +42,7 @@ syndicate
 		name="Silphy en Diabel"
 		portrait="gallente_female2"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
 	ethic="ethic_spiritualist"
 	ethic="ethic_individualist"

@@ -1,0 +1,74 @@
+pop_neural_implants = {
+	pop_slavery_tolerance = 0.25
+	pop_happiness = 0.1
+	tile_resource_physics_research_mult = -0.25
+	tile_resource_society_research_mult = -0.25 	
+	tile_resource_engineering_research_mult = -0.25 
+}
+
+pop_true_slave = {
+	pop_slavery_tolerance = 0.5
+	pop_happiness = 0.2
+	tile_resource_physics_research_mult = -1.0
+	tile_resource_society_research_mult = -1.0 	
+	tile_resource_engineering_research_mult = -1.0
+}
+
+pop_damaged_brain_function = {
+	tile_resource_engineering_research_mult = -0.5
+	tile_resource_physics_research_mult = -0.5
+	tile_resource_society_research_mult = -0.5
+}
+
+pop_severe_damaged_brain_function = {
+	tile_resource_engineering_research_mult = -1.0
+	tile_resource_physics_research_mult = -1.0
+	tile_resource_society_research_mult = -1.0
+}
+
+
+pop_vitoc_dependence = {
+	pop_slavery_tolerance = 0.25
+	tile_resource_minerals_mult = 0.05
+	tile_resource_food_mult = 0.05
+}
+
+
+pop_advanced_vitoc_dependence = {
+	pop_slavery_tolerance = 0.5
+	pop_happiness = 0.1
+	tile_resource_minerals_mult = 0.1
+	tile_resource_food_mult = 0.1
+}
+
+pop_vitoc_withdrawal = {
+	pop_happiness = -0.1
+	tile_resource_minerals_mult = -0.05
+	tile_resource_food_mult = -0.05
+}
+
+pop_severe_vitoc_withdrawal = {
+	pop_happiness = -0.3
+	tile_resource_minerals_mult = -0.1
+	tile_resource_food_mult = -0.1
+}
+
+country_inactive_neural_implants_maintenance = {
+	tile_resource_energy_mult = -0.05
+	influence_gain_add = -0.5
+}
+
+country_inactive_true_slave_implants_maintenance = {
+	tile_resource_energy_mult = -0.1
+	influence_gain_add = -1
+}
+
+country_inactive_vitoc_development = {
+	tile_resource_energy_mult = -0.05
+	influence_gain_add = -0.5
+}
+
+country_inactive_advanced_vitoc_development = {
+	tile_resource_energy_mult = -0.1
+	influence_gain_add = -1
+}

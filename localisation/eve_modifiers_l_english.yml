@@ -1,0 +1,26 @@
+﻿l_english: 
+ # Tinyanky Modifiers
+ tinyanki_happiness:0 "Tinyanki Happiness"
+ tinyanki_happiness_desc:0 "The beautiful and peaceful creatures give your citizens a better outlook on live."
+ tinyanki_research:0 "Tinyanki Research"
+ tinyanki_research_desc:0 "These strange creatures have increased your citizens interest in anything sociology."
+ 
+ # Slavery Modifiers
+ pop_neural_implants:0 "Neural Implants"
+ pop_true_slave:0 "True Slave"
+ pop_vitoc_dependence:0 "Vitoc Dependence"
+ pop_advanced_vitoc_dependence:0 "Advanced Vitoc Dependence"
+ pop_vitoc_withdrawal:0 "Vitoc Withdrawal"
+ pop_severe_vitoc_withdrawal:0 "Severe Vitoc Withdrawal"
+ pop_damaged_brain_function:0 "Damaged Brain Function"
+ pop_severe_damaged_brain_function:0 "Severely Damaged Brain Function"
+ country_inactive_neural_implants_maintenance:0 "Inactive Neural Implants Maintenance"
+ country_inactive_true_slave_implants_maintenance:0 "Inactive True Slave Implants Maintenance"
+ country_inactive_vitoc_development:0 "Inactive Vitoc Development"
+ country_inactive_advanced_vitoc_development:0 "Inactive Advanced Vitoc Development"
+ 
+ ## Religious Modifiers
+ pop_amarr_faith:0 "Amarr Faith"
+ pop_sani_sabik:0 "Sani Sabik"
+ pop_individualist_amarr_faith:0 "Slave Free Amarr Faith"
+ pop_individualist_sani_sabik:0 "Slave Free Sani Sabik"

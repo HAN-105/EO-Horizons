@@ -1,0 +1,437 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+###########################
+### TECH COSTS - REPEATABLE  ###
+###########################
+
+@repeatableTechBaseCost = 1500
+@repeatableTechLevelCost = 480
+
+
+###########################
+### TECH WEIGHTS - REPEATABLE  ###
+###########################
+
+@repeatableTechWeight = 25
+@repatableTechFactor = 0.5
+
+########################################################
+## VITOC
+########################################################
+tech_vitoc_development = {
+	cost = @tier2cost4
+	area = society
+	tier = 2
+	category = { biology }
+	prerequisites = { "tech_genome_mapping" }
+	weight = @tier2weight4
+	
+	# Unlocks vitoc edict and policy
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			has_technology = tech_advanced_neural_implants
+		}
+	
+		modifier = {
+			factor = 2
+			any_owned_pop = { is_enslaved = yes }
+		}
+		
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				has_policy_flag = slavery_allowed_all
+				has_policy_flag = slavery_allowed_xenos_only
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			has_technology = tech_advanced_neural_implants
+		}
+	
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_all
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_xenos_only
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+tech_advanced_vitoc_development = {
+	cost = @tier3cost4
+	area = society
+	tier = 3
+	category = { biology }
+	is_rare = yes
+	prerequisites = { "tech_vitoc_development" }
+	weight = @tier3weight4
+	
+	# Unlocks edict advanced vitoc
+	
+	modifier = {
+		slave_production_output = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 2
+			any_owned_pop = { is_enslaved = yes }
+		}
+		
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_spiritualist
+				has_ethic = ethic_fanatic_spiritualist
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				has_policy_flag = slavery_allowed_all
+				has_policy_flag = slavery_allowed_xenos_only
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			has_technology = tech_advanced_neural_implants
+		}
+	
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_all
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_xenos_only
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+########################################################
+## TRUE SLAVES
+########################################################
+
+tech_advanced_neural_implants = {
+	cost = @tier2cost4
+	area = society
+	tier = 2
+	category = { statecraft }
+	prerequisites = { "tech_neural_implants" }
+	weight = @tier2weight4
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0
+			has_technology = tech_vitoc_development
+		}
+		
+		modifier = {
+			factor = 2
+			any_owned_pop = { is_enslaved = yes }
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_materialist
+				has_ethic = ethic_fanatic_materialist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				has_policy_flag = slavery_allowed_all
+				has_policy_flag = slavery_allowed_xenos_only
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			has_technology = tech_vitoc_development
+		}
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_all
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_xenos_only
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+
+tech_assume_direct_control = {
+	cost = @tier3cost4
+	area = society
+	tier = 3
+	category = { statecraft }
+	is_rare = yes
+	prerequisites = { "tech_advanced_neural_implants" }
+	weight = @tier2weight4
+	
+	modifier = {
+		slave_production_output = 0.2
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 2
+			any_owned_pop = { is_enslaved = yes }
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_materialist
+				has_ethic = ethic_fanatic_materialist
+			}
+		}
+		
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 0
+			NOR = {
+				has_policy_flag = slavery_allowed_all
+				has_policy_flag = slavery_allowed_xenos_only
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_all
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 3
+			AND = {
+				has_policy_flag = slavery_allowed_xenos_only
+				any_owned_pop = { is_enslaved = yes }
+			}
+		}
+		modifier = {
+			factor = 1.25
+			OR = {
+				has_ethic = ethic_collectivist
+				has_ethic = ethic_fanatic_collectivist
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+}
+
+####################################################################
+## Repeatable
+####################################################################
+
+tech_repeatable_improved_slave_food_output = {
+	area = society
+	cost = @repeatableTechBaseCost
+	cost_per_level = @repeatableTechLevelCost
+	tier = 2
+	category = { biology }
+	levels = -1
+	prerequisites = { "tech_neural_implants" }
+	weight = @repeatableTechWeight
+	
+	weight_modifier = {
+		factor = @repatableTechFactor
+	}
+	
+	ai_weight = {
+		factor = 1.0
+	}
+	
+	weight_groups = {
+		repeatable
+	}
+	mod_weight_if_group_picked = {
+		repeatable = 0.01
+	}
+	
+	modifier = {
+		slave_food_output = 0.10
+	}
+}

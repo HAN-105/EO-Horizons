@@ -1,0 +1,18 @@
+component_set = {
+	key = "KINETIC_DOOMSDAY_DEVICE_SET"
+	icon = "GFX_ship_part_kinetic_doomsday"
+	icon_frame = 1
+	show_in_designer = yes
+}
+component_set = {
+	key = "EXPLOSIVE_DOOMSDAY_DEVICE_SET"
+	icon = "GFX_ship_part_explosive_doomsday"
+	icon_frame = 1
+	show_in_designer = yes
+}
+component_set = {
+	key = "LASER_DOOMSDAY_DEVICE_SET"
+	icon = "GFX_ship_part_energy_doomsday"
+	icon_frame = 1
+	show_in_designer = yes
+}

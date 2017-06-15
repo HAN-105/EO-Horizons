@@ -1,0 +1,247 @@
+spriteTypes = {
+
+	## Electronic Warfare
+	spriteType = {
+		name = "GFX_ship_part_jump_scrambler_01"
+		texturefile = "gfx/interface/icons/ship_parts/electronic_warfare/ship_part_jump_scrambler_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_jump_scrambler_02"
+		texturefile = "gfx/interface/icons/ship_parts/electronic_warfare/ship_part_jump_scrambler_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_stasis_webifier_01"
+		texturefile = "gfx/interface/icons/ship_parts/electronic_warfare/ship_part_stasis_webifier_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_stasis_webifier_02"
+		texturefile = "gfx/interface/icons/ship_parts/electronic_warfare/ship_part_stasis_webifier_02.dds"
+	}
+
+	## Fleet Assistance
+	spriteType = {
+		name = "GFX_ship_part_warfare_link_01"
+		texturefile = "gfx/interface/icons/ship_parts/fleet_assistance/ship_part_warfare_link_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_warfare_link_02"
+		texturefile = "gfx/interface/icons/ship_parts/fleet_assistance/ship_part_warfare_link_02.dds"
+	}
+
+	## Engineering Equipment
+	spriteType = {
+		name = "GFX_ship_part_reactor_control_unit_01"
+		texturefile = "gfx/interface/icons/ship_parts/engineering_equipment/ship_part_reactor_control_unit_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_reactor_control_unit_02"
+		texturefile = "gfx/interface/icons/ship_parts/engineering_equipment/ship_part_reactor_control_unit_02.dds"
+	}
+	## Hull and Armor
+	spriteType = {
+		name = "GFX_ship_part_damage_control_01"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_damage_control_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_damage_control_02"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_damage_control_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_armor_repairer_01"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_armor_repairer_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_armor_repairer_02"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_armor_repairer_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_armor_plate_01"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_armor_plate_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_armor_plate_02"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_armor_plate_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_armor_hardener_01"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_armor_hardener_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_armor_hardener_02"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_armor_hardener_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_nanofiber_structure_01"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_nanofiber_structure_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_nanofiber_structure_02"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_nanofiber_structure_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_reinforced_bulkhead_01"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_reinforced_bulkhead_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_reinforced_bulkhead_02"
+		texturefile = "gfx/interface/icons/ship_parts/hull_and_armor/ship_part_reinforced_bulkhead_02.dds"
+	}
+
+	## Propulsion
+	spriteType = {
+		name = "GFX_ship_part_afterburner_01"
+		texturefile = "gfx/interface/icons/ship_parts/propulsion/ship_part_afterburner_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_afterburner_02"
+		texturefile = "gfx/interface/icons/ship_parts/propulsion/ship_part_afterburner_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_microwarpdrive_01"
+		texturefile = "gfx/interface/icons/ship_parts/propulsion/ship_part_microwarpdrive_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_microwarpdrive_02"
+		texturefile = "gfx/interface/icons/ship_parts/propulsion/ship_part_microwarpdrive_02.dds"
+	}
+
+	## Scanning Equipement
+	spriteType = {
+		name = "GFX_ship_part_scan_acquisition_array_01"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_scan_acquisition_array_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_scan_acquisition_array_02"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_scan_acquisition_array_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_scan_pinpointer_array_01"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_scan_pinpointer_array_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_scan_pinpointer_array_02"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_scan_pinpointer_array_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_scan_rangefinder_array_01"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_scan_rangefinder_array_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_scan_rangefinder_array_02"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_scan_rangefinder_array_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_relic_analyzer_01"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_relic_analyzer_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_relic_analyzer_02"
+		texturefile = "gfx/interface/icons/ship_parts/scan_equipment/ship_part_relic_analyzer_02.dds"
+	}
+
+	## Shields
+	spriteType = {
+		name = "GFX_ship_part_shield_extender_01"
+		texturefile = "gfx/interface/icons/ship_parts/shields/ship_part_shield_extender_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_shield_extender_02"
+		texturefile = "gfx/interface/icons/ship_parts/shields/ship_part_shield_extender_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_shield_booster_01"
+		texturefile = "gfx/interface/icons/ship_parts/shields/ship_part_shield_booster_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_shield_booster_02"
+		texturefile = "gfx/interface/icons/ship_parts/shields/ship_part_shield_booster_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_shield_hardener_01"
+		texturefile = "gfx/interface/icons/ship_parts/shields/ship_part_shield_hardener_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_shield_hardener_02"
+		texturefile = "gfx/interface/icons/ship_parts/shields/ship_part_shield_hardener_02.dds"
+	}
+
+	## Electronis and Sensor Upgrades
+	spriteType = {
+		name = "GFX_ship_part_sensor_booster_01"
+		texturefile = "gfx/interface/icons/ship_parts/electronics_and_sensor_upgrades/ship_part_sensor_booster_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_sensor_booster_02"
+		texturefile = "gfx/interface/icons/ship_parts/electronics_and_sensor_upgrades/ship_part_sensor_booster_02.dds"
+	}
+
+	## Weapon Upgrades
+
+	spriteType = {
+		name = "GFX_ship_part_heatsink_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heatsink_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_heatsink_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_heatsink_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_gyro_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_gyro_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_gyro_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_gyro_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_bcu_1"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_bcu_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_bcu_2"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_bcu_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_siege_core_01"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_siege_core_01.dds"
+	}
+#	spriteType = {
+#		name = "GFX_ship_part_siege_core_02"
+#		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_siege_core_02.dds"
+#	}
+	spriteType = {
+		name = "GFX_ship_part_tracking_enhancer_01"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_tracking_enhancer_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tracking_enhancer_02"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_tracking_enhancer_02.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tracking_computer_01"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_tracking_computer_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_tracking_computer_02"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_tracking_computer_02.dds"
+	}
+#	spriteType = {
+#		name = "GFX_ship_part_triage_module_01"
+#		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_triage_module_01.dds"
+#	}
+#	spriteType = {
+#		name = "GFX_ship_part_triage_module_02"
+#		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_triage_module_02.dds"
+#	}
+	spriteType = {
+		name = "GFX_ship_part_warfare_link_shield_01"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_warfare_link_shield_01.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_warfare_link_armor_01"
+		texturefile = "gfx/interface/icons/ship_parts/turrets_and_bays/ship_part_warfare_link_armor_01.dds"
+	}
+}

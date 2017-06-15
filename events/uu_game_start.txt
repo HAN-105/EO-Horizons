@@ -76,30 +76,6 @@ event = {
 					}
 					change_pc = pc_arid
 				}
-				if = {
-					limit = {
-						AND = {
-							owner = { has_trait = trait_pc_savannah_preference }
-							NOT = { is_planet_class = pc_savannah }
-						}
-					}
-					change_pc = pc_savannah
-				}
-				if = {
-					limit = {
-						AND = {
-							owner = { has_trait = trait_pc_alpine_preference }
-							NOT = { is_planet_class = pc_alpine }
-						}
-					}
-					change_pc = pc_alpine
-				}
-				
-				if = {
-					limit = {
-						planet_size < 16
-					}
-				}
 				
 				owner = {
 					species = {

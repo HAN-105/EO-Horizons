@@ -1,5 +1,6 @@
 @battleship_scale = 12
 @battleship_physical_scale = 0.6
+@battleship_physical_scale_small = 0.1
 
 #############################################################################
 ##################         	 BATTLESHIPS             ########################
@@ -87,7 +88,7 @@ entity = {
 	name = "caldari_01_battleship_bow_L1M1S2_entity"
 	pdxmesh = "caldari_01_raven_BOW_mesh"
 	
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -98,7 +99,7 @@ entity = {
 	name = "caldari_01_battleship_bow_L1S4_entity"
 	pdxmesh = "caldari_01_raven_BOW_mesh"
 	
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -109,7 +110,7 @@ entity = {
 	name = "caldari_01_battleship_bow_L2_entity"
 	pdxmesh = "caldari_01_raven_BOW_mesh"
 
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -127,7 +128,7 @@ entity = {
 		rotation = { 0 0 0 }
 	}
 	
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -138,7 +139,7 @@ entity = {
 	name = "caldari_01_battleship_bow_M2S4_entity"
 	pdxmesh = "caldari_01_raven_BOW_mesh"
 
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -149,23 +150,7 @@ entity = {
 	name = "caldari_01_battleship_bow_M3S2_entity"
 	pdxmesh = "caldari_01_raven_BOW_mesh"
 
-	scale = @battleship_physical_scale
-
-	game_data = {
-		size = @battleship_scale
-	}
-}
-
-entity = {
-	name = "caldari_01_battleship_bow_XL1_entity"
-	pdxmesh = "caldari_01_raven_BOW_mesh"
-	
-	locator = { 
-		name = "xl_gun_01" 
-		position = { 0 0 -14.5 } 
-	}
-
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -262,7 +247,7 @@ entity = {
 	name = "caldari_01_battleship_stern_M1S2_entity"
 	pdxmesh = "caldari_01_raven_STERN_mesh"
 
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -273,7 +258,7 @@ entity = {
 	name = "caldari_01_battleship_stern_L1_entity"
 	pdxmesh = "caldari_01_raven_STERN_mesh"
 
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -284,7 +269,7 @@ entity = {
 	name = "caldari_01_battleship_stern_M2_entity"
 	pdxmesh = "caldari_01_raven_STERN_mesh"
 
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale
@@ -295,7 +280,7 @@ entity = {
 	name = "caldari_01_battleship_stern_S4_entity"
 	pdxmesh = "caldari_01_raven_STERN_mesh"
 	
-	scale = @battleship_physical_scale
+	scale = @battleship_physical_scale_small
 
 	game_data = {
 		size = @battleship_scale

@@ -1,0 +1,664 @@
+##################################################
+### Takmahl History
+##################################################
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_HISTORY_1"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.151 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_HISTORY_2"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.152 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_HISTORY_3"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.153 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_HISTORY_4"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = engineering_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.154 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_HISTORY_5"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.155 }
+	}
+	
+	on_fail = {
+	}
+}
+########################################################################
+### Takmahl Culture
+##########################################################################
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CULTURE_1"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.251 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CULTURE_2"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.252 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CULTURE_3"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 60
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 1
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.253 }
+	}
+	
+	on_fail = {
+	}
+}
+########################################################################
+### Takmahl Bio Engineering
+##########################################################################
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_BIO_ENGINEERING_1"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.351 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_BIO_ENGINEERING_2"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.352 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_BIO_ENGINEERING_3"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.353 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_BIO_ENGINEERING_4"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = engineering_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.354 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_BIO_ENGINEERING_5"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.355 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_BIO_ENGINEERING_6"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.356 }
+	}
+	
+	on_fail = {
+	}
+}
+
+########################################################################
+### Takmahl Cybernetics
+##########################################################################
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CYBERNETICS_1"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.451 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CYBERNETICS_2"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.452 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CYBERNETICS_3"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.453 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CYBERNETICS_4"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = engineering_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.454 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CYBERNETICS_5"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.455 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_CYBERNETICS_6"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 4
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.456 }
+	}
+	
+	on_fail = {
+	}
+}
+
+########################################################################
+### Takmahl Ship Remnants
+##########################################################################
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_SHIP_REMNANTS_1"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = engineering_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 3
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.551 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_SHIP_REMNANTS_2"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = engineering_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 3
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.552 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_SHIP_REMNANTS_3"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = engineering_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 3
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.553 }
+	}
+	
+	on_fail = {
+	}
+}
+########################################################################
+### Takmahl Terraforming
+##########################################################################
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_TERRAFORMING_1"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 3
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.651 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_TERRAFORMING_2"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 3
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.652 }
+	}
+	
+	on_fail = {
+	}
+}
+
+special_project = {
+	key = "TAKMAHL_ARCHEOLOGY_TERRAFORMING_3"
+	event_chain = "takmahl_main_questline"
+	cost = 0
+	days_to_research = 180
+	tech_department = society_technology
+	picture = GFX_evt_archaeological_dig
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	
+	event_scope = ship_event
+	
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+		skill > 3
+	}
+	
+	on_success = {
+		ship_event = { id = takmahl.653 }
+	}
+	
+	on_fail = {
+	}
+}

@@ -1,0 +1,52 @@
+namespace = clone_breeding
+
+pop_event = {
+	id = clone_breeding.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOR = { 
+			owner = { has_policy_flag = clone_breeding_none } 
+			has_modifier = pop_clone_breeding
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						owner = { has_policy_flag = clone_breeding_slaves_only }
+						is_enslaved = yes
+					}
+					AND = {
+						owner = { has_policy_flag = clone_breeding_xenos_only }
+						NOT = { is_same_species = owner.species }
+					}
+					owner = { has_policy_flag = clone_breeding_all }
+				}		
+			}
+			add_modifier = {
+				modifier = pop_clone_breeding
+				days = -1
+			}	
+		}
+	}
+}
+
+pop_event = {
+	id = clone_breeding.2
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		owner = { has_policy_flag = clone_breeding_slaves_only } 
+	}
+	
+	immediate = {
+		remove_modifier = pop_clone_breeding
+	}
+}

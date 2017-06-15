@@ -12,13 +12,13 @@ ore
 	portrait="gallente"
 	name="Outer Ring Excavations"
 	adjective="ORE"
-	government="gov_theocratic_monarchy"
+	government="plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="4C-B7X VI"
 	planet_class="pc_ocean"
 	system_name="4C-B7X"
-	initializer="ore"
+	#initializer="ore"
 	graphical_culture="gallente_01"
 	city_graphical_culture="fungoid_01"
 	empire_flag={
@@ -42,7 +42,7 @@ ore
 		name="Yani Sar Arteu"
 		portrait="gallente_male3"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_materialist"
 	ethic="ethic_pacifist"
 	ethic="ethic_individualist"

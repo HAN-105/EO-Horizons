@@ -11,13 +11,13 @@ khanid_kingdom
 	portrait="amarr"
 	name="Khanid Kingdom"
 	adjective="Khanid"
-	government="gov_theocratic_monarchy"
+	government="despotic_empire"
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Khanid Prime V"
 	planet_class="pc_continental"
 	system_name="Khanid Prime"
-	initializer="khanid_kingdom"
+	#initializer="khanid_kingdom"
 	graphical_culture="amarr_01"
 	city_graphical_culture="arthropoid_01"
 	empire_flag={
@@ -41,7 +41,7 @@ khanid_kingdom
 		name="Garkeh Khanid II"
 		portrait="amarr_male3"
 	}
-	spawn_enabled=no
+	spawn_enabled=always
 	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_militarist"
 	trait="trait_khanid"

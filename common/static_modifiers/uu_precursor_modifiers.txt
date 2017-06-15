@@ -1,0 +1,13 @@
+archaeological_society = {
+	tile_resource_energy_mult = -0.025
+}
+
+
+takmahl_armour = {
+	ship_armor_mult = 0.05
+}
+
+
+takmahl_laser_weapons = {
+	
+}

@@ -1,0 +1,165 @@
+@section_cost = 180
+###########################################################
+#BOW
+###########################################################
+ship_section_template = {
+	key = "BATTLECRUISER_BOW_M2"
+	ship_size = battlecruiser
+	fits_on_slot = bow
+	entity = "battlecruiser_bow_L2_entity"
+	icon = "GFX_ship_part_core_bow"
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}
+	
+	medium_utility_slots = 4
+	
+	cost = @section_cost
+}
+
+ship_section_template = {
+	key = "BATTLECRUISER_BOW_M1PD2"
+	ship_size = battlecruiser
+	fits_on_slot = bow
+	entity = "battlecruiser_bow_M1S2SHB_entity"
+	icon = "GFX_ship_part_core_bow"
+	
+	prerequisites = { tech_defender_missile_launchers_1 tech_defender_missile_launchers_2 }		
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = explosive }
+		}		
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	# component_slot = {
+		# name = "STRIKE_CRAFT_01"
+		# slot_size = large
+		# slot_type = strike_craft
+		# rotation = 90
+		# locatorname = "strike_craft_locator_01"
+	# }
+	
+	medium_utility_slots = 4
+	
+	cost = @section_cost
+}
+
+##############################################################
+#    MID
+################################################################
+ship_section_template = {
+	key = "BATTLECRUISER_MID_M4"
+	ship_size = battlecruiser
+	fits_on_slot = mid
+	entity = "battlecruiser_mid_M4SHB_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = explosive }
+		}		
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_04"
+	}
+	
+	medium_utility_slots = 6
+	
+	cost = @section_cost
+}
+
+###########################################################
+#STERN
+###########################################################
+ship_section_template = {
+	key = "BATTLECRUISER_STERN_M2"
+	ship_size = battlecruiser
+	fits_on_slot = stern
+	entity = "battlecruiser_stern_M2_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_01"
+				
+	}
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_02"
+	}
+	
+	medium_utility_slots = 4
+	
+	cost = @section_cost
+}

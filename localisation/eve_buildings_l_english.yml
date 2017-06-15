@@ -1,0 +1,27 @@
+﻿l_english:
+ ### CONTENT
+ ## TAKMAHL BUILDINGS
+ ## BIO DROIDS
+
+ ## TAKMAHL BUILDINGS
+ building_takmahl_hydroponics_farm_1: "Takmahl Hydroponic Farm I"
+ building_takmahl_hydroponics_farm_1_desc: "The advances in bio-engineering by the Takmahl allow for the construction of a more efficient hydroponic farm."
+ building_takmahl_hydroponics_farm_2: "Takmahl Hydroponic Farm II"
+ building_takmahl_hydroponics_farm_2_desc: "The advances in bio-engineering by the Takmahl allow for the construction of a more efficient hydroponic farm."
+ building_takmahl_hydroponics_farm_3: "Takmahl Hydroponic Farm III"
+ building_takmahl_hydroponics_farm_3_desc: "The advances in bio-engineering by the Takmahl allow for the construction of a more efficient hydroponic farm."
+ building_takmahl_hydroponics_farm_4: "Takmahl Hydroponic Farm IV"
+ building_takmahl_hydroponics_farm_4_desc: "The advances in bio-engineering by the Takmahl allow for the construction of a more efficient hydroponic farm."
+ building_takmahl_hydroponics_farm_5: "Takmahl Hydroponic Farm V"
+ building_takmahl_hydroponics_farm_5_desc: "The advances in bio-engineering by the Takmahl allow for the construction of a more efficient hydroponic farm."
+ 
+ ## BIO DROIDS
+ buildable_bio_droid: "Bio Droid"
+ buildable_bio_droid_desc: "§LBio Droids are created from living people, by replacing many parts with artifical components. Additionally bio droids can be remotely controlled, but lose most cognitive functions."
+ 
+ ## ARMIES
+ takmahl_clone_army:0 "Takmahl Clone Army"
+ takmahl_clone_army_desc:0 "A weak but rapidly produced clone army."
+ 
+ ## SPACEPORT MODULES
+ sm_hydroponic_farms_2: "Orbital Hydroponic Farms II"

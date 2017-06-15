@@ -1,0 +1,234 @@
+@b0time = 120
+@b0cost = 30
+@b0effect = 1
+@b0upkeep = 1
+
+@b1time = 210
+@b1cost = 60
+@b1effect = 2
+@b1upkeep = 1
+
+@b2time = 180
+@b2cost = 90
+@b2effect = 3
+@b2upkeep = 1.5
+
+@b3time = 180
+@b3cost = 120
+@b3effect = 4
+@b3upkeep = 2
+
+@b4time = 180
+@b4cost = 150
+@b4effect = 5
+@b4upkeep = 2.5
+
+@b5time = 180
+@b5cost = 180
+@b5effect = 8
+@b5upkeep = 3
+
+@b6cost = 210
+@b6effect = 10
+
+
+
+building_takmahl_hydroponics_farm_1 = {
+	base_buildtime = @b1time
+	is_listed = yes
+	
+	cost = {
+		minerals = @b2cost
+	}
+	
+	potential = {
+		planet = { is_capital = yes }
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+	
+	produced_resources = {
+		food = @b2effect
+	}
+	
+	required_resources = {
+		energy = @b1upkeep
+	}
+	
+	prerequisites = {
+		"tech_takmahl_hydroponics_upgrades"
+	}	
+	
+	upgrades = {
+		building_takmahl_hydroponics_farm_2
+	}
+}
+
+building_takmahl_hydroponics_farm_2 = {
+	base_buildtime = @b2time
+	is_listed = no
+	
+	cost = {
+		minerals = @b3cost
+	}
+	
+	potential = {
+		planet = { is_capital = yes }
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_1"
+			planet = {
+				OR = {
+					has_building = "building_capital_1"
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+	
+	produced_resources = {
+		food = @b3effect
+	}
+	
+	required_resources = {
+		energy = @b2upkeep
+	}
+	
+	prerequisites = {
+		"tech_takmahl_hydroponics_upgrades"
+	}	
+	
+	upgrades = {
+		building_takmahl_hydroponics_farm_3
+	}
+}
+
+building_takmahl_hydroponics_farm_3 = {
+	base_buildtime = @b3time
+	is_listed = no
+	
+	cost = {
+		minerals = @b4cost
+	}
+	
+	potential = {
+		planet = { is_capital = yes }
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+	
+	produced_resources = {
+		food = @b4effect
+	}
+	
+	required_resources = {
+		energy = @b3upkeep
+	}
+	
+	prerequisites = {
+		"tech_takmahl_hydroponics_upgrades"
+	}	
+	
+	upgrades = {
+		building_takmahl_hydroponics_farm_4
+	}
+}
+
+building_takmahl_hydroponics_farm_4 = {
+	base_buildtime = @b4time
+	is_listed = no
+	
+	cost = {
+		minerals = @b5cost
+	}
+	
+	potential = {
+		planet = { is_capital = yes }
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_2"
+			planet = {
+				OR = {
+					has_building = "building_capital_2"
+					has_building = "building_capital_3"
+				}
+			}
+		}
+	}
+	
+	produced_resources = {
+		food = @b5effect
+	}
+	
+	required_resources = {
+		energy = @b4upkeep
+	}
+	
+	prerequisites = {
+		"tech_takmahl_hydroponics_upgrades"
+	}	
+	
+	upgrades = {
+		building_takmahl_hydroponics_farm_5
+	}
+}
+
+building_takmahl_hydroponics_farm_5 = {
+	base_buildtime = @b5time
+	is_listed = no
+	
+	cost = {
+		minerals = @b6cost
+	}
+	
+	potential = {
+		planet = { is_capital = yes }
+	}
+	
+	allow = {
+		custom_tooltip = {
+			text = "requires_building_capital_3"
+			planet = {
+				has_building = "building_capital_3"
+			}
+		}
+	}
+	
+	produced_resources = {
+		food = @b6effect
+	}
+	
+	required_resources = {
+		energy = @b5upkeep
+	}
+	
+	prerequisites = {
+		"tech_takmahl_hydroponics_upgrades"
+	}	
+}

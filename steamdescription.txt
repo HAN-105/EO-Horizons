@@ -1,0 +1,71 @@
+Mod: 		v1.0.1_beta
+Stellaris: 	v1.4.0
+
+This mod is in beta and will have some bugs, missing localisation & icons and many balance issues. Please report them.
+
+The goal of this mod is to eventually create the full EvE Online experience.
+However it is currenlty in heavy (and slow) development and most updates will likely break your save games.
+
+In order to improve this mod we will require a lot of feedback from players. 
+
+[h1]Current Main Features[/h1]
+- Various factions from New Eden with custom flags, systems and traits.
+- Replaced most components with EvE online modules.
+- Expanded ship classes to include frigates, destroyers, cruisers, battlecruisers, battleships, carriers, dreadnoughts, mother ships and titans.
+- Added Empire Space map with system initializers
+- Added State Religion & Slavery control mechanics
+- Added Precursor Takmahl Empire & Archaeological Society event chain 
+
+Check out the change log for a more detailed breakdown.
+
+[h1]Known Issues[/h1]
+- The map has a few issues with stacked systems and hyperlanes always spawning the same way.
+- Point Defence Missiles are not actually missiles.
+- Military Stations lack power to be used
+- Avatar Ship Model has mini titans looking out it's side.
+
+If you want to reduce or disable aura graphics please download one of these two mods created by Chrondrite:
+
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=683121431]Remove Aura Graphics[/url]
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=686768193]Reduce Aura Graphics[/url]
+
+[h1] Remove Default Races[/h1]
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=754475823]"EvE Online: Horizons - Remove Default Races"[/url]
+
+[h1] Contributors [/h1]
+
+Vorgx
+SoulLink
+Wuija
+Nightmare
+Layberneth
+Cryst
+
+[h1] Compatibility [/h1]
+As we change many vanilla files this mod will not be compatible with many mods that do the same. A star (*) indicates that most files in there were changed. Here a list of the files currently changed:
+
+  ...\common\anomalies\00_anomaly_categories_2.txt
+  ...\common\buildings\00_buildings.txt
+  ...\common\component_templates\*
+  ...\common\game_rules\00_rules.txt
+  ...\common\global_ship_designs\*
+  ...\common\policies\00_policies.txt
+  ...\common\pop_faction_types\00_emancipation.txt
+  ...\common\pop_faction_types\00_docile_slaves.txt
+  ...\common\pop_faction_types\00_malcontent_slaves.txt
+  ...\common\random_names\base\00_random_names.txt
+  ...\common\section_templates\battleship.txt
+  ...\common\section_templates\corvette.txt
+  ...\common\section_templates\cruiser.txt
+  ...\common\section_templates\destroyer.txt
+  ...\common\technology\*
+  ...\common\technology\tier\00_tier.txt
+  ...\events\anomaly_events_3.txt
+  ...\events\faction_events.txt
+  ...\events\story_events.txt
+  ...\interface\ship_designer.gfx
+  ...\interface\ship_designer.gui
+  ...\interface\ship_view.gui
+  ...\interface\situation_log.gui
+  
+EVE Online, the EVE logo, EVE and all associated logos and designs are the intellectual property of CCP hf. All artwork, screenshots, characters, vehicles, storylines, world facts or other recognizable features of the intellectual property relating to these trademarks are likewise the intellectual property of CCP hf. EVE Online and the EVE logo are the registered trademarks of CCP hf. All rights are reserved worldwide. All other trademarks are the property of their respective owners 

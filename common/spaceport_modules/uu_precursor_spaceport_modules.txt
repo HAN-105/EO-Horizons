@@ -1,0 +1,19 @@
+hydroponic_farms_2 = {
+	icon = "GFX_spaceport_module_hydroponic_farms"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { "tech_takmahl_orbital_hydroponics" }
+	spaceport_level = 5
+	
+	cost = {
+		minerals = 400
+	}
+	
+	required_resources = {
+		energy = 4
+	}
+	
+	planet_modifier = {
+		planet_resource_food_add = 7
+	}
+}

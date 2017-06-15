@@ -2,8 +2,8 @@ static_galaxy_scenario = {
     name = "Empire Space - Random Hyperlanes (1907)"
     priority = 10
     default = no
-    colonizable_planet_odds = 1
-    num_empires = { min = 1 max = 18 }
+    colonizable_planet_odds = 1.0
+    num_empires = { min = 1 max = 24 }
     num_empire_default = 18
     advanced_empire_default = 0
     core_radius = 0
@@ -18,7 +18,11 @@ static_galaxy_scenario = {
         }
         initializer = tanoo_system_initializer
         spawn_weight = {
-            base = 10
+            base = 0
+            modifier = {
+                add = 100
+                has_country_flag = ammatar_mandate
+            }
         }
     }
 
@@ -1890,7 +1894,11 @@ static_galaxy_scenario = {
         }
         initializer = new_caldari_system_initializer
         spawn_weight = {
-            base = 10
+            base = 0
+            modifier = {
+                add = 100
+                has_country_flag = caldari_state
+            }
         }
     }
 
@@ -4607,7 +4615,11 @@ static_galaxy_scenario = {
         }
         initializer = pator_system_initializer
         spawn_weight = {
-            base = 10
+            base = 0
+            modifier = {
+                add = 100
+                has_country_flag = minmatar_republic
+            }
         }
     }
 
@@ -11159,7 +11171,11 @@ static_galaxy_scenario = {
         }
         initializer = amarr_system_initializer
         spawn_weight = {
-            base = 10
+            base = 0
+            modifier = {
+                add = 100
+                has_country_flag = amarr_empire
+            }
         }
     }
 
@@ -14760,7 +14776,11 @@ static_galaxy_scenario = {
         }
         initializer = luminaire_system_initializer
         spawn_weight = {
-            base = 10
+            base = 0
+            modifier = {
+                add = 100
+                has_country_flag = gallente_federation
+            }
         }
     }
 
@@ -20766,7 +20786,11 @@ static_galaxy_scenario = {
         }
         initializer = khanid_prime_system_initializer
         spawn_weight = {
-            base = 10
+            base = 0
+            modifier = {
+                add = 100
+                has_country_flag = khanid_kingdom
+            }
         }
     }
 

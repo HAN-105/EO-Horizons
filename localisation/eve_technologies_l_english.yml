@@ -1,0 +1,263 @@
+﻿l_english:
+ ##################
+ ### Content 	###
+ ##################
+ 
+ ## Modules
+ ## HULL MODULE TECHNOLOGY
+ ## ARMOR MODULE TECHNOLOGY
+ ## WEAPON UPGRADES TECHNOLOGY
+ ## SENSOR UPGRADES TECHNOLOGY
+ ## SHIELD MODULE TECHNOLOGY
+ ## SIEGE MODULE TECHNOLOGY
+ ## FLEET ASSISTANCE MODULE TECHNOLOGY
+ ## PROPULSION JAMMING MODULE TECHNOLOGY
+ ## ENGINEERING MODULE TECHNOLOGY
+ ## LASER WEAPONS TECHNOLOGY
+ ## HYBRID WEAPONS TECHNOLOGY
+ ## MISSILE WEAPONS TECHNOLOGY
+ ## PROJECTILE WEAPONS TECHNOLOGY
+ ## DOOMSDAY WEAPONS TECH
+ ## DRONE TECHNOLOGY
+ ## INDUSTRY TECH
+ 
+ ## Politics & Society
+ ## ADVANCED SLAVERY CONTROL MEASURES
+ ## TAKMAHL
+
+ ## HULL MODULE TECHNOLOGY
+ tech_hull_repair_1:0 "Hull Repairer I"
+ tech_hull_repair_1_desc:0 "Hull repairers can repair the hull of any ship during and after combat. Reducing repair costs and making ships more resilient during combat."
+ tech_hull_repair_2:0 "Hull Repairer II"
+ tech_hull_repair_2_desc:0 "Advanced Hull Repairers are more effective than their less advanced counterparts."
+
+ tech_armor_plates_1:0 "Armor Plates I"
+ tech_armor_plates_1_desc:0 "Armor Plates increases the stability of the ships hull, making it harder to destroy. However, this integrity comes at a price of reduced speed."
+ tech_armor_plates_2:0 "Armor Plates II"
+ tech_armor_plates_2_desc:0 "The Advanced Armor Plates further increase a ships hull integrity, while reducing its speed only slightly more."
+
+ ## ARMOR MODULE TECHNOLOGY
+ tech_armor_hardener_1:0 "Armor Hardeners I"
+ tech_armor_hardener_1_desc:0 "Armor Hardeners are used to strenghten the ships armor. This increases its protective ability. The ships armor can be ignored by certain weapons."
+ tech_armor_hardener_2:0 "Armor Hardeners II"
+ tech_armor_hardener_2_desc:0 "The Advanced Armor Hardeners have been optimised to further increase the armors protective ability."
+
+ ## WEAPON UPGRADES TECHNOLOGY
+
+ tech_tracking_computer_1:0 "Tracking Computers I"
+ tech_tracking_computer_1_desc:0 "The Tracking Computer increases the accuracy of any weapons system on the ship."
+ tech_tracking_computer_2:0 "Tracking Computers II"
+ tech_tracking_computer_2_desc:0 "The Adanced Tracking Computer further optimises the calculations used to target enemy ships, increasing the accuracy of any weapons system on board."
+ TECH_UNLOCK_TRACKING_COMPUTER_1_TITLE:0 "Tracking Computer I"
+ TECH_UNLOCK_TRACKING_COMPUTER_1_DESC:0 "The Tracking Computer increases the accuracy of any weapons system on the ship."
+ TECH_UNLOCK_TRACKING_COMPUTER_2_TITLE:0 "Tracking Computer II"
+ TECH_UNLOCK_TRACKING_COMPUTER_2_DESC:0 "The Adanced Tracking Computer further optimises the calculations used to target enemy ships, increasing the accuracy of any weapons system on board."
+
+ tech_tracking_enhancer_1:0 "Tracking Enhancers I"
+ tech_tracking_enhancer_1_desc:0 "The Tracking Enhancer is used to support the board weapon systems targeting. This makes them effective at a greater distance than before."
+ tech_tracking_enhancer_2:0 "Tracking Enhancers II"
+ tech_tracking_enhancer_2_desc:0 "The Advanced Tracking Enhancer brings even more computational power and more optimised algoritmes to allow weapons system to hit their target at even greater distances."
+ TECH_UNLOCK_TRACKING_ENHANCER_1_TITLE:0 "§HUnlock Components:§! Tracking Enhancers I"
+ TECH_UNLOCK_TRACKING_ENHANCER_1_DESC:0 "The Tracking Enhancer is used to support the board weapon systems targeting. This makes them effective at a greater distance than before."
+ TECH_UNLOCK_TRACKING_ENHANCER_2_TITLE:0 "§HUnlock Components:§! Tracking Enhancers II"
+ TECH_UNLOCK_TRACKING_ENHANCER_2_DESC:0 "The Advanced Tracking Enhancer brings even more computational power and more optimised algoritmes to allow weapons system to hit their target at even greater distances."
+ 
+ tech_ballistic_control_system_1:0 "Ballistic Control Systems I"
+ tech_ballistic_control_system_1_desc:0 "The Ballistic Control System supports missile guidance systems and detonation timers. This causes missiles to have a bigger impact upon detonation and increases their rate of fire."
+ tech_ballistic_control_system_2:0 "Ballistic Control Systems II"
+ tech_ballistic_control_system_2_desc:0 "The Advanced Ballistic Control System further optimises and supports missile subroutines, causing more effective explosions. Missile Launchers can also fire more often."
+
+ tech_heatsink_1:0 "Heat Sinks I"
+ tech_heatsink_1_desc:0 "The Heat Sink allows energy weapons to faster discharge heat energy built up when fired. This allows for more repeat and stronger fire, increasing overall damage with energy weapons."
+ tech_heatsink_2:0 "Heat Sinks II"
+ tech_heatsink_2_desc:0 "The Advanced Heat Sink can absorb and disapte heat create from energy weapon fire even faster and more effective, increasing their fire power even more."
+
+ tech_gyrostabilizer_1:0 "Gyrostabilizers I"
+ tech_gyrostabilizer_1_desc:0 "The Gyrostabilizer improves the stability of kinetic weapon systems, increasing their rate of fire and damage caused."
+ tech_gyrostabilizer_2:0 "Gyrostabilizers II"
+ tech_gyrostabilizer_2_desc:0 "The Advanced Gyrostabilizer further improves the stability of kinetic weapon systems, increasing their rate of fire and damage caused."
+
+ ## SENSOR UPGRADES
+ tech_sensor_booster_1:0 "Sensor Boosters I"
+ tech_sensor_booster_1_desc:0 "The Sensor Booster gives a significant boost to the ships sensor range."
+ tech_sensor_booster_2:0 "Sensor Boosters II"
+ tech_sensor_booster_2_desc:0 "The Adanced Sensor Booster gives an enormous boost to the ships sensor range."
+ 
+ TECH_UNLOCK_SENSOR_BOOSTER_MODULES_TITLE:0 "§HUnlocks Components:§! Sensor Boosters I"
+ TECH_UNLOCK_SENSOR_BOOSTER_MODULES_DESC:0 "The §HSensor Booster§! gives a significant boost to the ships sensor range."
+ TECH_UNLOCK_ADVANCED_SENSOR_BOOSTER_MODULES_TITLE:0 "§HUnlocks Components:§! Sensor Boosters I"
+ TECH_UNLOCK_ADVANCED_SENSOR_BOOSTER_MODULES_DESC:0 "The §HAdanced Sensor Booster§! gives an enormous boost to the ships sensor range."
+
+ ## SHIELD MODULE TECHNOLOGY
+ tech_shield_extenders_1:0 "Shield Extenders I"
+ tech_shield_extenders_1_DESC:0 "Shield extenders for frigates and destroyers."
+ tech_shield_extenders_2:0 "Shield Extenders II"
+ tech_shield_extenders_2_DESC:0 "Advanced shield extenders for frigates and destroyers."
+
+ tech_shield_boosters_1:0 "Small Shield Boosters I"
+ tech_shield_boosters_1_DESC:0 "Shield boosters for frigates and destroyers."
+ tech_shield_boosters_2:0 "Small Shield Boosters II"
+ tech_shield_boosters_2_DESC:0 "Advanced shield boosters for frigates and destroyers."
+ 
+ TECH_UNLOCK_SHIELD_EXTENDER_MODULES_TITLE:0 "§HUnlocks Components:§! Shield Extenders I"
+ TECH_UNLOCK_SHIELD_EXTENDER_MODULES_DESC:0 "§HShield Extenders§! increase shield size and reduce ship speed."
+ TECH_UNLOCK_ADVANCED_SHIELD_EXTENDER_MODULES_TITLE:0 "§HUnlocks Components:§! Shield Extenders II"
+ TECH_UNLOCK_ADVANCED_SHIELD_EXTENDER_MODULES_DESC:0 "§HShield Extenders§! increase shield size."
+
+ TECH_UNLOCK_SHIELD_BOOSTER_MODULES_TITLE:0 "§HUnlocks Components§! Shield Boosters I"
+ TECH_UNLOCK_SHIELD_BOOSTER_MODULES_DESC:0 "§HShield Boosters I§! Shield boosters increase shield regeneration."
+ TECH_UNLOCK_ADVANCED_SHIELD_BOOSTER_MODULES_TITLE:0 "§HUnlocks Components§! Shield Boosters II"
+ TECH_UNLOCK_ADVANCED_SHIELD_BOOSTER_MODULES_DESC:0 "§HShield Boosters II§! Shield boosters increase shield regeneration."
+
+ ## SIEGE MODULES
+ tech_siege_module_1:0 "Siege Modules I"
+ tech_siege_module_1_desc:0 "The Siege Module allows dreadnoughts to enter siege mode upon entering combat. This will greatly reduce speed and evasion, but increase range, damage and hull repair."
+ 
+ ## FLEET ASSISTANCE MODULE TECHNOLOGY
+ tech_armored_warfare_link_1:0 "Armoured Warfare Links I"
+ tech_armored_warfare_link_1_desc:0 "Boost armor and related capabilites of your fleet."
+ tech_armored_warfare_link_2:0 "Armoured Warfare Links II"
+ tech_armored_warfare_link_2_desc:0 "Boost armor and related capabilites of your fleet."
+ tech_siege_warfare_link_1:0 "Siege Warfare Links II"
+ tech_siege_warfare_link_1_desc:0 "Boost shield and related capabilites of your fleet."
+ tech_siege_warfare_link_2:0 "Siege Warfare Links II"
+ tech_siege_warfare_link_2_desc:0 "Boost shield and related capabilites of your fleet."
+ tech_information_warfare_link_1:0 "Information Warfare Links I"
+ tech_information_warfare_link_1_desc:0 "Boost your fleets EWAR capabilites."
+ tech_information_warfare_link_2:0 "Information Warfare Links II"
+ tech_information_warfare_link_2_desc:0 "Boost your fleets EWAR capabilites."
+ tech_skirmish_warfare_link_1:0 "Skirmish Warfare Links I"
+ tech_skirmish_warfare_link_1_desc:0 "Boost maneuverability and speed of your fleet."
+ tech_skirmish_warfare_link_2:0 "Skirmish Warfare Links II"
+ tech_skirmish_warfare_link_2_desc:0 "Boost maneuverability and speed of your fleet."
+ 
+ ## PROPULSION JAMMING MODULE TECHNOLOGY
+ tech_stasis_webifier_1:0 "Stasis Webifier I"
+ tech_stasis_webifier_1_desc:0 "Slows down enemy ships"
+ tech_fleeting_compact_stasis_webifier_1:0 "Fleeting Compact Stasis Webifier"
+ tech_fleeting_compact_stasis_webifier_1_desc:0 "Slows down enemy ships"
+ tech_x5_enduring_stasis_webifier_1:0 "X5 Enduring Stasis Webifier"
+ tech_x5_enduring_stasis_webifier_1_desc:0 "Slows down enemy ships"
+ tech_stasis_webifier_2:0 "Stasis Webifier II"
+ tech_stasis_webifier_2_desc:0 "Slows down enemy ships"
+ 
+ TECH_UNLOCK_STASIS_WEBIFIER_1_TITLE:0 "§HUnlocks Components§! Stasis Webifiers I"
+ TECH_UNLOCK_STASIS_WEBIFIER_1_DESC:0 "§HStasis Webifiers§! slow down enemy ships."
+ TECH_UNLOCK_STASIS_WEBIFIER_2_TITLE:0 "§HUnlocks Components§! Fleeting Compact Stasis Webifiers"
+ TECH_UNLOCK_STASIS_WEBIFIER_2_DESC:0 "§HStasis Webifiers§! slow down enemy ships."
+ TECH_UNLOCK_STASIS_WEBIFIER_3_TITLE:0 "§HUnlocks Components§! X5 Enduring Stasis Webifiers"
+ TECH_UNLOCK_STASIS_WEBIFIER_3_DESC:0 "§HStasis Webifiers§! slow down enemy ships."
+ TECH_UNLOCK_STASIS_WEBIFIER_4_TITLE:0 "§HUnlocks Components§! Stasis Webifiers II"
+ TECH_UNLOCK_STASIS_WEBIFIER_4_DESC:0 "§HStasis Webifiers§! slow down enemy ships."
+ 
+ tech_warp_scrambler_1:0 "Warp Scrambler I"
+ tech_warp_scrambler_1_desc:0 "Hinders enemy ftl drives and delays emergency ftl jumps."
+
+ TECH_UNLOCK_WARP_SCRAMBLER_1_TITLE:0 "§HUnlocks Components§! Warp Scramblers I"
+ TECH_UNLOCK_WARP_SCRAMBLER_1_DESC:0 "§HWarp Scramblers§! disrupt enemy ftl drives."
+
+ ## ENGINEERING MODULE TECHNOLOGY
+ tech_reactor_control_unit_1: "Reactor Controll Units I"
+ tech_reactor_control_unit_1_desc: "Reactor Control Units allow the core power generator to work more efficiently."
+ tech_reactor_control_unit_2: " Reactor Controll Units II"
+ tech_reactor_control_unit_2_desc: "Reactor Control Units allow the core power generator to work more efficiently."
+
+ ## LASER WEAPONS TECHNOLOGY
+ tech_pulse_laser_1:0 "Pulse Laser Turret I"
+ tech_pulse_laser_1_desc:0 "Pulse weapons have a short range, but very high damage."
+ tech_pulse_laser_2:0 "Pulse Laser Turret II"
+ tech_pulse_laser_2_desc:0 "Pulse weapons have a short range, but very high damage."
+ tech_beam_laser_1:0 "Beam Laser Turret I"
+ tech_beam_laser_1_desc:0 "Beam weapons have a long range and inflict high energy damage."
+ tech_beam_laser_2:0 "Beam Laser Turret II"
+ tech_beam_laser_2_desc:0 "Beam weapons have a long range and inflict high energy damage."
+ 
+ ## HYBRID WEAPONS TECHNOLOGY
+ tech_blaster_turrets_1:0 "Blaster Turrets I"
+ tech_blaster_turrets_1_desc:0 "Blaster turrets have a very short range, but very high damage."
+ tech_blaster_turrets_2:0 "Blaster Turrets II"
+ tech_blaster_turrets_2_desc:0 "Blaster turrets have a very short range, but very high damage."
+ tech_railguns_1:0 "Railguns I"
+ tech_railguns_1_desc:0 "Railguns have a very long range and high damage."
+ tech_railguns_2:0 "Railgun II"
+ tech_railguns_2_desc:0 "Railguns have a very long range and high damage."
+
+ ## MISSILE WEAPONS TECHNOLOGY
+ tech_missile_launchers_1:0 "Missile Launchers I"
+ tech_missile_launchers_1_desc:0 "Missile Launchers have a high range."
+ tech_missile_launchers_2:0 "Missile Launchers II"
+ tech_missile_launchers_2_desc:0 "Missile Launchers have a high range."
+ tech_rapid_missile_launchers_1:0 "Rapid Missile Launchers I"
+ tech_rapid_missile_launchers_1_desc:0 "Rapid Missile Launchers have a very high rate of fire."
+ tech_rapid_missile_launchers_2:0 "Rapid Missile Launchers II"
+ tech_rapid_missile_launchers_2_desc:0 "Rapid Missile Launchers have a very high rate of fire."
+ tech_rocket_launchers_1:0 "Rocket Launchers I"
+ tech_rocket_launchers_1_desc:0 "Rockets have a very high rate of fire and high damage, but a very short range."
+ tech_rocket_launchers_2:0 "Rocket Launchers II"
+ tech_rocket_launchers_2_desc:0 "Rockets have a very high rate of fire and high damage, but a very short range."
+ tech_torpedo_launchers_1:0 "Torpedo Launchers I"
+ tech_torpedo_launchers_1_desc:0 "Torpedo launchers have a short range, but very high damage."
+ tech_torpedo_launchers_2:0 "Torpedo Launchers II"
+ tech_torpedo_launchers_2_desc:0 "Torpedo launchers have a short range, but very high damage."
+ tech_cruise_missile_launchers_1:0 "Cruise Missile Launchers I"
+ tech_cruise_missile_launchers_1_desc:0 "Missile launchers have a long range, but lower damage."
+ tech_cruise_missile_launchers_2:0 "Cruise Missile Launchers II"
+ tech_cruise_missile_launchers_2_desc:0 "Missile launchers have a long range, but lower damage."
+ tech_defender_missile_launchers_1:0 "Defender Missile Launchers I"
+ tech_defender_missile_launchers_1_desc:0 "Defender missiles are designed to shoot down incoming missiles."
+ tech_defender_missile_launchers_2:0 "Defender Missile Launchers II"
+ tech_defender_missile_launchers_2_desc:0 "Defender missiles are designed to shoot down incoming missiles."
+
+ ## PROJECTILE WEAPONS TECHNOLOGY
+ tech_autocannons_1:0 "Autocannons I"
+ tech_autocannons_1_desc:0 "Autocannons have a very high rate of fire, but low damage and a short range."
+ tech_autocannons_2:0 "Autocannons II"
+ tech_autocannons_2_desc:0 "Autocannons have a very high rate of fire, but low damage and a short range."
+ tech_artillery_cannons_1:0 "Artillery Cannons I"
+ tech_artillery_cannons_1_desc:0 "Artillery Cannons have a very slow rate of fire, but high damage and a long range."
+ tech_artillery_cannons_2:0 "Artillery Cannons II"
+ tech_artillery_cannons_2_desc:0 "Artillery Cannons have a very slow rate of fire, but high damage and a long range."
+
+ ## DOOMSDAY WEAPONS TECH
+ tech_laser_doomsday_device:0 "Doomsday Device: Laser"
+ tech_laser_doomsday_device_desc:0 "This device unleashes hell against any enemy fleet. It deals massive amounts of energy damage. Can only be used by titans."
+ tech_kinetic_doomsday_device:0 "Doomsday Device: Projectile"
+ tech_kinetic_doomsday_device_desc:0 "This device unleashes hell against any enemy fleet. It deals massive amounts of kinetic damage. Can only be used by titans."
+ tech_explosive_doomsday_device:0 "Doomsday Device: Missiles"
+ tech_explosive_doomsday_device_desc:0 "This device unleashes hell against any enemy fleet. It deals massive amounts of explosive damage. Can only be used by titans."
+ 
+ ######################################
+ ## 	Politics & Society
+ ######################################
+  
+ ## ADVANCED SLAVERY CONTROL MEASURES
+ tech_vitoc_development:0 "Vitoc Development"
+ tech_vitoc_development_desc:0 "Vitoxin is a drug which kills anyone who is injected with it, unless they recieve regular doses of vitoc. This makes slaves much more dependent on their masters."
+ tech_advanced_vitoc_development:0 "Advanced Vitoc Development"
+ tech_advanced_vitoc_development_desc:0 "Newest advances in vitoxin and vitoc development have led to the discovery of a new virus like serum, which has proven to be unhealable. Only the vitoc anti-dote can provide temporal relieve."
+ tech_advanced_neural_implants:0 "Advanced Neural Implants"
+ tech_advanced_neural_implants_desc:0 "Neural implants allow for a tight control over slaves and their behaviour."
+ tech_assume_direct_control:0 "Assume Direct Control"
+ tech_assume_direct_control_desc:0 "Development of neural implants which allows the slaves to be remote controlled creating True Slaves."
+ tech_repeatable_improved_slave_food_output:0 "Slave Productivity: Food"
+ tech_repeatable_improved_slave_food_output_desc:0 "Increases the productivity of slaves working in food creation."
+ 
+ ## TAKMAHL Technologies
+ tech_takmahl_bioengineering:0 "Takmahl Bio-Engineering Technology"
+ tech_takmahl_bioengineering_desc:0 "Further study the Takmahl bio-engineering technologies to find applications for our own technologies."
+ tech_takmahl_orbital_hydroponics:0 "Takmahl Orbital Hydroponics"
+ tech_takmahl_orbital_hydroponics_desc:0 "With Takmahl technologies it is possible to further optimize the production of biomass in orbital hydroponic farms."
+ tech_takmahl_hydroponics_upgrades:0 "Takmahl Hydroponics Upgrades"
+ tech_takmahl_hydroponics_upgrades_desc:0 "With Takmahl technologies it is possible to further optimize the production of biomass in hydroponic farms."
+ tech_takmahl_cloning_technology:0 "Takmahl Cloning Technology"
+ tech_takmahl_cloning_technology_desc:0 "With Takmahl cloning technologies the process and speed of mass cloning is optimised."
+ tech_takmahl_cybernetics:0 "Takmahl Cybernetics Technology"
+ tech_takmahl_cybernetics_desc:0 "The cybernetic technologies we have found in Takmahl ruins need more study to find applications in our own technologies."
+ tech_takmahl_cybernetic_implants:0 "Takmahl Cybernetic Implants"
+ tech_takmahl_cybernetic_implants_desc:0 "Takmahl cybernetic implants can be used to optimize the skills of our leaders."
+ tech_takmahl_cybernetic_upgrades:0 "Takmahl Cybernetic Upgrades"
+ tech_takmahl_cybernetic_upgrades_desc:0 "Takmahl cybernetic upgrades can be used in a large scale to improve entire populations."
+ tech_takmahl_bio_droids:0 "Takmahl Bio Droids"
+ tech_takmahl_bio_droids_desc:0 "The Takmahl Bio-Droid Controller allows for the creation of Bio Droids. They are cheaper than androids, but require a population to be built."
+ tech_takmahl_terraforming:0 "Takmahl Terraforming Technology"
+ tech_takmahl_terraforming_desc:0 "The Takmahl have made attempts to terraform barren worlds with great effort, but little effect. However, this knowledge will still be usefull for our own terraforming efforts."

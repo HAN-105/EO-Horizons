@@ -1,0 +1,209 @@
+@section_cost = 350
+
+##############################################
+# BOW
+##############################################
+ship_section_template = {
+	key = "MOTHERSHIP_BOW_HANGER"
+	ship_size = mothership
+	fits_on_slot = bow
+	entity = "mothership_bow_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+	prerequisites = { 
+		tech_strike_craft_1 
+		tech_strike_craft_2 
+		tech_strike_craft_3 
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_02"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_03"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_04"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_05"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_06"
+	}
+
+	large_utility_slots = 6
+
+	cost = @section_cost
+}
+##############################################
+# MID
+##############################################
+ship_section_template = {
+	key = "MOTHERSHIP_MID_HANGER"
+	ship_size = mothership
+	fits_on_slot = mid
+	entity = "mothership_mid_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+	prerequisites = { 
+		tech_strike_craft_1 
+		tech_strike_craft_2 
+		tech_strike_craft_3 
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_02"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_03"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_04"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_05"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_06"
+	}
+
+	large_utility_slots = 6
+
+	cost = @section_cost
+}
+##############################################
+# STERN
+##############################################
+ship_section_template = {
+	key = "MOTHERSHIP_STERN_HANGER"
+	ship_size = mothership
+	fits_on_slot = stern
+	entity = "mothership_stern_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+	prerequisites = { 
+		tech_strike_craft_1 
+		tech_strike_craft_2 
+		tech_strike_craft_3 
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_02"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_03"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_04"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_04"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_05"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_05"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_06"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_06"
+	}
+
+	large_utility_slots = 6
+
+	cost = @section_cost
+}

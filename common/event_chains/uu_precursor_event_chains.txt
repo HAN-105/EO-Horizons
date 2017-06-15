@@ -1,0 +1,34 @@
+takmahl_main_questline = {
+	icon = "gfx/interface/icons/situation_log/situation_log_precursor.dds"
+	picture = GFX_evt_archaeological_dig
+	counter = {
+		takmahl_historical_records = {
+			max = 5
+		}
+	}
+	counter = {
+		takmahl_cultural_artifacts = {
+			max = 3
+		}
+	}
+	counter = {
+		takmahl_bio_engineering_research_data = {
+			max = 6
+		}
+	}
+	counter = {
+		takmahl_cybernetic_research_data = {
+			max = 6
+		}
+	}
+	counter = {
+		takmahl_ship_remnants = {
+			max = 3
+		}
+	}
+	counter = {
+		takmahl_terraforming_equipment = {
+			max = 3
+		}
+	}
+}

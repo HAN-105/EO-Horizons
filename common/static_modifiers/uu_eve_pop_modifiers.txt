@@ -1,0 +1,7 @@
+
+
+
+pop_clone_breeding = {
+	pop_growth_req_mult = -0.25
+	pop_food_req_mult = -0.1
+}

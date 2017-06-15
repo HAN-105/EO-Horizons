@@ -12,13 +12,13 @@ interbus
 	portrait="gallente"
 	name="The InterBus"
 	adjective="InterBus"
-	government="gov_theocratic_monarchy"
+	government="plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Ourapheh VI"
 	planet_class="pc_arid"
 	system_name="Ourapheh"
-	initializer="interbus"
+	#initializer="interbus"
 	graphical_culture="gallente_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -42,7 +42,7 @@ interbus
 		name="Haukkakka Pukara"
 		portrait="caldari_male6"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_materialist"
 	ethic="ethic_pacifist"
 	ethic="ethic_individualist"

@@ -1,0 +1,140 @@
+@section_cost = 280
+
+##############################################
+# BOW
+##############################################
+ship_section_template = {
+	key = "CARRIER_BOW_HANGER"
+	ship_size = carrier
+	fits_on_slot = bow
+	entity = "carrier_bow_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+	prerequisites = { 
+		tech_strike_craft_1 
+		tech_strike_craft_2 
+		tech_strike_craft_3 
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_02"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_03"
+	}
+
+	large_utility_slots = 4
+
+	cost = @section_cost
+}
+
+
+##############################################
+# MID
+##############################################
+ship_section_template = {
+	key = "CARRIER_MID_HANGER"
+	ship_size = carrier
+	fits_on_slot = mid
+	entity = "carrier_mid_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+	prerequisites = { 
+		tech_strike_craft_1 
+		tech_strike_craft_2 
+		tech_strike_craft_3 
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_02"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_03"
+	}
+
+	large_utility_slots = 6
+
+	cost = @section_cost
+}
+
+##############################################
+# STERN
+##############################################
+ship_section_template = {
+	key = "CARRIER_STERN_HANGER"
+	ship_size = carrier
+	fits_on_slot = stern
+	entity = "carrier_stern_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+	prerequisites = { 
+		tech_strike_craft_1 
+		tech_strike_craft_2 
+		tech_strike_craft_3 
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_02"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_03"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_03"
+	}
+
+	large_utility_slots = 4
+
+	cost = @section_cost
+}

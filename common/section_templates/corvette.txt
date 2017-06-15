@@ -1,0 +1,79 @@
+@section_cost = 10
+
+ship_section_template = {
+	key = "CORVETTE_CORE_S4"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+
+	small_utility_slots = 4
+	cost = @section_cost
+}
+
+ship_section_template = {
+	key = "CORVETTE_CORE_S2P2"
+	ship_size = corvette
+	fits_on_slot = mid
+	entity = "corvette_S3_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+	prerequisites = { tech_defender_missile_launchers_1 tech_defender_missile_launchers_2 }
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "DEFENDER_MISSILE_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+
+	small_utility_slots = 4
+	cost = @section_cost
+}

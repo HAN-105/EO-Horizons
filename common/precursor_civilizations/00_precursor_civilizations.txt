@@ -1,0 +1,4 @@
+precursors = {
+	precursor_takmahl = 1000
+}
+

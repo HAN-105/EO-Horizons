@@ -1,0 +1,101 @@
+
+country_edict = {
+	name = "start_great_reclaiming"
+	modifier = {
+		pop_war_happiness = 0.1
+	}
+
+	influence_cost = 1
+	
+	potential = {
+		has_modifier = empire_state_religion_amarr_faith
+	}
+		
+	allow = {
+		is_at_war = yes
+	}
+	
+	ai_weight = {	
+		modifier = {
+			factor = 5
+			is_at_war = yes
+		}
+	}
+}
+
+# Sets the edict-cost for all edicts with this variable
+@standardEdictCost = 150
+
+planet_edict = {
+	name = "missionary_mission_amarr_faith"
+	influence_cost = @standardEdictCost
+	length = 3600
+	modifier = {
+		pop_happiness = -0.05
+	}
+	
+	effect = {
+		random_pop = {
+			if = {
+				limit = {
+					NOT = { has_pop_flag = amarr_faith }
+				}
+				set_pop_flag = amarr_faith	
+				if = {
+					limit = {
+						has_pop_flag = sani_sabik
+					}
+					remove_pop_flag = sani_sabik
+				}
+				
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_modifier = empire_state_religion_amarr_faith
+		}	
+	}
+	
+	ai_weight = {
+		weight = 1		
+	}	
+}
+
+planet_edict = {
+	name = "missionary_mission_amarr_faith"
+	influence_cost = @standardEdictCost
+	length = 3600
+	modifier = {
+		pop_happiness = -0.05
+	}
+	
+	effect = {
+		random_pop = {
+			if = {
+				limit = {
+					NOT = { has_pop_flag = sani_sabik }
+				}
+				set_pop_flag = sani_sabik	
+				if = {
+					limit = {
+						has_pop_flag = amarr_faith
+					}
+					remove_pop_flag = amarr_faith
+				}
+				
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_modifier = empire_state_religion_sani_sabik
+		}	
+	}
+	
+	ai_weight = {
+		weight = 1		
+	}	
+}

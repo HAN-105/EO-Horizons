@@ -16,46 +16,7 @@ country_event = {
 country_event = {
 	id = trait_events.2
 	title = trait_events.2.name	
-	desc = {
-		trigger = {
-			switch = {
-				trigger = has_trait
-				trait_true_amarr 			= { text = trait_events.1.desc.true_amarr }
-				trait_ni_kunni 				= { text = trait_events.1.desc.ni_kunni }
-				trait_khanid 				= { text = trait_events.1.desc.khanid }
-				trait_ethnic_gallente 		= { text = trait_events.1.desc.ethnic_gallente }
-				trait_intaki 				= { text = trait_events.1.desc.intaki }
-				trait_mannar				= { text = trait_events.1.desc.mannar }
-				trait_jin_mei 				= { text = trait_events.1.desc.jin_mei }
-				trait_brutor 				= { text = trait_events.1.desc.brutor }
-				trait_sebiestor				= { text = trait_events.1.desc.sebiestor }
-				trait_vherokior				= { text = trait_events.1.desc.vherokior }
-				trait_thukker 				= { text = trait_events.1.desc.thukker }
-				trait_krusual 				= { text = trait_events.1.desc.krusual }
-				trait_nefantar 				= { text = trait_events.1.desc.nefantar }
-				trait_starkmanir			= { text = trait_events.1.desc.starkmanir }
-				trait_deteis 				= { text = trait_events.1.desc.deteis }
-				trait_civire 				= { text = trait_events.1.desc.civire }
-				trait_achura 				= { text = trait_events.1.desc.achura }
-				trait_ishukone_corporation	= { text = trait_events.1.desc.ishukone_corporation }
-				trait_sanshas_nation 		= { text = trait_events.1.desc.sanshas_nation }
-				trait_ammatar 				= { text = trait_events.1.desc.ammatar }
-				trait_ore 					= { text = trait_events.1.desc.ore }
-				trait_interbus 				= { text = trait_events.1.desc.interbus }
-				trait_mordus_legion 		= { text = trait_events.1.desc.mordus_legion }
-				trait_blood_raider 			= { text = trait_events.1.desc.blood_raider }
-				trait_angel 				= { text = trait_events.1.desc.angel }
-				trait_cbd_corporation 		= { text = trait_events.1.desc.cbd_corporation }
-				trait_lai_dai_corporation 	= { text = trait_events.1.desc.lai_dai_corporation }
-				trait_syndicate 			= { text = trait_events.1.desc.syndicate }
-				trait_guristas 				= { text = trait_events.1.desc.guristas }
-				trait_sisters_of_eve 		= { text = trait_events.1.desc.sisters_of_eve }
-				default 					= { text = trait_events.2.desc }
-			}
-		}
-	}
-	
-	
+	desc = trait_events.2.desc
 	picture = GFX_evt_satellite_in_orbit
 	
 	trigger = {

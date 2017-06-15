@@ -1,0 +1,528 @@
+@influence_tier1 = 50
+@influence_tier2 = 150
+@energy_tier1 = 400
+@energy_tier2 = 600
+
+vitoc_dependent_slaves = {
+	support_multiplier = 0.1
+	lose_support_on_pop_leave = no
+	is_potential = {
+		always = no
+	}
+	valid = {
+		owner = {
+			any_owned_pop = {
+				AND = {
+					is_enslaved = yes
+					has_modifier = pop_vitoc_dependence
+				}
+			}
+		}
+	}
+	can_create = { always = no }
+	
+	##	attraction_custom_title = "slave_attraction_title"
+	attraction_custom_desc = "vitoc_slave_attraction_desc"
+	
+
+	is_dangerous = {
+		support > 0.74
+		any_support_effect_chance > 0.01
+	}
+
+	on_create = {
+		set_name = random
+		owner = {
+			every_owned_pop = {
+				limit = {
+					AND = {
+						is_enslaved = yes
+						has_modifier = pop_vitoc_dependence	
+					}	
+				}
+				set_pop_faction = root
+			}
+		}
+	}
+
+	flag = {
+		icon = {
+			category = "blocky"
+			file = "flag_blocky_23.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"dark_teal"
+			"teal"
+			"null"
+			"null"
+		}
+	}
+	
+	parameters = {
+		owner_empire = {
+			type = country
+		}
+	}
+	
+	demand = {
+		title = POP_FACTION_VITOC_DEPENDENT_SLAVES_DEMAND_TITLE_1
+		desc = POP_FACTION_VITOC_DEPENDENT_SLAVES_DEMAND_DESC_1
+		max_support = 1
+
+		potential = {
+			custom_tooltip_fail = {
+				text = vitoc_dependent_slaves_demand_fulfilled_1
+				owner = {
+					NOT = { 
+						has_policy_flag = no_advanced_slave_control_measures
+					}
+				}
+			}
+		}
+	}
+	
+	attraction = {	#executed with a pop scope, country is stored in root
+		base = 0
+		
+		modifier = {
+			add = 300
+			is_enslaved = yes
+			has_modifier = pop_vitoc_dependence
+		}
+	
+		modifier = {
+			add = 100
+			is_enslaved = yes
+		}
+		
+
+		modifier = {
+			add = 50
+			is_enslaved = yes
+			pop_has_ethic = ethic_collectivist
+		}
+
+		modifier = {
+			add = 70
+			is_enslaved = yes
+			pop_has_ethic = ethic_fanatic_collectivist
+		}
+
+		#Xenophile in foreign empire
+		modifier = {
+			factor = 1.2
+			is_enslaved = yes
+			pop_has_ethic = ethic_xenophile
+			NOT = { is_same_species = root.species }
+		}
+
+		#Fanatic Xenophile in foreign empire
+		modifier = {
+			factor = 1.4
+			is_enslaved = yes
+			pop_has_ethic = ethic_fanatic_xenophile
+			NOT = { is_same_species = root.species }
+		}
+		
+		modifier = {
+			factor = 0
+			OR = {
+				is_species = "ROBOT_POP_SPECIES_1"
+				is_species = "ROBOT_POP_SPECIES_2"
+			}
+		}
+	}
+	
+	actions = {
+		special_treatment = {
+			title = "FACTION_ACTION_DOCILE_SLAVES_SPECIAL_TREATMENT"
+			description = "FACTION_ACTION_DOCILE_SLAVES_SPECIAL_TREATMENT_DESC"
+			
+			valid = {
+				NOR = {
+					custom_tooltip_success = {
+						text = recent_special_treatment_tooltip
+						has_pop_faction_flag = recent_special_treatment
+					}
+					custom_tooltip_success = {
+						text = docile_slaves_demand_fulfilled
+						owner = {
+							OR = {
+								has_policy_flag = slavery_allowed_regulated
+								has_policy_flag = slavery_allowed_regulated_xenos_only
+							}
+						}
+					}
+				}
+			}
+
+			cost = {
+				influence = @influence_tier1
+				energy = @energy_tier2
+			}
+			
+			effect = {
+				add_support = -0.2
+				hidden_effect = {
+					set_timed_pop_faction_flag = {
+						days = 210
+						flag = recent_special_treatment
+					}
+				}
+			}
+			
+			ai_weight = {
+				base = 0
+				modifier = {
+					add = 1
+					support > 0.10
+				}
+				modifier = {
+					add = 1
+					support > 0.30
+				}
+				modifier = {
+					add = 1
+					support > 0.50
+				}
+				modifier = {
+					add = 1
+					support > 0.70
+				}	
+				modifier = {
+					add = 1
+					support > 0.90
+				}						
+			}
+		}
+
+		scare_tactics = {
+			title = "FACTION_ACTION_DOCILE_SLAVES_SCARE_TACTICS"
+			description = "FACTION_ACTION_DOCILE_SLAVES_SCARE_TACTICS_DESC"
+
+			valid = {
+				NOR = {
+					custom_tooltip_success = {
+						text = recent_special_treatment_tooltip
+						has_pop_faction_flag = recent_scare_tactics
+					}
+					custom_tooltip_success = {
+						text = vitoc_slaves_demand_fulfilled
+						owner = {
+							OR = {
+								has_policy_flag = slavery_allowed_regulated
+								has_policy_flag = slavery_allowed_regulated_xenos_only
+							}
+						}
+					}
+				}
+			}
+
+			cost = {
+				influence = @influence_tier2
+				energy = @energy_tier1
+			}
+			
+			effect = {
+				add_support = -0.2
+				hidden_effect = {
+					set_timed_pop_faction_flag = {
+						days = 210
+						flag = recent_scare_tactics
+					}
+				}
+			}
+			
+			ai_weight = {
+				base = 0
+				modifier = {
+					add = 1
+					support > 0.10
+				}
+				modifier = {
+					add = 1
+					support > 0.30
+				}
+				modifier = {
+					add = 1
+					support > 0.50
+				}
+				modifier = {
+					add = 1
+					support > 0.70
+				}	
+				modifier = {
+					add = 1
+					support > 0.90
+				}						
+			}
+		}
+	}
+
+	support_effects = {
+		interstellar_railroad = {
+			title = POP_FACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD
+			min_support = 0.50
+			max_support = 0.75
+
+			spawn_chance = {
+				base = 0
+
+				modifier = {
+					add = 1
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_1
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 4
+							}
+						}
+					}
+				}
+
+				modifier = {
+					add = 1
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_2
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 6
+							}
+						}
+					}
+				}
+
+				modifier = {
+					add = 1
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_3
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 8
+							}
+						}
+					}
+				}
+
+				modifier = {
+					add = 2
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_TOOLTIP_4
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 10
+							}
+						}
+					}
+				}
+				
+				modifier = {
+					factor = 0
+					custom_tooltip = {
+						text = POP_FACTION_VITOC_DEPENDENT_SLAVES_SPECIAL_TREATMENT
+						has_pop_faction_flag = special_treatment
+					}
+				}
+				
+
+				modifier = {
+					factor = 0
+					custom_tooltip = {
+						text = POP_FACTION_VITOC_DEPENDENT_SLAVES_RECENT_INTERSTELLAR_RAILROAD
+						has_pop_faction_flag = recent_interstellar_railroad
+					}
+				}
+			}
+
+			effect = {
+				custom_tooltip = POP_FACTION_VITOC_DEPENDENT_SLAVES_INTERSTELLAR_RAILROAD_DESC
+				hidden_effect = {
+					owner = {
+						random_owned_pop = {
+							limit = { is_enslaved = yes }
+							kill_pop = yes
+						}
+						set_country_flag = 1_railroaded
+					}
+					add_support = -0.15
+					set_timed_pop_faction_flag = {
+						flag = recent_interstellar_railroad
+						days = 720
+					}
+					pop_faction_event = { id = faction.50 }
+				}
+			}
+		}
+
+		suicide = {
+			title = POP_FACTION_VITOC_DEPENDENT_SLAVES_SUICIDE
+			min_support = 0.75
+			max_support = 1.00
+
+			spawn_chance = {
+				base = 1
+				
+				modifier = {
+					add = 1
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_1
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 4
+							}
+						}
+					}
+				}
+
+				modifier = {
+					add = 1
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_2
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 6
+							}
+						}
+					}
+				}
+
+				modifier = {
+					add = 1
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_3
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 8
+							}
+						}
+					}
+				}
+
+				modifier = {
+					add = 2
+					custom_tooltip = {
+						text = FACTION_ACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_TOOLTIP_4
+						owner = {
+							count_owned_pops = {
+								limit = { is_enslaved = yes }
+								count > 10
+							}
+						}
+					}
+				}
+				
+				modifier = {
+					factor = 0
+					custom_tooltip = {
+						text = POP_FACTION_VITOC_DEPENDENT_SLAVES_SPECIAL_TREATMENT
+						has_pop_faction_flag = special_treatment
+					}
+				}
+
+				modifier = {
+					factor = 0
+					custom_tooltip = {
+						text = POP_FACTION_VITOC_DEPENDENT_SLAVES_RECENT_SUICIDE
+						has_pop_faction_flag = recent_suicide
+					}
+				}
+			}
+
+
+			effect = {
+				custom_tooltip = POP_FACTION_VITOC_DEPENDENT_SLAVES_SUICIDE_DESC
+				hidden_effect = {
+					if = {
+						limit = {
+							num_pops > 24
+						}
+						while = {
+							count = 6
+							random_owned_pop = {
+								limit = {
+									pop_faction = { is_pop_faction_type = vitoc_dependent_slaves }
+								}
+								kill_pop = yes
+							}
+						}
+						else = {
+							if = {
+								limit = {
+									num_pops > 19
+								}
+								while = {
+									count = 5
+									random_owned_pop = {
+										limit = {
+											pop_faction = { is_pop_faction_type = vitoc_dependent_slaves }
+										}
+										kill_pop = yes
+									}
+								}
+								else = {
+									if = {
+										limit = {
+											num_pops > 14
+										}
+										while = {
+											count = 4
+											random_owned_pop = {
+												limit = {
+													pop_faction = { is_pop_faction_type = vitoc_dependent_slaves }
+												}
+												kill_pop = yes
+											}
+										}
+										else = {
+											if = {
+												limit = {
+													num_pops > 9
+												}
+												while = {
+													count = 3
+													random_owned_pop = {
+														limit = {
+															pop_faction = { is_pop_faction_type = vitoc_dependent_slaves }
+														}
+														kill_pop = yes
+													}
+												}
+												else = {
+													while = {
+														count = 2
+														random_owned_pop = {
+															limit = {
+																pop_faction = { is_pop_faction_type = vitoc_dependent_slaves }
+															}
+															kill_pop = yes
+														}
+													}
+												}
+											}
+										}
+									}
+								}	
+							}
+						}
+					}					
+					add_support = -0.15
+					set_timed_pop_faction_flag = {
+						flag = recent_suicide
+						days = 720
+					}
+				}
+			}
+		}
+	}
+}

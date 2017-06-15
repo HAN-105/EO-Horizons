@@ -12,13 +12,13 @@ ishukone_corporation
 	portrait="caldari"
 	name="Isukone Corporation"
 	adjective="Isukonen"
-	government="gov_theocratic_monarchy"
+	government="plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Malkalen IV"
 	planet_class="pc_tundra"
 	system_name="Malkalen"
-	initializer="ishukone_corporation"
+	#initializer="ishukone_corporation"
 	graphical_culture="caldari_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -42,7 +42,7 @@ ishukone_corporation
 		name="Mens Reppola"
 		portrait="caldari_male4"
 	}
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_collectivist"
 	ethic="ethic_fanatic_materialist"
 	trait="trait_ishukone_corporation"

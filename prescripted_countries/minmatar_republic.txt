@@ -11,13 +11,13 @@ minmatar
 	portrait="minmatar"
 	name="Minmatar Republic"
 	adjective="Minmatar Republican"
-	government="gov_theocratic_monarchy"
+	government="military_republic"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Matar"
 	planet_class="pc_tropical"
 	system_name="Pator"
-	initializer="minmatar_republic"
+	#initializer="minmatar_republic"
 	graphical_culture="minmatar_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag={
@@ -41,7 +41,7 @@ minmatar
 		name="Maleatu Shakor"
 		portrait="minmatar"
 	}
-	spawn_enabled=no
+	spawn_enabled=always
 	ethic="ethic_fanatic_individualist"
 	ethic="ethic_militarist"
 	trait="trait_sebiestor"

@@ -1,0 +1,138 @@
+@carrier_scale = 14
+@carrier_physical_scale = 0.4
+
+#############################################################################
+##################         	 CARRIER                 ########################
+#############################################################################
+
+
+#############################################################################
+##################         	 FRAME                   ########################
+#############################################################################
+
+entity = {
+	name = "gallente_01_carrier_entity"
+	pdxmesh = "fungoid_01_battleship_frame_mesh"
+
+	default_state = "idle"
+	state = { name = "idle"	animation = "idle" animation_blend_time = 4.0 
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_battleship_hum" } }
+	}
+	state = { name = "moving"	animation = "idle" animation_blend_time = 4.0 
+		event = { trigger_once = yes sound = { soundeffect = "moving_out_battleship" } }
+	}
+	state = { name = "death" animation = "death3" animation_blend_time = 0.0 chance = 1 looping = no
+		event = { time = 1.0 node = "explosion_locator_01" particle = "ship_burn_particle" }
+		event = { time = 1.0 node = "explosion_locator_01" particle = "ship_explosion_particle" }
+		
+		event = { time = 1.7 node = "explosion_locator_02" particle = "ship_burn_particle" }
+		event = { time = 1.7 node = "explosion_locator_02" particle = "ship_explosion_particle" }
+		
+		event = { time = 3.7 node = "explosion_locator_03" particle = "ship_burn_particle" }
+		event = { time = 3.7 node = "explosion_locator_03" particle = "ship_explosion_particle" }
+		
+		event = { time = 6.0 node = "explosion_locator_04" particle = "ship_burn_particle" }
+		event = { time = 6.0 node = "explosion_locator_04" particle = "ship_explosion_particle" }
+		
+		event = { time = 7.3 node = "explosion_locator_05" particle = "ship_burn_particle" }
+		event = { time = 7.3 node = "explosion_locator_05" particle = "ship_explosion_particle" }
+		
+		event = { time = 0.0 particle = "large_ship_explosion_particle" sound = { soundeffect = ship_destroyed } }
+	}
+
+	scale = @carrier_physical_scale
+
+	game_data = {
+		size = @carrier_scale
+	}
+}
+
+
+#############################################################################
+##################         	 BOW SECTIONS            ########################
+#############################################################################
+entity = {
+	name = "gallente_01_carrier_bow_entity"
+	pdxmesh = "gallente_01_thanatos_BOW_mesh"
+
+	locator = {
+		name = "strike_craft_01"
+		position = { 0 0 0 }
+	}
+	
+	locator = {
+		name = "strike_craft_02"
+		position = { 0 0 0 }
+	}
+	
+	locator = {
+		name = "strike_craft_03"
+		position = { 0 0 0 }
+	}
+	
+	scale = @carrier_physical_scale
+
+	game_data = {
+		size = @carrier_scale
+	}
+}
+
+#############################################################################
+##################         	 MID SECTIONS            ########################
+#############################################################################
+entity = {
+	name = "gallente_01_carrier_mid_entity"
+	pdxmesh = "gallente_01_thanatos_MID_mesh"
+
+	locator = {
+		name = "strike_craft_01"
+		position = { 0 0 0 }
+	}
+	
+	locator = {
+		name = "strike_craft_02"
+		position = { 0 0 0 }
+	}
+	
+	locator = {
+		name = "strike_craft_03"
+		position = { 0 0 0 }
+	}
+	
+	scale = @carrier_physical_scale
+
+	game_data = {
+		size = @carrier_scale
+	}
+}
+
+
+#############################################################################
+##################         	 STERN SECTIONS          ########################
+#############################################################################
+
+entity = {
+	name = "gallente_01_carrier_stern_entity"
+	pdxmesh = "gallente_01_thanatos_STERN_mesh"
+
+	locator = {
+		name = "strike_craft_01"
+		position = { 0 0 0 }
+	}
+	
+	locator = {
+		name = "strike_craft_02"
+		position = { 0 0 0 }
+	}
+	
+	locator = {
+		name = "strike_craft_03"
+		position = { 0 0 0 }
+	}
+	
+	scale = @carrier_physical_scale
+
+	game_data = {
+		size = @carrier_scale
+	}
+}

@@ -1,6 +1,6 @@
 # Sentinel Base
 ship_design = {
-	name = "Vigil"
+	name = "NAME_Vigil"
 	ship_size = station_generic_01
 	section = {
 		template = "station_generic_01_key"
@@ -100,7 +100,7 @@ ship_design = {
 
 # Sentinel Refugee Base
 ship_design = {
-	name = "PR-417"
+	name = "NAME_PR_417"
 	ship_size = pirate_station
 
 	section = {
@@ -137,11 +137,11 @@ ship_design = {
 
 # Sentinel Battleship
 ship_design = {
-	name = "Spearhead"
+	name = "NAME_Spearhead"
 	ship_size = battleship
 	
 	section = {
-		template = "BATTLESHIP_BOW_L3"
+		template = "BATTLESHIP_BOW_L1M1S2"
 		slot = "bow"
 		
 		component = {
@@ -149,12 +149,45 @@ ship_design = {
 			template = "LARGE_KINETIC_ARTILLERY_2"
 		}
 		component = {
-			slot = "LARGE_GUN_02"
-			template = "LARGE_KINETIC_ARTILLERY_2"
+			slot = "MEDIUM_GUN_01"
+			template = "SMALL_PLASMA_3"
 		}
 		component = {
-			slot = "LARGE_GUN_03"
-			template = "LARGE_KINETIC_ARTILLERY_2"
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+	}
+	section = {
+		template = "BATTLESHIP_MID_L2M2"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_PLASMA_3"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_PLASMA_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_PLASMA_3"
+		}
+		component = {
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PLASMA_3"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
@@ -174,73 +207,32 @@ ship_design = {
 		}
 		component = {
 			slot = "LARGE_UTILITY_5"
-			template = "LARGE_ZERO_POINT_REACTOR"
+			template = "LARGE_ARMOR_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_SHIELD_5"
 		}
 	}
 	section = {
-		template = "BATTLESHIP_MID_L3"
-		slot = "mid"
-		
-		component = {
-			slot = "LARGE_GUN_01"
-			template = "LARGE_KINETIC_ARTILLERY_2"
-		}
-		component = {
-			slot = "LARGE_GUN_02"
-			template = "LARGE_KINETIC_ARTILLERY_2"
-		}
-		component = {
-			slot = "LARGE_GUN_03"
-			template = "LARGE_KINETIC_ARTILLERY_2"
-		}
-		component = {
-			slot = "LARGE_UTILITY_1"
-			template = "LARGE_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "LARGE_UTILITY_2"
-			template = "LARGE_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "LARGE_UTILITY_3"
-			template = "LARGE_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "LARGE_UTILITY_4"
-			template = "LARGE_ZERO_POINT_REACTOR"
-		}
-	}
-	section = {
-		template = "BATTLESHIP_STERN_L3"
+		template = "BATTLESHIP_STERN_M2"
 		slot = "stern"
 		
 		component = {
-			slot = "LARGE_GUN_01"
-			template = "LARGE_KINETIC_ARTILLERY_2"
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_PLASMA_3"
 		}
 		component = {
-			slot = "LARGE_GUN_02"
-			template = "LARGE_KINETIC_ARTILLERY_2"
-		}
-		component = {
-			slot = "LARGE_GUN_03"
-			template = "LARGE_KINETIC_ARTILLERY_2"
+			slot = "MEDIUM_GUN_02"
+			template = "MEDIUM_PLASMA_3"
 		}
 		component = {
 			slot = "LARGE_UTILITY_1"
-			template = "LARGE_ZERO_POINT_REACTOR"
+			template = "LARGE_ARMOR_5"
 		}
 		component = {
 			slot = "LARGE_UTILITY_2"
-			template = "LARGE_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "LARGE_UTILITY_3"
-			template = "LARGE_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "LARGE_UTILITY_4"
-			template = "LARGE_ZERO_POINT_REACTOR"
+			template = "LARGE_ARMOR_5"
 		}
 	}
 	required_component = "WARP_DRIVE_3"
@@ -251,7 +243,7 @@ ship_design = {
 
 # Sentinel Cruiser
 ship_design = {
-	name = "Death's Head"
+	name = "NAME_Deaths_Head"
 	ship_size = cruiser
 	
 	section = {
@@ -296,25 +288,29 @@ ship_design = {
 			template = "MEDIUM_PLASMA_3"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_1"
+			slot = "LARGE_UTILITY_1"
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_2"
+			slot = "LARGE_UTILITY_2"
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_UTILITY_3"
+			slot = "LARGE_UTILITY_3"
 			template = "LARGE_ZERO_POINT_REACTOR"
 		}
 	}
 	section = {
-		template = "CRUISER_STERN_M1"
+		template = "CRUISER_STERN_S2"
 		slot = "stern"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_GAMMA_LASER"
+			slot = "SMALL_GUN_01"
+			template = "POINT_DEFENCE_3"
+		}
+		component = {
+			slot = "SMALL_GUN_02"
+			template = "POINT_DEFENCE_3"
 		}
 		component = {
 			slot = "MEDIUM_UTILITY_1"
@@ -333,13 +329,17 @@ ship_design = {
 
 # Sentinel Destroyer
 ship_design = {
-	name = "Bug Crusher"
+	name = "NAME_Bug_Crusher"
 	ship_size = destroyer
 	
 	section = {
-		template = "DESTROYER_BOW_S4"
+		template = "DESTROYER_BOW_M1S2"
 		slot = "bow"
 		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_PLASMA_3"
+		}
 		component = {
 			slot = "SMALL_GUN_01"
 			template = "SMALL_PLASMA_3"
@@ -349,32 +349,20 @@ ship_design = {
 			template = "SMALL_PLASMA_3"
 		}
 		component = {
-			slot = "SMALL_GUN_03"
-			template = "SMALL_PLASMA_3"
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "SMALL_GUN_04"
-			template = "SMALL_PLASMA_3"
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "SMALL_UTILITY_1"
-			template = "SMALL_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_2"
-			template = "SMALL_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_3"
-			template = "SMALL_ZERO_POINT_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_4"
-			template = "SMALL_ARMOR_5"
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_SHIELD_5"
 		}
 	}
 	section = {
-		template = "DESTROYER_STERN_S4"
+		template = "DESTROYER_STERN_S2"
 		slot = "stern"
 		
 		component = {
@@ -410,28 +398,28 @@ ship_design = {
 
 # Sentinel Corvette
 ship_design = {
-	name = "Blade"
+	name = "NAME_Blade"
 	ship_size = corvette
 	
 	section = {
-		template = "CORVETTE_CORE_S4"
+		template = "CORVETTE_MID_M1S1"
 		slot = "mid"
 		
 		component = {
+			slot = "TORPEDO_01"
+			template = "TORPEDO_1"
+		}
+		component = {
 			slot = "SMALL_GUN_01"
-			template = "SMALL_GAMMA_LASER"
+			template = "POINT_DEFENCE_2"
 		}
 		component = {
-			slot = "SMALL_GUN_02"
-			template = "SMALL_GAMMA_LASER"
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_ZERO_POINT_REACTOR"
 		}
 		component = {
-			slot = "SMALL_GUN_03"
-			template = "SMALL_GAMMA_LASER"
-		}
-		component = {
-			slot = "SMALL_GUN_04"
-			template = "SMALL_GAMMA_LASER"
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_ZERO_POINT_REACTOR"
 		}
 		component = {
 			slot = "SMALL_UTILITY_1"
@@ -451,7 +439,7 @@ ship_design = {
 
 # Sentinels Large Military Station
 ship_design = {
-	name = "Sentinel-1"
+	name = "NAME_Sentinel_1"
 	ship_size = military_station_large
 
 	section = {

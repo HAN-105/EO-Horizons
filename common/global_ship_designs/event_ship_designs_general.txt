@@ -1,6 +1,6 @@
 # Passenger Liner
 ship_design = {
-	name = "Splendor"
+	name = "NAME_Splendor"
 	ship_size = passenger_liner
 	
 	section = {
@@ -18,7 +18,7 @@ ship_design = {
 
 # Primitive Space Station
 ship_design = {
-	name = "Space Station"
+	name = "NAME_Space_Station"
 	ship_size = primitive_space_station
 	
 	section = {
@@ -34,7 +34,7 @@ ship_design = {
 
 # Generic Starbase
 ship_design = {
-	name = "Citadel"
+	name = "NAME_Citadel"
 	ship_size = station_generic_01
 	section = {
 		template = "station_generic_01_key"
@@ -69,7 +69,7 @@ ship_design = {
 
 # Sensor Station
 ship_design = {
-	name = "Sentry"
+	name = "NAME_Sentry"
 	ship_size = sensor_station_01
 	section = {
 		template = "sensor_station_key"
@@ -97,43 +97,27 @@ ship_design = {
 
 # Generic Corvette
 ship_design = {
-	name = "Dagger"
+	name = "NAME_Dagger"
 	ship_size = corvette
 	section = {
-		template = "CORVETTE_CORE_S4"
+		template = "CORVETTE_MID_M1S1"
 		slot = "mid"
 		
+		component = {
+			slot = "TORPEDO_01"
+			template = "TORPEDO_1"
+		}
 		component = {
 			slot = "SMALL_GUN_01"
 			template = "SMALL_RED_LASER"
 		}
 		component = {
-			slot = "SMALL_GUN_02"
-			template = "SMALL_RED_LASER"
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_FUSION_REACTOR"
 		}
 		component = {
-			slot = "SMALL_GUN_03"
-			template = "SMALL_RED_LASER"
-		}
-		component = {
-			slot = "SMALL_GUN_04"
-			template = "SMALL_RED_LASER"
-		}
-		component = {
-			slot = "SMALL_UTILITY_1"
-			template = "SMALL_FUSION_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_2"
-			template = "SMALL_FUSION_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_3"
-			template = "SMALL_FUSION_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_4"
-			template = "SMALL_FUSION_REACTOR"
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_FUSION_REACTOR"
 		}
 	}
 	required_component="WARP_DRIVE_1"
@@ -143,12 +127,16 @@ ship_design = {
 
 # Generic Destroyer
 ship_design = {
-	name = "Ravager"
+	name = "NAME_Ravager"
 	ship_size = destroyer
 	section = {
-		template = "DESTROYER_BOW_S4"
+		template = "DESTROYER_BOW_M1S2"
 		slot = "bow"
 		
+		component = {
+			slot = "MEDIUM_GUN_01"
+			template = "MEDIUM_RED_LASER"
+		}
 		component = {
 			slot = "SMALL_GUN_01"
 			template = "SMALL_RED_LASER"
@@ -158,32 +146,20 @@ ship_design = {
 			template = "SMALL_RED_LASER"
 		}
 		component = {
-			slot = "SMALL_GUN_03"
-			template = "SMALL_RED_LASER"
+			slot = "MEDIUM_UTILITY_1"
+			template = "MEDIUM_FUSION_REACTOR"
 		}
 		component = {
-			slot = "SMALL_GUN_04"
-			template = "SMALL_RED_LASER"
+			slot = "MEDIUM_UTILITY_2"
+			template = "MEDIUM_FUSION_REACTOR"
 		}
 		component = {
-			slot = "SMALL_UTILITY_1"
-			template = "SMALL_FUSION_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_2"
-			template = "SMALL_FUSION_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_3"
-			template = "SMALL_FUSION_REACTOR"
-		}
-		component = {
-			slot = "SMALL_UTILITY_4"
-			template = "SMALL_FUSION_REACTOR"
+			slot = "MEDIUM_UTILITY_3"
+			template = "MEDIUM_FUSION_REACTOR"
 		}
 	}
 	section = {
-		template = "DESTROYER_STERN_S4"
+		template = "DESTROYER_STERN_S2"
 		slot = "stern"
 		
 		component = {
@@ -192,14 +168,6 @@ ship_design = {
 		}
 		component = {
 			slot = "SMALL_GUN_02"
-			template = "SMALL_RED_LASER"
-		}
-		component = {
-			slot = "SMALL_GUN_03"
-			template = "SMALL_RED_LASER"
-		}
-		component = {
-			slot = "SMALL_GUN_04"
 			template = "SMALL_RED_LASER"
 		}
 		component = {
@@ -226,14 +194,14 @@ ship_design = {
 
 # Incoming Asteroid
 ship_design = {
-	name = "Asteroid"
+	name = "NAME_Asteroid"
 	ship_size = asteroid
 	use_design_name = yes
 }
 
 # Space Probe
 ship_design = {
-	name = "DS47"
+	name = "NAME_DS47"
 	ship_size = probe
 
 	section = {
@@ -254,7 +222,7 @@ ship_design = {
 
 # Cultist Ship I
 ship_design = {
-	name = "Divine Glory"
+	name = "NAME_Divine_Glory"
 	ship_size = abandoned_ship
 
 	section = {
@@ -305,7 +273,7 @@ ship_design = {
 
 # Cultist Ship II
 ship_design = {
-	name = "Righteous"
+	name = "NAME_Righteous"
 	ship_size = abandoned_ship
 
 	section = {

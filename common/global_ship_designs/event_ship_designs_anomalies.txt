@@ -1,13 +1,13 @@
 # Ancient Manufactory, moving
 ship_design = {
-	name = "Abandoned Manufactory"
+	name = "NAME_Abandoned_Manufactory"
 	ship_size = ancient_drone_station
 	use_design_name = yes
 }
 
 # Automated Shipyard Frigate
 ship_design = {
-	name = "F79"
+	name = "NAME_F79"
 	ship_size = pirate_destroyer
 	
 	section = {
@@ -67,7 +67,7 @@ ship_design = {
 
 # Automated Shipyard Raider
 ship_design = {
-	name = "R44"
+	name = "NAME_R44"
 	ship_size = pirate_corvette
 	section = {
 		template = "PIRATE_CORVETTE_MID_M1S1"
@@ -110,7 +110,7 @@ ship_design = {
 
 # Alien Racing Ship
 ship_design = {
-	name = "Alien Ship"
+	name = "NAME_Alien_Ship"
 	ship_size = alien_racing_ship
 
 	section = {
@@ -125,7 +125,7 @@ ship_design = {
 
 # Prototype Science Ship
 ship_design = {
-	name = "Prototype"
+	name = "NAME_Prototype"
 	ship_size = science
 
 	section = {
@@ -141,19 +141,15 @@ ship_design = {
 
 # Salvaged Cruiser
 ship_design = {
-	name = "Derelict"
+	name = "NAME_Derelict"
 	ship_size = cruiser
 	section = {
-		template = "CRUISER_BOW_M2"
+		template = "CRUISER_BOW_L1"
 		slot = "bow"
 		
 		component = {
-			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MASS_DRIVER_3"
-		}
-		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "LARGE_GUN_01"
+			template = "LARGE_DISRUPTOR_1"
 		}
 		component = {
 			slot = "MEDIUM_UTILITY_1"
@@ -165,44 +161,32 @@ ship_design = {
 		}
 		component = {
 			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_SHIELD_2"
-		}
-		component = {
-			slot = "MEDIUM_UTILITY_4"
 			template = "MEDIUM_SHIELD_2"
 		}
 	}
 	section = {
-		template = "CRUISER_MID_M3"
+		template = "CRUISER_MID_L1M1"
 		slot = "mid"
 		
 		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_DISRUPTOR_1"
+		}
+		component = {
 			slot = "MEDIUM_GUN_01"
-			template = "MEDIUM_MASS_DRIVER_3"
+			template = "MEDIUM_BLUE_LASER"
+		}	
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_FUSION_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_GUN_02"
-			template = "MEDIUM_MASS_DRIVER_3"
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_FUSION_REACTOR"
 		}
 		component = {
-			slot = "MEDIUM_GUN_03"
-			template = "MEDIUM_MASS_DRIVER_3"
-		}
-		component = {
-			slot = "MEDIUM_UTILITY_1"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
-		}
-		component = {
-			slot = "MEDIUM_UTILITY_2"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
-		}
-		component = {
-			slot = "MEDIUM_UTILITY_3"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
-		}
-		component = {
-			slot = "MEDIUM_UTILITY_4"
-			template = "MEDIUM_ANTIMATTER_REACTOR"
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_FUSION_REACTOR"
 		}
 	}
 	section = {
@@ -230,7 +214,7 @@ ship_design = {
 
 # Used in anomalies
 ship_design = {
-	name = "Sword"
+	name = "NAME_Sword"
 	ship_size = eventship_01
 	
 	section = {
@@ -302,7 +286,7 @@ ship_design = {
 
 # Used in anomalies
 ship_design = {
-	name = "Seeker"
+	name = "NAME_Seeker"
 	ship_size = eventship_02
 	
 	section = {
@@ -346,7 +330,7 @@ ship_design = {
 
 # Used in anomalies
 ship_design = {
-	name = "Voidstalker"
+	name = "NAME_Voidstalker"
 	ship_size = eventship_05
 	
 	section = {
@@ -417,7 +401,7 @@ ship_design = {
 
 # Used in anomalies
 ship_design = {
-	name = "Starfang"
+	name = "NAME_Starfang"
 	ship_size = eventship_06
 	
 	section = {
@@ -464,7 +448,7 @@ ship_design = {
 
 # Used in anomalies
 ship_design = {
-	name = "Persistent"
+	name = "NAME_Persistent"
 	ship_size = eventship_07
 	
 	section = {
@@ -515,7 +499,7 @@ ship_design = {
 
 # Prototype Science Ship
 ship_design = {
-	name = "Returned Science Ship"
+	name = "NAME_Returned_Science_Ship"
 	ship_size = science
 
 	section = {

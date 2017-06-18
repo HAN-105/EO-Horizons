@@ -12,7 +12,7 @@ interbus
 	portrait="gallente"
 	name="The InterBus"
 	adjective="InterBus"
-	government="plutocratic_oligarchy"
+	government="gov_plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Ourapheh VI"

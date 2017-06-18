@@ -12,7 +12,7 @@ caldari
 	portrait="caldari"
 	name="Caldari State"
 	adjective="Caldari State"
-	government="plutocratic_oligarchy"
+	government="gov_plutocratic_oligarchy"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Caldari Prime"

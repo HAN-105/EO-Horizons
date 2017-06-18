@@ -11,7 +11,7 @@ ammatar_mandate
 	portrait="minmatar"
 	name="Ammatar Mandate"
 	adjective="Ammatar Mandate"
-	government="despotic_empire"
+	government="gov_despotic_empire"
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="Tanoo II"

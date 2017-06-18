@@ -11,7 +11,7 @@ blood_raiders
 	portrait="amarr"
 	name="Blood Raiders Convenant"
 	adjective="Blood Raider's"
-	government="divine_mandate"
+	government="gov_divine_mandate"
 	ftl=hyperdrive
 	weapon="tech_lasers_1"
 	planet_name="KFIE-Z IV"

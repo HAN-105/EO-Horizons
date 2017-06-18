@@ -1,20 +1,21 @@
 default = {
 	name = ""
 	
-	name_list = "Human"
-	ship_prefix = ""
+	name_list = "HUM1"
+	ship_prefix = "ISS"
 	
 	species_name = ""
 	species_plural = ""	#we should localize this!
 	species_adjective = ""
-	species_class = "MAM"
+	species_class = "HUM"
 	portrait = "human"
+	room = "default_room"
 	adjective = ""
 	
 	government = "indirect_democracy"
 		
-	weapon = "tech_mass_drivers_1"
-	ftl = hyperdrive
+	weapon = "tech_missiles_1"
+	ftl = warp
 	
 	planet_name = ""
 	system_name = ""
@@ -38,13 +39,13 @@ default = {
 			"null"
 		}
 	}
-	
+
 	ruler = {
 		name = ""
 		gender = female
 		portrait = "human_female_04"
-		#texture = -1
-		#hair = 4
-		#clothes = 5
+		texture = 0
+		hair = 0
+		clothes = 4
 	}
 }

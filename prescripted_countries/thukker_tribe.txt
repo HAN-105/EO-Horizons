@@ -11,7 +11,7 @@ thukker_tribe
 	portrait="minmatar"
 	name="Thukker Tribe"
 	adjective="Thukker"
-	government="military_junta"
+	government="gov_military_junta"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="M-MD3B XI"

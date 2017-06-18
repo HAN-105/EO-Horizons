@@ -12,7 +12,7 @@ gallente
 	portrait="gallente"
 	name="Gallente Federation"
 	adjective="Gallente federal"
-	government="indirect_democracy"
+	government="gov_indirect_democracy"
 	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Gallente Prime"

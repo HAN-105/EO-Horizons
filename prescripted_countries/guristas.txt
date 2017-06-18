@@ -12,7 +12,7 @@ guristas
 	portrait="caldari"
 	name="Guristas"
 	adjective="Guristas"
-	government="military_dictatorship"
+	government="gov_military_dictatorship"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="6NJ8-V IV"

@@ -12,7 +12,7 @@ laidai_corporation
 	portrait="caldari"
 	name="Lai Dai Corporation"
 	adjective="Lai Dai"
-	government="despotic_hegemony"
+	government="gov_despotic_hegemony"
 	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Airkio VIc"

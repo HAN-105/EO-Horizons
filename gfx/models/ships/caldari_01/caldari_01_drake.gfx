@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_drake_mesh"
+		file = "caldari_01_drake.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "caldari_01_drake"
+			index = 0
+			texture_diffuse = "caldari_01_drake_diffuse.dds"
+			texture_normal = "caldari_01_drake_normal.dds"
+			texture_specular = "caldari_01_drake_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

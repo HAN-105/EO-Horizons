@@ -89,7 +89,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "amarr_01_dragoon_inv_mesh"
 		file = "amarr_01_dragoon_inv.mesh"
-		scale = 1.0
+		scale = @invis_scale
 
 		meshsettings = {
 			name = "pCubeShape1"
@@ -166,6 +166,23 @@ objectTypes = {
 			texture_diffuse = "amarr_01_coercer_diffuse.dds"
 			texture_normal = "amarr_01_coercer_normal.dds"
 			texture_specular = "amarr_01_coercer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_confessor_mesh"
+		file = "amarr_01_confessor.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "confessor_hull"
+			index = 0
+			texture_diffuse = "amarr_01_confessor_diffuse.dds"
+			texture_normal = "amarr_01_confessor_normal.dds"
+			texture_specular = "amarr_01_confessor_specular.dds"
 			shader = "PdxMeshShip"
 		}
 	}

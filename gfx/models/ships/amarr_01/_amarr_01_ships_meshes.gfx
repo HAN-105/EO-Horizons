@@ -87,6 +87,23 @@ objectTypes = {
 
 objectTypes = {
 	pdxmesh = {
+		name = "amarr_01_dragoon_inv_mesh"
+		file = "amarr_01_dragoon_inv.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "pCubeShape1"
+			index = 0
+			texture_diffuse = "amarr_01_dragoon_diffuse.dds"
+			texture_normal = "amarr_01_dragoon_normal.dds"
+			texture_specular = "amarr_01_dragoon_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
 		name = "amarr_01_coercer_BOW_mesh"
 		file = "gfx/models/ships/amarr_01/amarr_01_coercer.mesh"
 		scale = @invis_scale

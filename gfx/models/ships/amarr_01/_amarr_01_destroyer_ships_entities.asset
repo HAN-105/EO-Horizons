@@ -77,7 +77,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_destroyer_bow_S3_entity"
-	pdxmesh = "amarr_01_coercer_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_BOW_mesh"
 	
 	scale = @destroyer_physical_scale
 	
@@ -113,7 +113,7 @@ entity = {
 	
 entity = {
 	name = "amarr_01_destroyer_stern_S2_entity"
-	pdxmesh = "amarr_01_coercer_STERN_mesh"
+	pdxmesh = "amarr_01_dragoon_STERN_mesh"
 	
 	scale = @destroyer_physical_scale
 		

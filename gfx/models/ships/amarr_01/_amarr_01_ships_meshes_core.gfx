@@ -44,6 +44,24 @@ objectTypes = {
 	}
 }
 
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_executioner_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_executioner.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "excutioner_hull"
+			index = 0
+			texture_diffuse = "amarr_01_executioner_diffuse.dds"
+			texture_normal = "amarr_01_executioner_normal.dds"
+			texture_specular = "amarr_01_executioner_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
 #########################################################################
 #####																#####
 ##W##							DESTROYER							##W##
@@ -88,6 +106,41 @@ objectTypes = {
 	pdxmesh = {
 		name = "amarr_01_coercer_STERN_mesh"
 		file = "gfx/models/ships/amarr_01/amarr_01_coercer.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "coercer_hull"
+			index = 0
+			texture_diffuse = "amarr_01_coercer_diffuse.dds"
+			texture_normal = "amarr_01_coercer_normal.dds"
+			texture_specular = "amarr_01_coercer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_dragoon_BOW_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_dragoon.mesh"
+		scale = @invis_scale
+
+		meshsettings = {
+			name = "coercer_hull"
+			index = 0
+			texture_diffuse = "amarr_01_coercer_diffuse.dds"
+			texture_normal = "amarr_01_coercer_normal.dds"
+			texture_specular = "amarr_01_coercer_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_dragoon_STERN_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_dragoon.mesh"
 		scale = @main_scale
 
 		meshsettings = {

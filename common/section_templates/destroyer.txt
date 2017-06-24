@@ -7,7 +7,7 @@ ship_section_template = {
 	key = "DESTROYER_BOW_S4"
 	ship_size = destroyer
 	fits_on_slot = bow
-	entity = "destroyer_bow_S3_entity"
+	entity = "amarr_01_destroyer_bow_M1S2_entity"
 	icon = "GFX_ship_part_core_bow"
 
 	component_slot = {
@@ -140,7 +140,7 @@ ship_section_template = {
 	key = "DESTROYER_STERN_PD4"
 	ship_size = destroyer
 	fits_on_slot = stern
-	entity = "destroyer_stern_S2_entity"
+	entity = "amarr_01_destroyer_bow_M1S2_entity"
 	icon = "GFX_ship_part_core_stern"
 
 	prerequisites = { tech_defender_missile_launchers_1 tech_defender_missile_launchers_2 }

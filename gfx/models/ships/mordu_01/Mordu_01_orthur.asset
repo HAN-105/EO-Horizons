@@ -1,0 +1,4 @@
+entity = {
+	name = "Mordu_01_orthur_entity"
+	pdxmesh = "Mordu_01_orthur_mesh"
+}

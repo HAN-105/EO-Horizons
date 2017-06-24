@@ -60,7 +60,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_corvette_S3_entity"
-	pdxmesh = "amarr_01_tormentor_mesh"
+	pdxmesh = "amarr_01_executioner_mesh"
 	
 	scale = @corvette_physical_scale
 
@@ -70,7 +70,7 @@ entity = {
 }
 
 entity = {
-	name = "amarr_01_corvette_S5_entity"
+	name = "amarr_01_corvette_S4_entity"
 	pdxmesh = "amarr_01_tormentor_mesh"
 	
 	scale = @corvette_physical_scale
@@ -82,7 +82,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_corvette_M1S1_entity"
-	pdxmesh = "amarr_01_tormentor_mesh"
+	pdxmesh = "amarr_01_magnate_mesh"
 	
 	locator = {
 		name = "medium_gun_01"

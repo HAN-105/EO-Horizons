@@ -14,7 +14,7 @@ entity = {
 
 entity = {
     name = "amarr_01_colony_ship_entity"
-    pdxmesh = "amarr_01_sigil_STERN_mesh"
+    pdxmesh = "amarr_01_providance_mesh"
     scale = 0.4
     
     state = { name = "idle" state_time = 5

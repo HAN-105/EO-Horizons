@@ -1,0 +1,27 @@
+@main_scale = 0.3
+
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_providance_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_providance.mesh"
+		scale = @main_scale
+
+		meshsettings = {
+			name = "hull2_material2"
+			index = 0
+			texture_diffuse = "amarr_01_providance_diffuse2.dds"
+			texture_normal = "amarr_01_providance_normal2.dds"
+			texture_specular = "amarr_01_providance_specular2.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "hull_material1"
+			index = 0
+			texture_diffuse = "amarr_01_providance_diffuse.dds"
+			texture_normal = "amarr_01_providance_normal.dds"
+			texture_specular = "amarr_01_providance_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -173,8 +173,8 @@ objectTypes = {
 
 objectTypes = {
 	pdxmesh = {
-		name = "amarr_01_confessor_mesh"
-		file = "amarr_01_confessor.mesh"
+		name = "amarr_01_confessor_STERN_mesh"
+		file = "gfx/models/ships/amarr_01/amarr_01_confessor.mesh"
 		scale = @main_scale
 
 		meshsettings = {

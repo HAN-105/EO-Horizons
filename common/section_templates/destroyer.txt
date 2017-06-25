@@ -223,7 +223,7 @@ ship_section_template = {
 	key = "DESTROYER_STERN_S4"
 	ship_size = destroyer
 	fits_on_slot = stern
-	entity = "amarr_01_confessor_entity"
+	entity = "destroyer_stern_S4_entity"
 	icon = "GFX_ship_part_core_stern"
 	
 	component_slot = {

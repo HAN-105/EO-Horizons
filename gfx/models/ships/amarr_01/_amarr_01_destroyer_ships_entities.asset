@@ -124,8 +124,8 @@ entity = {
 	
 
 entity = {
-	name = "amarr_01_confessor_entity"
-	pdxmesh = "amarr_01_confessor_mesh"
+	name = "amarr_01_destroyer_stern_S4_entity"
+	pdxmesh = "amarr_01_confessor_STERN_mesh"
 	
 	scale = @destroyer_physical_scale
 		

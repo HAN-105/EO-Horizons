@@ -1,0 +1,31 @@
+objectTypes = {
+	pdxmesh = {
+		name = "amarr_01_colonizer_mesh"
+		file = "gfx/models/ships/molluscoid_01/molluscoid_01_corvette_frame_mesh"
+		scale = 1.1
+
+		meshsettings = {
+			#name = "ST:New Horizons"
+			index = 0
+			texture_diffuse = "amarr_01_construction_diffuse.dds"
+			texture_normal = "amarr_01_construction_normal.dds"
+			texture_specular = "amarr_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+
+	pdxmesh = {
+		name = "amarr_01_colony_mesh"
+		file = "gfx/models/ships/tmp_01/amarr_01_colony.mesh"
+		scale = 1.1
+
+		meshsettings = {
+			#name = "ST:New Horizons"
+			index = 0
+			texture_diffuse = "amarr_01_construction_diffuse.dds"
+			texture_normal = "amarr_01_construction_normal.dds"
+			texture_specular = "amarr_01_construction_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

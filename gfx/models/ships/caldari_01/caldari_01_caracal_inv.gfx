@@ -1,0 +1,7 @@
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_caracal_inv_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_caracal_inv.mesh"
+		scale = 1.0
+	}
+}

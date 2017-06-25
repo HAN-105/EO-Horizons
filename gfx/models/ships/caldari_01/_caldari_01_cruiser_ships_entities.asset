@@ -85,7 +85,7 @@ entity = {
 #############################################################################
 entity = {
 	name = "caldari_01_cruiser_bow_L1_entity"
-	pdxmesh = "caldari_01_caracal_BOW_mesh"
+	pdxmesh = "caldari_01_caracal_inv_mesh"
 	
 	scale = @cruiser_physical_scale	
 	
@@ -96,7 +96,7 @@ entity = {
 
 entity = {
 	name = "caldari_01_cruiser_bow_M1S2_entity"
-	pdxmesh = "caldari_01_caracal_BOW_mesh"
+	pdxmesh = "caldari_01_caracal_inv_mesh"
 	
 	scale = @cruiser_physical_scale			
 	
@@ -107,7 +107,7 @@ entity = {
 
 entity = {
 	name = "caldari_01_cruiser_bow_M2_entity"
-	pdxmesh = "caldari_01_caracal_BOW_mesh"
+	pdxmesh = "caldari_01_caracal_inv_mesh"
 	
 	scale = @cruiser_physical_scale			
 	
@@ -176,7 +176,7 @@ entity = {
 
 entity = {
 	name = "caldari_01_cruiser_stern_M1_entity"
-	pdxmesh = "caldari_01_caracal_STERN_mesh"
+	pdxmesh = "caldari_01_caracal_inv_mesh"
 	
 	scale = @cruiser_physical_scale			
 	
@@ -187,7 +187,7 @@ entity = {
 
 entity = {
 	name = "caldari_01_cruiser_stern_S2_entity"
-	pdxmesh = "caldari_01_caracal_STERN_mesh"
+	pdxmesh = "caldari_01_caracal_inv_mesh"
 	
 	locator = {
 		name = "strike_craft_locator_01"

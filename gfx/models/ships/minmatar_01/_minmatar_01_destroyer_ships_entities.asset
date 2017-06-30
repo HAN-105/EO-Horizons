@@ -123,3 +123,13 @@ entity = {
 }
 	
 
+entity = {
+	name = "minmatar_01_destroyer_stern_S4_entity"
+	pdxmesh = "minmatar_01_thrasher_STERN_mesh"
+	
+	scale = @destroyer_physical_scale
+		
+	game_data = {
+		size = @destroyer_scale
+	}
+}

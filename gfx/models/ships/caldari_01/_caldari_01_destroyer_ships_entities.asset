@@ -1,5 +1,5 @@
 @destroyer_scale = 3
-@destroyer_physical_scale = 0.5
+@destroyer_physical_scale = 0.4
 
 
 #############################################################################
@@ -121,5 +121,14 @@ entity = {
 		size = @destroyer_scale
 	}
 }
-	
 
+entity = {
+	name = "caldari_01_destroyer_stern_S4_entity"
+	pdxmesh = "caldari_01_cormorant_STERN_mesh"
+	
+	scale = @destroyer_physical_scale
+		
+	game_data = {
+		size = @destroyer_scale
+	}
+}

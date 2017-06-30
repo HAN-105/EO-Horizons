@@ -121,5 +121,13 @@ entity = {
 		size = @destroyer_scale
 	}
 }
-	
 
+	name = "gallente_01_01_thrasher_STERN_S4_entity"
+	pdxmesh = "gallente_01_catalyst_STERN_mesh"
+	
+	scale = @destroyer_physical_scale
+		
+	game_data = {
+		size = @destroyer_scale
+	}
+}

@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_badgemk2_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_badgemk2.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "CI2_TShape1:MeshShape"
+			index = 0
+			texture_diffuse = "caldari_01_badgemk2_diffuse.dds"
+			texture_normal = "caldari_01_badgemk2_normal.dds"
+			texture_specular = "caldari_01_badgemk2_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

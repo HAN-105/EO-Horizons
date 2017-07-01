@@ -15,7 +15,7 @@ entity = {
 entity = {
     name = "amarr_01_colony_ship_entity"
     pdxmesh = "amarr_01_providance_mesh"
-    scale = 0.4
+    scale = 0.5
     
     state = { name = "idle" state_time = 5
                 start_event = { trigger_once = yes sound = { soundeffect = "amb_starship_hum" } } 

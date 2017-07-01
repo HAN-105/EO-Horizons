@@ -1,5 +1,5 @@
 @titan_scale = 20
-@titan_physical_scale = 0.5
+@titan_physical_scale = 0.3
 @titan_physical_scale_small = 0.1
 
 

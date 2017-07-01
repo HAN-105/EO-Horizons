@@ -66,7 +66,7 @@ entity = {
 
 entity = {
 	name = "caldari_01_destroyer_bow_M1S2_entity"
-	pdxmesh = "caldari_01_cormorant_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @destroyer_physical_scale
 		
@@ -77,7 +77,7 @@ entity = {
 
 entity = {
 	name = "caldari_01_destroyer_bow_S3_entity"
-	pdxmesh = "caldari_01_cormorant_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 	
 	scale = @destroyer_physical_scale
 	
@@ -88,7 +88,7 @@ entity = {
 
 entity = {
 	name = "caldari_01_destroyer_bow_L1_entity"
-	pdxmesh = "caldari_01_cormorant_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @destroyer_physical_scale
 		
@@ -113,9 +113,9 @@ entity = {
 	
 entity = {
 	name = "caldari_01_destroyer_stern_S2_entity"
-	pdxmesh = "caldari_01_cormorant_STERN_mesh"
+	pdxmesh = "caldari_01_corax_mesh"
 	
-	scale = @destroyer_physical_scale
+	scale = 0.05
 		
 	game_data = {
 		size = @destroyer_scale
@@ -124,9 +124,9 @@ entity = {
 
 entity = {
 	name = "caldari_01_destroyer_stern_S4_entity"
-	pdxmesh = "caldari_01_cormorant_STERN_mesh"
+	pdxmesh = "caldari_01_jackdaw_mesh"
 	
-	scale = @destroyer_physical_scale
+	scale = 0.05
 		
 	game_data = {
 		size = @destroyer_scale

@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "caldari_01_jackdaw_mesh"
+		file = "gfx/models/ships/caldari_01/caldari_01_jackdaw.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "jackdaw:shapeShape"
+			index = 0
+			texture_diffuse = "caldari_01_jackdawn_diffuse.dds"
+			texture_normal = "caldari_01_jackdawn_normal.dds"
+			texture_specular = "caldari_01_jackdawn_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

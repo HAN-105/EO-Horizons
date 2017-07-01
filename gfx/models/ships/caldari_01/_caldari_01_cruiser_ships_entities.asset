@@ -122,9 +122,9 @@ entity = {
 
 entity = {
 	name = "caldari_01_cruiser_mid_S2HB_entity"
-	pdxmesh = "caldari_01_caracal_MID_mesh"
+	pdxmesh = "caldari_01_blackbird_mesh"
 	
-	scale = @cruiser_physical_scale			
+	scale = 0.1			
 	
 	game_data = {
 		size = @cruiser_scale
@@ -139,9 +139,9 @@ entity = {
 
 entity = {
 	name = "caldari_01_cruiser_mid_L1M1_entity"
-	pdxmesh = "caldari_01_caracal_MID_mesh"
+	pdxmesh = "caldari_01_moa_mesh"
 	
-	scale = @cruiser_physical_scale			
+	scale = 0.05			
 	
 	game_data = {
 		size = @cruiser_scale
@@ -150,9 +150,9 @@ entity = {
 
 entity = {
 	name = "caldari_01_cruiser_mid_M3_entity"
-	pdxmesh = "caldari_01_caracal_MID_mesh"
+	pdxmesh = "caldari_01_osprey_mesh"
 	
-	scale = @cruiser_physical_scale			
+	scale = 0.1		
 	
 	game_data = {
 		size = @cruiser_scale

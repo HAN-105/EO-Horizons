@@ -1,0 +1,4 @@
+entity = {
+	name = "caldari_01_osprey_entity"
+	pdxmesh = "caldari_01_osprey_mesh"
+}

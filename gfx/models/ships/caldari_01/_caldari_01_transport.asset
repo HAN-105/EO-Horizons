@@ -1,7 +1,7 @@
 entity = {
 	name = "caldari_01_transport_ship_entity"
 	pdxmesh = "caldari_01_charon_mesh"
-    scale = 0.05
+    scale = 0.01
 	
 	state = { name = "idle" state_time = 5
 				start_event = { trigger_once = yes sound = { soundeffect = "amb_transport_ship_hum" } } 

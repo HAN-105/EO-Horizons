@@ -164,9 +164,9 @@ entity = {
 #############################################################################
 entity = {
 	name = "amarr_01_battleship_mid_L2M2_entity"
-	pdxmesh = "amarr_01_apocalypse_MID_mesh"
+	pdxmesh = "amarr_01_abaddon_mesh"
 	
-	scale = @battleship_physical_scale
+	scale = 0.1
 
 	game_data = {
 		size = @battleship_scale
@@ -224,7 +224,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_mid_S4LHB_entity"
-	pdxmesh = "amarr_01_apocalypse_MID_mesh"
+	pdxmesh = "amarr_01_armaggedon_mesh"
 	locator = {
 		name = "strike_craft_locator_01"
 		rotation = { 0 0 0 }
@@ -234,7 +234,7 @@ entity = {
 		rotation = { 0 0 0 }
 	}
 
-	scale = @battleship_physical_scale
+	scale = 0.1
 
 	game_data = {
 		size = @battleship_scale

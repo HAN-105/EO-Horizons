@@ -1,24 +1,24 @@
-caldari 
-= {
-	flags = { caldari_state }
-	flags = { shield_faction }
-	flags = { missile_faction }
+"Caldari State"
+={
+	key="Caldari State"
 	name_list="CLD1"
 	ship_prefix="CLD"
 	species_name="Caldari"
-	species_plural="Caldari"
+	species_plural="Caldarians"
 	species_class="CLD"
-	species_adjective="Caldari"
+	species_adjective="Caldarian"
+	species_bio=""
 	portrait="caldari"
 	name="Caldari State"
 	adjective="Caldari State"
-	government="gov_plutocratic_oligarchy"
-	ftl=hyperdrive
+	authority="auth_oligarchic"
+	government="gov_citizen_stratocracy"
+	ftl=warp
 	weapon="tech_missiles_1"
 	planet_name="Caldari Prime"
 	planet_class="pc_arctic"
-	system_name="New Caldari"
-	#initializer="caldari_state"
+	system_name="Caldari"
+	initializer="caldari_state"
 	graphical_culture="caldari_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag={
@@ -40,11 +40,22 @@ caldari
 	ruler={
 		gender=male
 		name="Mens Reppola"
-		portrait="caldari"
+		portrait="caldari_male1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Tycoon"
 	}
-	spawn_enabled=always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_citizen_service"
+		"civic_technocracy"
+	}
 	trait="trait_communal"
 	trait="trait_sedentary"
 	trait="trait_deteis"

@@ -1,26 +1,26 @@
-gallente 
-= {
-	flags = { gallente_federation }
-	flags = { shield_faction }
-	flags = { hybrid_faction }
+"Gallente Federation"
+={
+	key="Gallente Federation"
 	name_list="GAL1"
-	ship_prefix="GAL"
+	ship_prefix="ISS"
 	species_name="Gallente"
 	species_plural="Gallenteans"
 	species_class="GAL"
 	species_adjective="Gallentean"
+	species_bio=""
 	portrait="gallente"
 	name="Gallente Federation"
-	adjective="Gallente federal"
-	government="gov_indirect_democracy"
-	ftl=hyperdrive
+	adjective="Gallente Federal"
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	ftl=warp
 	weapon="tech_mass_drivers_1"
 	planet_name="Gallente Prime"
 	planet_class="pc_ocean"
 	system_name="Luminaire"
-	#initializer="gallente_federation"
+	initializer="gallente_federation"
 	graphical_culture="gallente_01"
-	city_graphical_culture="fungoid_01"
+	city_graphical_culture="gallente_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -28,27 +28,33 @@ gallente
 		}
 		background={
 			category="backgrounds"
-			file="00_solid.dds"
+			file="circle.dds"
 		}
 		colors={
-			"dark_teal"
-			"black"
+			"dark_green"
+			"teal"
 			"null"
 			"null"
 		}
-
 	}
 	ruler={
-		gender=male
-		name="Mens Reppola"
-		portrait="gallente_male5"
+		gender=female
+		name="Nasta Rutra"
+		portrait="gallente_female1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title_female="Consullant"
 	}
-	spawn_enabled=always
-	ethic="ethic_individualist"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
 	ethic="ethic_xenophile"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_materialist"
 	trait="trait_ethnic_gallente"
 	trait="trait_deviants"
 	trait="trait_sedentary"
 	trait="trait_talented"
+	trait="trait_natural_engineers"
 }

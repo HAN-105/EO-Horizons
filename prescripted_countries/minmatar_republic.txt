@@ -1,25 +1,26 @@
-minmatar 
+"Minmatar Republic"
 ={
-	flags = { minmatar_republic }
-	flags = { projectile_faction }
+	key="Minmatar Republic"
 	name_list="MIN1"
-	ship_prefix="MR"
+	ship_prefix="ISS"
 	species_name="Minmatar"
 	species_plural="Minmatar"
 	species_class="MIN"
-	species_adjective="Minmatari"
+	species_adjective="Slaves"
+	species_bio=""
 	portrait="minmatar"
 	name="Minmatar Republic"
 	adjective="Minmatar Republican"
-	government="gov_military_republic"
-	ftl=hyperdrive
+	authority="auth_democratic"
+	government="gov_assembly_of_clans"
+	ftl=warp
 	weapon="tech_mass_drivers_1"
 	planet_name="Matar"
-	planet_class="pc_tropical"
+	planet_class="pc_continental"
 	system_name="Pator"
-	#initializer="minmatar_republic"
+	initializer="minmatar_republic"
 	graphical_culture="minmatar_01"
-	city_graphical_culture="reptilian_01"
+	city_graphical_culture="minmatar_01"
 	empire_flag={
 		icon={
 			category="eve_online"
@@ -39,12 +40,23 @@ minmatar
 	ruler={
 		gender=male
 		name="Maleatu Shakor"
-		portrait="minmatar"
+		portrait="minmatar_male1"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Tribal Leader"
 	}
-	spawn_enabled=always
-	ethic="ethic_fanatic_individualist"
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_beacon_of_liberty"
+	}
 	trait="trait_sebiestor"
-	trait="trait_nomadic"
 	trait="trait_deviants"
+	trait="trait_nomadic"
 }

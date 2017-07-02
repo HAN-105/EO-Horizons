@@ -12,7 +12,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "gallente_01_imicus_mesh"
 		file = "gfx/models/ships/gallente_01/gallente_01_imicus.mesh"
-		scale = 0.5
+		scale = 0.7
 
 		meshsettings = {
 			name = "imicus_hull"
@@ -31,7 +31,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "gallente_01_incursus_mesh"
 		file = "gfx/models/ships/gallente_01/gallente_01_incursus.mesh"
-		scale = 0.5
+		scale = 0.6
 
 		meshsettings = {
 			name = "incursus_hull"

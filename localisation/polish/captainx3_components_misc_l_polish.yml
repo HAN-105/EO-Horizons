@@ -1,0 +1,90 @@
+﻿l_polish:
+
+ ####################################
+ # AURAS / COMPONENTS / SPECIAL SLOTS
+ ####################################
+
+ 
+ SHIP_AURA_SHIELDS: "Shield Recharge Field"
+ SHIP_AURA_FIRING: "Integrated Fleet Network"
+ SHIP_AURA_DAMAGE: "Enhanced Targeting Field"
+
+ SHIP_SENSOR_5: "EWAR Sensor Array"
+ STATION_SENSOR_5: "EWAR Sensor Array"
+ SHIP_SENSOR_EMPTY: "Empty Slot"
+
+ SC_DEFENSE_AURA: "Automated Defense System"
+ STATION_REPAIR_AURA: "Automated Ship Repair System"
+
+ NSC_AURA_EMPTY: "Empty Slot"
+ SC_DEFENSE_AURA_EMPTY: "Empty Slot"
+ SPECIAL_SLOT_EMPTY: "Empty Slot"
+ special_ship_slot: "Special Component"
+ special_ship_slot_desc: "A special component slot."
+
+ SPECIAL_SLOT_MULTIPHASIC_SENSORS: "Multiphasic Sensors"
+ SPECIAL_SLOT_MULTIPHASIC_SENSORS_DESC: "Increases sensor range using multiphasic generators."
+ SPECIAL_SLOT_DAMAGE_CONTROL: "Damage Control Teams"
+ SPECIAL_SLOT_DAMAGE_CONTROL_DESC: "Teams specially trained in rapid ship repair."
+ SPECIAL_SLOT_READY_ROOM: "Captain's Ready Room"
+ SPECIAL_SLOT_READY_ROOM_DESC: "A place for the Captain to relax but still be available on a moment's notice."
+ SPECIAL_SLOT_CREW_LOUNGE: "Crew Lounge"
+ SPECIAL_SLOT_CREW_LOUNGE_DESC: "A place for the ship's crew to relax and unwind."
+ SPECIAL_SLOT_FIRE_CONTROL: "Fire Control System"
+ SPECIAL_SLOT_FIRE_CONTROL_DESC: "An advanced targeting system that increases weapon speed and accuracy."
+ SPECIAL_SLOT_STRUCTURAL_INTEGRITY: "Structural Integrity Field"
+ SPECIAL_SLOT_STRUCTURAL_INTEGRITY_DESC: "An advanced system of forcefields that strengthen the ship's hull structure."
+ SPECIAL_SLOT_AUXILIARY_SHIELDS: "Auxiliary Shield System"
+ SPECIAL_SLOT_AUXILIARY_SHIELDS_DESC: "A secondary series of backup shield generators."
+ SPECIAL_SLOT_QUANTUM_THRUSTERS: "Quantum Thrusters"
+ SPECIAL_SLOT_QUANTUM_THRUSTERS_DESC: "An advanced set of ship thrusters to augment speed and maneuverability."
+ SPECIAL_SLOT_DEFLECTOR_ARRAY: "Deflector Array"
+ SPECIAL_SLOT_DEFLECTOR_ARRAY_DESC: "A large array that is designed to provide additional protection for the ship."
+
+ KITCHEN_SINK: "Kitchen Sink"
+ KITCHEN_SINK_DESC: "A clean crew is a happy crew."
+ STELLAR_CARTOGRAPHY: "Stellar Cartography"
+ STELLAR_CARTOGRAPHY_DESC: "A large system used for mapping surrounding space."
+ NAVIGATIONAL_ARRAY: "Navigational Array"
+ NAVIGATIONAL_ARRAY_DESC: "An advanced 3D navigational system."
+
+ SPECIAL_SLOT_KITCHEN_SINK: "Kitchen Sink"
+ SPECIAL_SLOT_KITCHEN_SINK_DESC: "A clean crew is a happy crew."
+ SPECIAL_SLOT_STELLAR_CARTOGRAPHY: "Stellar Cartography"
+ SPECIAL_SLOT_STELLAR_CARTOGRAPHY_DESC: "A large system used for mapping surrounding space."
+ SPECIAL_SLOT_NAVIGATIONAL_ARRAY: "Navigational Array"
+ SPECIAL_SLOT_NAVIGATIONAL_ARRAY_DESC: "An advanced 3D navigational system."
+
+ EWAR_sensor_components: "EWAR (Early Warning And Reconnaissance) Sensor Array"
+ EWAR_sensor_components_desc: "A very powerful sensor array that can be used to spot enemies at great distances or spy on neighboring empires."
+
+ STRIKE_CRUISER_AURA_EMPTY: "Empty Slot"
+ STRIKE_CRUISER_AURA_SUBSPACE_SNARE: "Subspace Snare"
+
+ # Slot Name
+ nsc_hq_auras: "Headquarters Subspace Manipulators"
+ # Component name
+ NSC_HQ_AURA: "Headquarters Subspace Manipulator"
+ # Tooltip description
+ nsc_hq_aura_everything: "Combined Aura"
+
+ 
+ ####################################
+ #MISCELLANEOUS
+ ####################################
+
+ 
+ UNDERSTOOD: "Understood."
+
+ sm_customs_office: "Customs Office"
+ sm_customs_office_desc: "\n\n The Customs Office provides better protection and control of your empire's borders, while slowing down migration and having a suspiciously high maintenance bill.\n\n"
+
+ shipclass_orbital_station_hit_points_mult: "Spaceport Hit Points"
+ shipsize_military_station_xlarge_upkeep_mult: "Battle Fortress Upkeep"
+
+ shipsize_MiningBase_upkeep_mult: "Mining Base Upkeep"
+ shipsize_PowerStation_upkeep_mult: "Power Station Upkeep"
+
+ budget_group_country_modifier: "Mining Base Upkeep"
+ miningbase_bonus_planet: "Mining Base Bonus"
+ powerstation_bonus_planet: "Power Station Bonus"

@@ -1,0 +1,47 @@
+﻿l_spanish:
+
+ ###################################
+ # New Weapons
+ ###################################
+
+ 
+ LARGE_ENERGY_LANCE_HQ: "Graviton Lance"
+ LARGE_ENERGY_LANCE_HQ_DESC: "The most powerful version of the particle lance, this weapon fires a graviton beam of immense power."
+
+ LARGE_ARC_EMITTER_HQ: "Pulsated Arc Emitter"
+ LARGE_ARC_EMITTER_HQ_DESC: "These top-tier emitters are equipped with the most advanced lenses, resulting in the most powerful energy discharge possible."
+
+ LARGE_MASS_ACCELERATOR_HQ: "Ultra Cannon"
+ LARGE_MASS_ACCELERATOR_HQ_DESC: "The ultimate variant of spinal-mounted kinetic artillery."
+
+ ENERGY_LANCE_HQ: "Graviton Lance"
+ ENERGY_LANCE_HQ_DESC: "The most powerful version of the particle lance, this weapon fires a graviton beam of immense power."
+
+ ARC_EMITTER_HQ: "Pulsated Arc Emitter"
+ ARC_EMITTER_HQ_DESC: "These top-tier emitters are equipped with the most advanced lenses, resulting in the most powerful energy discharge possible."
+
+ MASS_ACCELERATOR_HQ: "Ultra Cannon"
+ MASS_ACCELERATOR_HQ_DESC: "The ultimate variant of spinal-mounted kinetic artillery."
+ 
+ KINETIC_ARTILLERY_NSC: "Kinetic Barrage"
+ KINETIC_ARTILLERY_NSC_DESC: "Latest and greatest of kinetic cannon technology, featuring an improved fire computer, better spin and initial thrust, this cannon barrages enemies with extreme inpact artillery fire."
+ 
+ LARGE_KINETIC_ARTILLERY_NSC: "Kinetic Barrage"
+ LARGE_KINETIC_ARTILLERY_NSC_DESC: "Latest and greatest of kinetic cannon technology, featuring an improved fire computer, better spin and initial thrust, this cannon barrages enemies with extreme inpact artillery fire."
+ 
+ 
+ FRIGATE_FLAK_BATTERY_1: "Frigate Flak Battery"
+ FRIGATE_FLAK_BATTERY_1_DESC: "A specialized Flak Battery specifically designed for the Frigate's point defense role."
+ 
+ FRIGATE_FLAK_BATTERY_2: "Frigate Flak Artillery"
+ FRIGATE_FLAK_BATTERY_2_DESC: "A specialized Flak Artillery Battery specifically designed for the Frigate's point defense role."
+ 
+ FRIGATE_FLAK_BATTERY_3: "Frigate Flak Howitzer"
+ FRIGATE_FLAK_BATTERY_3_DESC: "A unique Flak Artillery Howitzer specifically designed for the Frigate's defensive role."
+
+ CRUISE_MISSILES: "Cruise Missile"
+ CRUISE_MISSILES_DESC: "A long range first strike weapon that is capable of doing massive damage, but is susceptible to point defense fire."
+
+ NSC_LARGE_CRUISE_MISSILE_1: "Tomahawk Cruise Missile"
+ NSC_LARGE_CRUISE_MISSILE_1_DESC: "A long range first strike weapon that is capable of doing massive damage, but is susceptible to point defense fire."
+

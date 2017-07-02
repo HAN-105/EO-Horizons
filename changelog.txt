@@ -1,3 +1,9 @@
+Version 0.1 Alpha Rework
+
+Taking the module from were it stoped.
+
+Spliting the mod in 2, total conversion and Ships Standalone.
+
 ------------------------------------------------------------------------------------------------
 Version 1.0.1_beta
 ------------------------------------------------------------------------------------------------

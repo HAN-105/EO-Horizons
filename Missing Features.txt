@@ -1,0 +1,6 @@
+Version 0.1 Alpha Rework
+
+Battlecruisers hulls definitions
+Carriers Hull Definitions
+All races Carriers, Battlecruisers hulls
+Missing Gallente and Minmatar ships.

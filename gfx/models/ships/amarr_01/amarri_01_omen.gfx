@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "amarri_01_omen_mesh"
+		file = "gfx/models/ships/amarr_01/amarri_01_omen.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "ac4:shapeShape"
+			index = 0
+			texture_diffuse = "amarr_01_arbitrator_diffuse.dds"
+			texture_normal = "amarr_01_arbitrator_normal.dds"
+			texture_specular = "amarr_01_arbitrator_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

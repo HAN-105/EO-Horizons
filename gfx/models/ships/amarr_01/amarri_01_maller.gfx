@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "amarri_01_maller_mesh"
+		file = "gfx/models/ships/amarr_01/amarri_01_maller.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "untitled:MeshShape"
+			index = 0
+			texture_diffuse = "amarr_01_maller_diffuse.dds"
+			texture_normal = "amarr_01_maller_normal.dds"
+			texture_specular = "amarr_01_maller_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+objectTypes = {
+	pdxmesh = {
+		name = "gallente_01_iteronmk5_mesh"
+		file = "gfx/models/ships/gallente_01/gallente_01_iteronmk5.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "iteronmk5:shapeShape"
+			index = 0
+			texture_diffuse = "gallente_01_iteronmk5_diffuse.dds"
+			texture_normal = "gallente_01_iteronmk5_normal.dds"
+			texture_specular = "gallente_01_iteronmk5_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

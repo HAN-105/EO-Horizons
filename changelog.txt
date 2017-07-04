@@ -2,7 +2,9 @@ Version 0.1 Alpha Rework
 
 Taking the module from were it stoped.
 
-Spliting the mod in 2, total conversion and Ships Standalone.
+- Spliting the mod in 2, total conversion and Ships Standalone.
+- Added Civilian Ships (Colony, transport and construction) for each empire
+- Missing Minmatar Civilian Ships
 
 ------------------------------------------------------------------------------------------------
 Version 1.0.1_beta

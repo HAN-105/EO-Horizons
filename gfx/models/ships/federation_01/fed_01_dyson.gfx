@@ -1,0 +1,25 @@
+objectTypes = {
+	pdxmesh = {
+		name = "fed_01_dyson_mesh"
+		file = "gfx/models/ships/amarr_01/fed_01_dyson.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Mesh_0057Shape"
+			index = 0
+			texture_diffuse = "fed_01_dyson_diffuse.dds"
+			texture_normal = "fed_01_dyson_normal.dds"
+			texture_specular = "fed_01_dyson_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "winpod2Shape"
+			index = 0
+			texture_diffuse = "fed_01_dyson_winpods_diffuse.dds"
+			texture_normal = "fed_01_dyson_winpods_normal.dds"
+			texture_specular = "fed_01_dyson_winpods_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}

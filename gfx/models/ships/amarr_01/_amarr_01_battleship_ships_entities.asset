@@ -88,7 +88,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_bow_L1M1S2_entity"
-	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 	
 	scale = @battleship_physical_scale
 
@@ -99,7 +99,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_bow_L1S4_entity"
-	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 	
 	scale = @battleship_physical_scale
 
@@ -110,7 +110,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_bow_L2_entity"
-	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @battleship_physical_scale
 
@@ -121,7 +121,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_bow_M1S2SHB_entity"
-	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 
 	#TEMP LOCATOR REPLACE IN SCENE
@@ -139,7 +139,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_bow_M2S4_entity"
-	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @battleship_physical_scale
 
@@ -150,7 +150,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_bow_M3S2_entity"
-	pdxmesh = "amarr_01_apocalypse_BOW_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @battleship_physical_scale
 
@@ -164,9 +164,9 @@ entity = {
 #############################################################################
 entity = {
 	name = "amarr_01_battleship_mid_L2M2_entity"
-	pdxmesh = "amarr_01_abaddon_mesh"
+	pdxmesh = "fed_01_kelvin_enterprize_mesh"
 	
-	scale = 0.1
+	scale = 1
 
 	game_data = {
 		size = @battleship_scale
@@ -247,7 +247,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_stern_M1S2_entity"
-	pdxmesh = "amarr_01_apocalypse_STERN_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @battleship_physical_scale
 
@@ -258,7 +258,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_stern_L1_entity"
-	pdxmesh = "amarr_01_apocalypse_STERN_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @battleship_physical_scale
 
@@ -269,7 +269,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_stern_M2_entity"
-	pdxmesh = "amarr_01_apocalypse_STERN_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 
 	scale = @battleship_physical_scale
 
@@ -280,7 +280,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_battleship_stern_S4_entity"
-	pdxmesh = "amarr_01_apocalypse_STERN_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 	
 	scale = @battleship_physical_scale
 

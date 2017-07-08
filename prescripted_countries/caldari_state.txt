@@ -13,7 +13,7 @@
 	adjective="Caldari State"
 	authority="auth_oligarchic"
 	government="gov_citizen_stratocracy"
-	ftl=warp
+	ftl=hyperdrive
 	weapon="tech_missiles_1"
 	planet_name="Caldari Prime"
 	planet_class="pc_arctic"

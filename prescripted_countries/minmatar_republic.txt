@@ -13,7 +13,7 @@
 	adjective="Minmatar Republican"
 	authority="auth_democratic"
 	government="gov_assembly_of_clans"
-	ftl=warp
+	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Matar"
 	planet_class="pc_continental"

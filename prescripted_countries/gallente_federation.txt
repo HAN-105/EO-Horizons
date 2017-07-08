@@ -13,7 +13,7 @@
 	adjective="Gallente Federal"
 	authority="auth_democratic"
 	government="gov_direct_democracy"
-	ftl=warp
+	ftl=hyperdrive
 	weapon="tech_mass_drivers_1"
 	planet_name="Gallente Prime"
 	planet_class="pc_ocean"

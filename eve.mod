@@ -1,5 +1,5 @@
 name="Eve Stellar Empires"
-path="mod/eve"
+path="mod/Eve-Online-Horizons"
 tags={
 	"Diplomacy"
 }

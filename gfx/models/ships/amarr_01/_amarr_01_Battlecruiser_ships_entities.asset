@@ -1,5 +1,5 @@
 @battlecruiser_scale = 20
-@battlecruiser_physical_scale = 0.7
+@battlecruiser_physical_scale = 0.4
 
 #############################################################################
 ##################         	 BATTLECRUISER           ########################

@@ -36,7 +36,6 @@ carrier = {
 	required_component_set = "thruster_components"
 	required_component_set = "ship_sensor_components"
 	required_component_set = "CORE_COMPONENTS"
-	required_component_set = "FLEET_ASSISTANCE"
 	required_component_set = "CAPITAL_MIDSLOT_01"
 	required_component_set = "CAPITAL_MIDSLOT_02"
 	required_component_set = "CAPITAL_MIDSLOT_03"

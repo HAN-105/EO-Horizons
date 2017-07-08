@@ -1,5 +1,5 @@
 @battleship_scale = 20
-@battleship_physical_scale = 0.4
+@battleship_physical_scale = 0.2
 
 #############################################################################
 ##################         	 BATTLESHIPS             ########################
@@ -164,9 +164,9 @@ entity = {
 #############################################################################
 entity = {
 	name = "amarr_01_battleship_mid_L2M2_entity"
-	pdxmesh = "fed_01_kelvin_enterprize_mesh"
+	pdxmesh = "amarr_01_abaddon_mesh"
 	
-	scale = 1
+	scale = 0.05
 
 	game_data = {
 		size = @battleship_scale
@@ -234,7 +234,7 @@ entity = {
 		rotation = { 0 0 0 }
 	}
 
-	scale = 0.1
+	scale = 0.06
 
 	game_data = {
 		size = @battleship_scale

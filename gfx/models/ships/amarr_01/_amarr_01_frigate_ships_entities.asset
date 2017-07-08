@@ -65,7 +65,7 @@ entity = {
 	scale = @corvette_physical_scale
 
 	game_data = {
-		size = @corvette_scale
+		size = 4.0
 	}
 }
 

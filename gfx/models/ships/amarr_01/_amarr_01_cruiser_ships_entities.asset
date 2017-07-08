@@ -1,5 +1,5 @@
 @cruiser_scale = 20
-@cruiser_physical_scale = 0.4
+@cruiser_physical_scale = 0.04
 
 #############################################################################
 ##################         	 CRUISER                 ########################
@@ -123,10 +123,10 @@ entity = {
 	name = "amarr_01_cruiser_mid_S2HB_entity"
 	pdxmesh = "amarri_01_arbitrator_mesh"
 	
-	scale = 0.2			
+	scale = @cruiser_physical_scale			
 	
 	game_data = {
-		size = @cruiser_scale
+		size = 0.1
 	}
 
 	#TEMP LOCATOR REPLACE IN SCENE
@@ -140,7 +140,7 @@ entity = {
 	name = "amarr_01_cruiser_mid_L1M1_entity"
 	pdxmesh = "amarri_01_maller_mesh"
 	
-	scale = 0.1			
+	scale = @cruiser_physical_scale			
 	
 	game_data = {
 		size = @cruiser_scale
@@ -151,7 +151,7 @@ entity = {
 	name = "amarr_01_cruiser_mid_M3_entity"
 	pdxmesh = "amarri_01_augoror_mesh"
 	
-	scale = 0.1			
+	scale = @cruiser_physical_scale			
 	
 	game_data = {
 		size = @cruiser_scale
@@ -162,7 +162,7 @@ entity = {
 	name = "amarr_01_cruiser_mid_M2S2_entity"
 	pdxmesh = "amarr_01_omen_MID_mesh"
 	
-	scale = 0.5			
+	scale = 0.2			
 	
 	game_data = {
 		size = @cruiser_scale
@@ -175,7 +175,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_cruiser_stern_M1_entity"
-	pdxmesh = "amarr_01_omen_STERN_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 	
 	scale = @cruiser_physical_scale			
 	
@@ -186,7 +186,7 @@ entity = {
 
 entity = {
 	name = "amarr_01_cruiser_stern_S2_entity"
-	pdxmesh = "amarr_01_omen_STERN_mesh"
+	pdxmesh = "amarr_01_dragoon_inv_mesh"
 	
 	locator = {
 		name = "strike_craft_locator_01"

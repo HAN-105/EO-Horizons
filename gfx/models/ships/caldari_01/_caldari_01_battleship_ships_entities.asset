@@ -1,5 +1,5 @@
 @battleship_scale = 12
-@battleship_physical_scale = 0.4
+@battleship_physical_scale = 0.3
 @battleship_physical_scale_small = 0.1
 
 #############################################################################
@@ -164,7 +164,7 @@ entity = {
 	name = "caldari_01_battleship_mid_L2M2_entity"
 	pdxmesh = "caldari_01_rokh_mesh"
 	
-	scale = 0.1
+	scale = 0.05
 
 	game_data = {
 		size = @battleship_scale
@@ -232,7 +232,7 @@ entity = {
 		rotation = { 0 0 0 }
 	}
 
-	scale = 0.1
+	scale = 0.05
 
 	game_data = {
 		size = @battleship_scale

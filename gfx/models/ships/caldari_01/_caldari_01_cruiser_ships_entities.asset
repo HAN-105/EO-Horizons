@@ -1,5 +1,5 @@
 @cruiser_scale = 8
-@cruiser_physical_scale = 0.3
+@cruiser_physical_scale = 0.05
 
 #############################################################################
 ##################         	 CRUISER                 ########################
@@ -124,7 +124,7 @@ entity = {
 	name = "caldari_01_cruiser_mid_S2HB_entity"
 	pdxmesh = "caldari_01_blackbird_mesh"
 	
-	scale = 0.1			
+	scale = 0.04
 	
 	game_data = {
 		size = @cruiser_scale
@@ -141,7 +141,7 @@ entity = {
 	name = "caldari_01_cruiser_mid_L1M1_entity"
 	pdxmesh = "caldari_01_moa_mesh"
 	
-	scale = 0.05			
+	scale = @cruiser_physical_scale
 	
 	game_data = {
 		size = @cruiser_scale
@@ -152,7 +152,7 @@ entity = {
 	name = "caldari_01_cruiser_mid_M3_entity"
 	pdxmesh = "caldari_01_osprey_mesh"
 	
-	scale = 0.1		
+	scale = @cruiser_physical_scale		
 	
 	game_data = {
 		size = @cruiser_scale
@@ -163,7 +163,7 @@ entity = {
 	name = "caldari_01_cruiser_mid_M2S2_entity"
 	pdxmesh = "caldari_01_caracal_MID_mesh"
 	
-	scale = @cruiser_physical_scale			
+	scale = 0.2			
 	
 	game_data = {
 		size = @cruiser_scale

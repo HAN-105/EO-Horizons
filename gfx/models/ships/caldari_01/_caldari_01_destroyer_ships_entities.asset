@@ -126,7 +126,7 @@ entity = {
 	name = "caldari_01_destroyer_stern_S4_entity"
 	pdxmesh = "caldari_01_jackdaw_mesh"
 	
-	scale = 0.05
+	scale = 0.08
 		
 	game_data = {
 		size = @destroyer_scale

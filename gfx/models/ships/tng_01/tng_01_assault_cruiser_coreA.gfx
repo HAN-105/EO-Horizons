@@ -1,0 +1,48 @@
+objectTypes = {
+	pdxmesh = {
+		name = "tng_01_assault_cruiser_coreA_mesh"
+		file = "gfx/models/ships/tng_01/fed_01_assault_cruiser_coreA.mesh"
+		scale = 1.4
+		
+		meshsettings = {
+			name = "Sovereign_mainShape"
+			index = 0
+			texture_diffuse = "federation_04_assault_cruiser_coreA_diffuse.dds"
+			texture_normal = "federation_04_assault_cruiser_coreA_normal.dds"
+			texture_specular = "federation_04_assault_cruiser_coreA_specular.dds"
+			shader = "PdxMeshShip"
+		}
+		meshsettings = {
+			name = "Sovereign_Faction_Emblem:MeshShape"
+			index = 0
+			texture_diffuse = "transparent_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShipTransp"
+		}
+		meshsettings = {
+			name = "Sovereign_Hull_Stripes:MeshShape"
+			index = 0
+			texture_diffuse = "FederationStripeDecal.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShipTransp"
+		}
+		meshsettings = {
+			name = "Sovereign_Nacelle_Stripes:MeshShape"
+			index = 0
+			texture_diffuse = "FederationStripeDecal.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShipTransp"
+		}
+		meshsettings = {
+			name = "Sovereign_Saucer_Decal:MeshShape"
+			index = 0
+			texture_diffuse = "transparent_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShipTransp"
+		}
+	}
+}

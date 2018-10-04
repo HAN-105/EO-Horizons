@@ -1,4 +1,4 @@
-# Eve-Online-Horizons
+# EVE Online - Horizons
 
 Branch of the mod Eve Online Horizons for Stellaris
 
